@@ -1,0 +1,200 @@
+import type { Song, QuizFilters, QuizQuestion, AnswerRecord } from "./types";
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+export function getDecade(year: number): number {
+  return Math.floor(year / 10) * 10;
+}
+
+export function filterSongs(songs: Song[], filters: QuizFilters): Song[] {
+  return songs.filter((s) => {
+    if (filters.tags.length > 0) {
+      const hasTag = s.tags.some((t) =>
+        filters.tags.some((ft) => t.toLowerCase() === ft.toLowerCase())
+      );
+      if (!hasTag) return false;
+    }
+    if (filters.locales.length > 0) {
+      if (!filters.locales.includes(s.locale)) return false;
+    }
+    if (filters.decades.length > 0) {
+      if (!filters.decades.includes(getDecade(s.release_year))) return false;
+    }
+    return true;
+  });
+}
+
+export function buildQuiz(songs: Song[], filters: QuizFilters): QuizQuestion[] {
+  const filtered = filterSongs(songs, filters);
+  return shuffle(filtered).map((s) => ({
+    ...s,
+    shuffledOptions: shuffle(s.options),
+  }));
+}
+
+export function createQuizState() {
+  let questions = $state<QuizQuestion[]>([]);
+  let currentIndex = $state(0);
+  let answers = $state<AnswerRecord[]>([]);
+  let selectedAnswer = $state<string | null>(null);
+  let revealed = $state(false);
+
+  const current = $derived(questions[currentIndex] ?? null);
+  const total = $derived(questions.length);
+  const score = $derived(answers.filter((a) => a.correct).length);
+  const isComplete = $derived(currentIndex >= questions.length && questions.length > 0);
+  const isLast = $derived(currentIndex === questions.length - 1);
+  const progress = $derived(questions.length > 0 ? (currentIndex + 1) / questions.length : 0);
+
+  function start(songs: Song[], filters: QuizFilters) {
+    questions = buildQuiz(songs, filters);
+    currentIndex = 0;
+    answers = [];
+    selectedAnswer = null;
+    revealed = false;
+  }
+
+  function selectAnswer(answer: string) {
+    if (revealed || !current) return;
+    selectedAnswer = answer;
+    revealed = true;
+    answers = [
+      ...answers,
+      {
+        question: current,
+        selected: answer,
+        correct: answer === current.answer,
+      },
+    ];
+  }
+
+  function next() {
+    if (!revealed) return;
+    currentIndex++;
+    selectedAnswer = null;
+    revealed = false;
+  }
+
+  function reset() {
+    questions = [];
+    currentIndex = 0;
+    answers = [];
+    selectedAnswer = null;
+    revealed = false;
+  }
+
+  return {
+    get questions() { return questions; },
+    get currentIndex() { return currentIndex; },
+    get current() { return current; },
+    get total() { return total; },
+    get score() { return score; },
+    get isComplete() { return isComplete; },
+    get isLast() { return isLast; },
+    get progress() { return progress; },
+    get answers() { return answers; },
+    get selectedAnswer() { return selectedAnswer; },
+    get revealed() { return revealed; },
+    start,
+    selectAnswer,
+    next,
+    reset,
+  };
+}
+
+export function getUniqueValues(songs: Song[]) {
+  const tags = new Set<string>();
+  const locales = new Set<string>();
+  const decades = new Set<number>();
+
+  for (const s of songs) {
+    s.tags.forEach((t) => tags.add(t));
+    locales.add(s.locale);
+    decades.add(getDecade(s.release_year));
+  }
+
+  // Group tags into broader categories for the filter UI
+  const tagCategories = categoriseTags([...tags]);
+
+  return {
+    tags: tagCategories,
+    locales: [...locales].sort(),
+    decades: [...decades].sort(),
+  };
+}
+
+// Map raw tags into broader genre families for filter chips
+const TAG_FAMILIES: Record<string, string[]> = {
+  "Metal": ["metal", "thrash", "heavy", "metalcore", "death metal", "black metal", "doom", "sludge", "grindcore", "mathcore", "post-metal"],
+  "Hip-Hop": ["hip-hop", "rap", "drill", "UK drill", "trap", "conscious", "jazz rap", "southern rap", "boom bap", "noise"],
+  "Electronic": ["electronic", "house", "acid house", "techno", "dubstep", "post-dubstep", "electropop", "dance", "ambient", "IDM", "drum and bass", "trance", "EBM"],
+  "Rock": ["rock", "shoegaze", "alternative", "indie", "post-punk", "punk", "grunge", "britpop", "psychedelic", "garage rock", "krautrock", "stoner"],
+  "Jazz": ["jazz", "free jazz", "avant-garde", "fusion", "bebop", "hard bop", "modal jazz"],
+  "Pop": ["pop", "synthpop", "dream pop", "art pop", "K-pop", "J-pop"],
+  "R&B / Soul": ["R&B", "soul", "neo-soul", "funk"],
+  "Folk / World": ["folk", "afrobeat", "samba", "dancehall", "reggae", "vallenato", "highlife", "cumbia", "flamenco", "fado", "celtic", "bluegrass", "country"],
+  "Classical": ["classical", "neoclassical", "darkwave", "chamber"],
+  "Experimental": ["experimental", "extreme", "industrial", "noise", "trip-hop", "downtempo", "post-rock"],
+};
+
+function categoriseTags(rawTags: string[]): string[] {
+  const families = new Set<string>();
+  for (const tag of rawTags) {
+    for (const [family, members] of Object.entries(TAG_FAMILIES)) {
+      if (members.some((m) => m.toLowerCase() === tag.toLowerCase())) {
+        families.add(family);
+      }
+    }
+  }
+  return [...families].sort();
+}
+
+// Check if a song matches a tag family
+export function songMatchesFamily(song: Song, family: string): boolean {
+  const members = TAG_FAMILIES[family];
+  if (!members) return false;
+  return song.tags.some((t) =>
+    members.some((m) => m.toLowerCase() === t.toLowerCase())
+  );
+}
+
+export function filterSongsWithFamilies(
+  songs: Song[],
+  families: string[],
+  locales: string[],
+  decades: number[]
+): Song[] {
+  return songs.filter((s) => {
+    if (families.length > 0) {
+      const matchesFamily = families.some((f) => songMatchesFamily(s, f));
+      if (!matchesFamily) return false;
+    }
+    if (locales.length > 0) {
+      if (!locales.includes(s.locale)) return false;
+    }
+    if (decades.length > 0) {
+      if (!decades.includes(getDecade(s.release_year))) return false;
+    }
+    return true;
+  });
+}
+
+export function buildQuizWithFamilies(
+  songs: Song[],
+  families: string[],
+  locales: string[],
+  decades: number[]
+): QuizQuestion[] {
+  const filtered = filterSongsWithFamilies(songs, families, locales, decades);
+  return shuffle(filtered).map((s) => ({
+    ...s,
+    shuffledOptions: shuffle(s.options),
+  }));
+}
