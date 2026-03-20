@@ -8,8 +8,6 @@
 
   let { quiz, onComplete }: Props = $props();
 
-  const LABELS = ['A', 'B', 'C', 'D'];
-
   function handleSelect(option: string) {
     quiz.selectAnswer(option);
   }
@@ -23,19 +21,7 @@
     }
   }
 
-  function optionClass(option: string): string {
-    if (!quiz.revealed) return "";
-    if (option === quiz.current?.answer) return "correct";
-    if (option === quiz.selectedAnswer) return "wrong";
-    return "dimmed";
-  }
-
-  function optionIcon(option: string): string {
-    if (!quiz.revealed) return "";
-    if (option === quiz.current?.answer) return "✓";
-    if (option === quiz.selectedAnswer && option !== quiz.current?.answer) return "✗";
-    return "";
-  }
+  const answeredCorrectly = $derived(quiz.selectedAnswer === quiz.current?.answer);
 </script>
 
 {#if quiz.current}
@@ -68,32 +54,33 @@
       <p class="hint">💡 {quiz.current.hint}</p>
     </div>
 
-    <!-- Options -->
-    <div class="options">
-      {#each quiz.current.shuffledOptions as option, i}
-        <button
-          class="option-btn {optionClass(option)}"
-          onclick={() => handleSelect(option)}
-          disabled={quiz.revealed}
-        >
-          <span class="option-label">{LABELS[i]}</span>
-          <span class="option-text">{option}</span>
-          {#if optionIcon(option)}
-            <span class="option-icon">{optionIcon(option)}</span>
-          {/if}
-        </button>
-      {/each}
-    </div>
-
-    <!-- Explanation (revealed) -->
     {#if quiz.revealed}
       <div class="reveal-section screen-enter">
-        <div class="explanation">
+        <div class="explanation" class:correct={answeredCorrectly} class:wrong={!answeredCorrectly}>
+          <p class="answer-detail">
+            {#if answeredCorrectly}
+              The answer is <strong>{quiz.current.answer}</strong>.
+            {:else}
+              You picked <strong>{quiz.selectedAnswer}</strong>. The answer is <strong>{quiz.current.answer}</strong>.
+            {/if}
+          </p>
           <p>{quiz.current.explanation}</p>
         </div>
+
         <button class="next-btn" onclick={handleNext}>
           {quiz.isLast ? "See Results" : "Next →"}
         </button>
+      </div>
+    {:else}
+      <div class="options">
+        {#each quiz.current.shuffledOptions as option}
+          <button
+            class="option-btn"
+            onclick={() => handleSelect(option)}
+          >
+            <span class="option-text">{option}</span>
+          </button>
+        {/each}
       </div>
     {/if}
   </div>
@@ -104,14 +91,17 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 4px 0 32px;
+    padding: 4px 0 20px;
     flex: 1;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .progress-row {
     display: flex;
     align-items: center;
     gap: 12px;
+    flex-shrink: 0;
   }
 
   .progress-text {
@@ -147,6 +137,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    flex-shrink: 0;
   }
 
   .song-info {
@@ -187,6 +178,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1;
   }
 
   .option-btn {
@@ -201,7 +193,6 @@
     transition: all var(--transition);
     display: flex;
     align-items: center;
-    gap: 12px;
     min-height: 48px;
   }
 
@@ -214,75 +205,22 @@
     transform: scale(0.99);
   }
 
-  .option-btn.correct {
-    background: var(--correct-bg);
-    border-color: var(--correct);
-    color: var(--correct);
-  }
-
-  .option-btn.wrong {
-    background: var(--wrong-bg);
-    border-color: var(--wrong);
-    color: var(--wrong);
-  }
-
-  .option-btn.dimmed {
-    opacity: 0.35;
-  }
-
-  .option-label {
-    flex-shrink: 0;
-    width: 26px;
-    height: 26px;
-    border-radius: 7px;
-    background: var(--bg-hover);
-    border: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-display);
-    font-size: 0.72rem;
-    font-weight: 700;
-    color: var(--text-muted);
-    transition: all var(--transition);
-  }
-
-  .option-btn:hover:not(:disabled) .option-label {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #fff;
-  }
-
-  .option-btn.correct .option-label {
-    background: var(--correct);
-    border-color: var(--correct);
-    color: #fff;
-  }
-
-  .option-btn.wrong .option-label {
-    background: var(--wrong);
-    border-color: var(--wrong);
-    color: #fff;
-  }
-
-  .option-btn.dimmed .option-label {
-    background: var(--bg-card);
-  }
-
   .option-text {
     flex: 1;
-  }
-
-  .option-icon {
-    flex-shrink: 0;
-    font-weight: 700;
-    font-size: 1.1rem;
   }
 
   .reveal-section {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .answer-detail {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
   }
 
   .explanation {
@@ -290,12 +228,23 @@
     border-radius: var(--radius-sm);
     padding: 14px 16px;
     border-left: 3px solid var(--accent);
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
   }
 
   .explanation p {
     font-size: 0.85rem;
     line-height: 1.55;
     color: var(--text);
+  }
+
+  .explanation.correct {
+    border-left-color: var(--correct);
+  }
+
+  .explanation.wrong {
+    border-left-color: var(--wrong);
   }
 
   .next-btn {
@@ -309,6 +258,7 @@
     font-weight: 700;
     transition: all var(--transition);
     box-shadow: 0 0 20px rgba(176, 110, 243, 0.3);
+    margin-top: auto;
   }
 
   .next-btn:hover {

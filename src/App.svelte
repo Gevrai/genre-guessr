@@ -54,7 +54,7 @@
         />
       </div>
     {:else if screen === "quiz"}
-      <div class="screen-enter">
+      <div class="screen-enter quiz-screen-wrap">
         <QuizScreen {quiz} onComplete={handleQuizComplete} />
       </div>
     {:else if screen === "results"}
@@ -71,7 +71,9 @@
     max-width: var(--max-w);
     display: flex;
     flex-direction: column;
-    min-height: 100dvh;
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .app-header {
@@ -133,5 +135,15 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .quiz-screen-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
   }
 </style>
