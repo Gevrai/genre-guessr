@@ -7,9 +7,14 @@
   }
 
   let { quiz, onComplete }: Props = $props();
+  let soundEnabled = $state(false);
 
   function handleSelect(option: string) {
     quiz.selectAnswer(option);
+  }
+
+  function enableSound() {
+    soundEnabled = true;
   }
 
   function handleNext() {
@@ -36,7 +41,15 @@
 
     <!-- Song info -->
     <div class="song-card">
-      <YouTubeEmbed videoId={quiz.current.youtube_id} />
+      {#key `${quiz.current.youtube_id}:${soundEnabled ? "sound" : "muted"}`}
+        <YouTubeEmbed
+          videoId={quiz.current.youtube_id}
+          autoplay={soundEnabled}
+          muted={!soundEnabled}
+          showSoundPrompt={!soundEnabled}
+          onEnableSound={enableSound}
+        />
+      {/key}
 
       <div class="song-info">
         <h2 class="song-title">{quiz.current.artist} — {quiz.current.song}</h2>
