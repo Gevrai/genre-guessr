@@ -8,6 +8,22 @@
 
   const pct = $derived(quiz.total > 0 ? Math.round((quiz.score / quiz.total) * 100) : 0);
 
+  const grade = $derived.by(() => {
+    if (pct === 100) return 'S';
+    if (pct >= 80) return 'A';
+    if (pct >= 60) return 'B';
+    if (pct >= 40) return 'C';
+    return 'D';
+  });
+
+  const gradeColor = $derived.by(() => {
+    if (pct === 100) return '#f9d71c';
+    if (pct >= 80) return '#4ade80';
+    if (pct >= 60) return '#b06ef3';
+    if (pct >= 40) return '#fb923c';
+    return '#f87171';
+  });
+
   const message = $derived.by(() => {
     if (pct === 100) return "Perfect score! You're a genre wizard 🧙‍♂️";
     if (pct >= 80) return "Impressive! You really know your subgenres 🔥";
@@ -35,12 +51,15 @@
 
 <div class="results-screen">
   <div class="score-hero">
-    <div class="score-ring">
-      <span class="score-number">{quiz.score}</span>
-      <span class="score-divider">/</span>
-      <span class="score-total">{quiz.total}</span>
+    <div class="grade-ring" style="--grade-color: {gradeColor}">
+      <span class="grade">{grade}</span>
     </div>
-    <p class="score-pct">{pct}%</p>
+    <div class="score-line">
+      <span class="score-number">{quiz.score}</span>
+      <span class="score-sep">/</span>
+      <span class="score-total">{quiz.total}</span>
+      <span class="score-pct">· {pct}%</span>
+    </div>
     <p class="score-message">{message}</p>
   </div>
 
@@ -55,7 +74,9 @@
     <ul class="breakdown-list">
       {#each quiz.answers as record, i}
         <li class="breakdown-item">
-          <span class="breakdown-icon">{record.correct ? "✓" : "✗"}</span>
+          <span class="breakdown-icon {record.correct ? 'icon-correct' : 'icon-wrong'}">
+            {record.correct ? "✓" : "✗"}
+          </span>
           <div class="breakdown-detail">
             <span class="breakdown-song">{record.question.artist} — {record.question.song}</span>
             <span class="breakdown-genre {record.correct ? 'correct-text' : 'wrong-text'}">
@@ -83,44 +104,73 @@
 
   .score-hero {
     text-align: center;
-    padding: 24px 0;
+    padding: 16px 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
   }
 
-  .score-ring {
+  .grade-ring {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: 3px solid var(--grade-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 28px color-mix(in srgb, var(--grade-color) 35%, transparent);
+    background: color-mix(in srgb, var(--grade-color) 8%, transparent);
+  }
+
+  .grade {
+    font-family: var(--font-display);
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--grade-color);
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+
+  .score-line {
     display: flex;
     align-items: baseline;
     justify-content: center;
-    gap: 4px;
+    gap: 5px;
   }
 
   .score-number {
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: var(--accent);
+    font-family: var(--font-display);
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--text);
     line-height: 1;
+    letter-spacing: -0.03em;
   }
 
-  .score-divider {
-    font-size: 2rem;
+  .score-sep {
+    font-size: 1.8rem;
     color: var(--text-muted);
   }
 
   .score-total {
-    font-size: 2rem;
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 700;
     color: var(--text-muted);
   }
 
   .score-pct {
     font-size: 1rem;
     color: var(--text-muted);
-    margin-top: 4px;
+    margin-left: 4px;
   }
 
   .score-message {
-    margin-top: 12px;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 500;
     line-height: 1.4;
+    color: var(--text);
   }
 
   .share-row {
@@ -140,12 +190,14 @@
 
   .share-btn:hover {
     background: var(--bg-hover);
+    border-color: var(--accent);
   }
 
   .breakdown h3 {
-    font-size: 0.85rem;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     color: var(--text-muted);
     margin-bottom: 12px;
   }
@@ -154,7 +206,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
   }
 
   .breakdown-item {
@@ -164,22 +216,19 @@
     padding: 10px 12px;
     background: var(--bg-card);
     border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
   }
 
   .breakdown-icon {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.9rem;
     min-width: 1.2em;
     text-align: center;
+    margin-top: 1px;
   }
 
-  .breakdown-item:has(.correct-text) .breakdown-icon {
-    color: var(--correct);
-  }
-
-  .breakdown-item:has(.wrong-text) .breakdown-icon {
-    color: var(--wrong);
-  }
+  .icon-correct { color: var(--correct); }
+  .icon-wrong { color: var(--wrong); }
 
   .breakdown-detail {
     display: flex;
@@ -200,27 +249,29 @@
     font-size: 0.75rem;
   }
 
-  .correct-text {
-    color: var(--correct);
-  }
-
-  .wrong-text {
-    color: var(--wrong);
-  }
+  .correct-text { color: var(--correct); }
+  .wrong-text { color: var(--wrong); }
 
   .play-again-btn {
     width: 100%;
     padding: 16px;
     border-radius: var(--radius);
-    background: var(--accent);
+    background: linear-gradient(135deg, #b06ef3, #f06292);
     color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-    transition: background var(--transition);
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    transition: all var(--transition);
+    box-shadow: 0 0 28px rgba(176, 110, 243, 0.35);
     margin-top: auto;
   }
 
   .play-again-btn:hover {
-    background: var(--accent-hover);
+    box-shadow: 0 0 36px rgba(176, 110, 243, 0.55);
+    transform: translateY(-1px);
+  }
+
+  .play-again-btn:active {
+    transform: translateY(0);
   }
 </style>

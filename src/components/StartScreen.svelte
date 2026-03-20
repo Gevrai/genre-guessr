@@ -1,23 +1,23 @@
 <script lang="ts">
   import type { Song } from "../lib/types";
-  import { filterSongsWithFamilies, getDecade } from "../lib/engine.svelte";
+  import { filterSongsWithFamilies } from "../lib/engine.svelte";
 
   interface Props {
     songs: Song[];
     tagFamilies: string[];
-    locales: string[];
+    continents: string[];
     decades: number[];
-    onStart: (families: string[], locales: string[], decades: number[]) => void;
+    onStart: (families: string[], continents: string[], decades: number[]) => void;
   }
 
-  let { songs, tagFamilies, locales, decades, onStart }: Props = $props();
+  let { songs, tagFamilies, continents, decades, onStart }: Props = $props();
 
   let selectedFamilies = $state<string[]>([]);
-  let selectedLocales = $state<string[]>([]);
+  let selectedContinents = $state<string[]>([]);
   let selectedDecades = $state<number[]>([]);
 
   const matchCount = $derived(
-    filterSongsWithFamilies(songs, selectedFamilies, selectedLocales, selectedDecades).length
+    filterSongsWithFamilies(songs, selectedFamilies, selectedContinents, selectedDecades).length
   );
 
   function toggleFamily(f: string) {
@@ -26,10 +26,10 @@
       : [...selectedFamilies, f];
   }
 
-  function toggleLocale(l: string) {
-    selectedLocales = selectedLocales.includes(l)
-      ? selectedLocales.filter((x) => x !== l)
-      : [...selectedLocales, l];
+  function toggleContinent(c: string) {
+    selectedContinents = selectedContinents.includes(c)
+      ? selectedContinents.filter((x) => x !== c)
+      : [...selectedContinents, c];
   }
 
   function toggleDecade(d: number) {
@@ -40,17 +40,17 @@
 
   function clearFilters() {
     selectedFamilies = [];
-    selectedLocales = [];
+    selectedContinents = [];
     selectedDecades = [];
   }
 
   function start() {
     if (matchCount === 0) return;
-    onStart(selectedFamilies, selectedLocales, selectedDecades);
+    onStart(selectedFamilies, selectedContinents, selectedDecades);
   }
 
   const hasFilters = $derived(
-    selectedFamilies.length > 0 || selectedLocales.length > 0 || selectedDecades.length > 0
+    selectedFamilies.length > 0 || selectedContinents.length > 0 || selectedDecades.length > 0
   );
 </script>
 
@@ -58,6 +58,13 @@
   <div class="hero">
     <p class="tagline">Can you tell UK drill from grime?<br/>Shoegaze from dream pop?</p>
     <p class="subtitle">Test your music subgenre knowledge</p>
+  </div>
+
+  <div class="start-footer">
+    <p class="match-count">{Math.min(matchCount, 10)} question{Math.min(matchCount, 10) !== 1 ? 's' : ''} · {matchCount} available</p>
+    <button class="start-btn" onclick={start} disabled={matchCount === 0}>
+      Start Quiz
+    </button>
   </div>
 
   <section class="filters">
@@ -84,15 +91,15 @@
     </div>
 
     <div class="filter-group">
-      <h3>Region</h3>
+      <h3>Continent</h3>
       <div class="chips">
-        {#each locales as locale}
+        {#each continents as continent}
           <button
             class="chip"
-            class:active={selectedLocales.includes(locale)}
-            onclick={() => toggleLocale(locale)}
+            class:active={selectedContinents.includes(continent)}
+            onclick={() => toggleContinent(continent)}
           >
-            {locale}
+            {continent}
           </button>
         {/each}
       </div>
@@ -113,13 +120,6 @@
       </div>
     </div>
   </section>
-
-  <div class="start-footer">
-    <p class="match-count">{matchCount} question{matchCount !== 1 ? 's' : ''} available</p>
-    <button class="start-btn" onclick={start} disabled={matchCount === 0}>
-      Start Quiz
-    </button>
-  </div>
 </div>
 
 <style>
@@ -133,20 +133,63 @@
 
   .hero {
     text-align: center;
-    padding: 16px 0;
+    padding: 20px 0 4px;
   }
 
   .tagline {
-    font-size: 1.15rem;
-    font-weight: 600;
-    line-height: 1.5;
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.45;
     color: var(--text);
+    letter-spacing: -0.02em;
   }
 
   .subtitle {
-    margin-top: 8px;
+    margin-top: 10px;
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.875rem;
+  }
+
+  .start-footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .match-count {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+
+  .start-btn {
+    width: 100%;
+    padding: 16px;
+    border-radius: var(--radius);
+    background: linear-gradient(135deg, #b06ef3, #f06292);
+    color: #fff;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    transition: all var(--transition);
+    box-shadow: 0 0 28px rgba(176, 110, 243, 0.35);
+  }
+
+  .start-btn:hover:not(:disabled) {
+    box-shadow: 0 0 36px rgba(176, 110, 243, 0.55);
+    transform: translateY(-1px);
+  }
+
+  .start-btn:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  .start-btn:disabled {
+    background: var(--bg-hover);
+    color: var(--text-muted);
+    box-shadow: none;
   }
 
   .filters {
@@ -162,9 +205,10 @@
   }
 
   .filter-header h2 {
-    font-size: 0.85rem;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     color: var(--text-muted);
   }
 
@@ -179,10 +223,11 @@
   }
 
   .filter-group h3 {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     color: var(--text-muted);
     margin-bottom: 8px;
     font-weight: 500;
+    letter-spacing: 0.04em;
   }
 
   .chips {
@@ -205,45 +250,13 @@
   .chip:hover {
     background: var(--bg-hover);
     color: var(--text);
+    border-color: var(--accent);
   }
 
   .chip.active {
-    background: var(--accent);
-    border-color: var(--accent);
+    background: linear-gradient(135deg, #b06ef3, #f06292);
+    border-color: transparent;
     color: #fff;
-  }
-
-  .start-footer {
-    margin-top: auto;
-    padding-top: 16px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .match-count {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-  }
-
-  .start-btn {
-    width: 100%;
-    padding: 16px;
-    border-radius: var(--radius);
-    background: var(--accent);
-    color: #fff;
-    font-size: 1.1rem;
     font-weight: 600;
-    transition: background var(--transition);
-  }
-
-  .start-btn:hover:not(:disabled) {
-    background: var(--accent-hover);
-  }
-
-  .start-btn:disabled {
-    background: var(--bg-hover);
-    color: var(--text-muted);
   }
 </style>

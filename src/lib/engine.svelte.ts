@@ -13,6 +13,33 @@ export function getDecade(year: number): number {
   return Math.floor(year / 10) * 10;
 }
 
+const LOCALE_TO_CONTINENT: Record<string, string> = {
+  USA: "North America",
+  Canada: "North America",
+  "Puerto Rico": "North America",
+  Jamaica: "North America",
+  Brazil: "South America",
+  Colombia: "South America",
+  Venezuela: "South America",
+  UK: "Europe",
+  Germany: "Europe",
+  Iceland: "Europe",
+  Sweden: "Europe",
+  Portugal: "Europe",
+  Spain: "Europe",
+  Ethiopia: "Africa",
+  Mali: "Africa",
+  Niger: "Africa",
+  Nigeria: "Africa",
+  Senegal: "Africa",
+  Japan: "Asia",
+  Pakistan: "Asia",
+};
+
+export function getContinent(locale: string): string {
+  return LOCALE_TO_CONTINENT[locale] ?? "Other";
+}
+
 export function filterSongs(songs: Song[], filters: QuizFilters): Song[] {
   return songs.filter((s) => {
     if (filters.tags.length > 0) {
@@ -31,9 +58,11 @@ export function filterSongs(songs: Song[], filters: QuizFilters): Song[] {
   });
 }
 
+const QUIZ_SIZE = 10;
+
 export function buildQuiz(songs: Song[], filters: QuizFilters): QuizQuestion[] {
   const filtered = filterSongs(songs, filters);
-  return shuffle(filtered).map((s) => ({
+  return shuffle(filtered).slice(0, QUIZ_SIZE).map((s) => ({
     ...s,
     shuffledOptions: shuffle(s.options),
   }));
@@ -111,21 +140,20 @@ export function createQuizState() {
 
 export function getUniqueValues(songs: Song[]) {
   const tags = new Set<string>();
-  const locales = new Set<string>();
+  const continents = new Set<string>();
   const decades = new Set<number>();
 
   for (const s of songs) {
     s.tags.forEach((t) => tags.add(t));
-    locales.add(s.locale);
+    continents.add(getContinent(s.locale));
     decades.add(getDecade(s.release_year));
   }
 
-  // Group tags into broader categories for the filter UI
   const tagCategories = categoriseTags([...tags]);
 
   return {
     tags: tagCategories,
-    locales: [...locales].sort(),
+    continents: [...continents].sort(),
     decades: [...decades].sort(),
   };
 }
@@ -168,7 +196,7 @@ export function songMatchesFamily(song: Song, family: string): boolean {
 export function filterSongsWithFamilies(
   songs: Song[],
   families: string[],
-  locales: string[],
+  continents: string[],
   decades: number[]
 ): Song[] {
   return songs.filter((s) => {
@@ -176,8 +204,8 @@ export function filterSongsWithFamilies(
       const matchesFamily = families.some((f) => songMatchesFamily(s, f));
       if (!matchesFamily) return false;
     }
-    if (locales.length > 0) {
-      if (!locales.includes(s.locale)) return false;
+    if (continents.length > 0) {
+      if (!continents.includes(getContinent(s.locale))) return false;
     }
     if (decades.length > 0) {
       if (!decades.includes(getDecade(s.release_year))) return false;
@@ -189,11 +217,11 @@ export function filterSongsWithFamilies(
 export function buildQuizWithFamilies(
   songs: Song[],
   families: string[],
-  locales: string[],
+  continents: string[],
   decades: number[]
 ): QuizQuestion[] {
-  const filtered = filterSongsWithFamilies(songs, families, locales, decades);
-  return shuffle(filtered).map((s) => ({
+  const filtered = filterSongsWithFamilies(songs, families, continents, decades);
+  return shuffle(filtered).slice(0, QUIZ_SIZE).map((s) => ({
     ...s,
     shuffledOptions: shuffle(s.options),
   }));

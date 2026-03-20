@@ -1,21 +1,23 @@
 :root {
-  --bg: #0f0f1a;
-  --bg-card: #1a1a2e;
-  --bg-hover: #252540;
-  --text: #e8e8f0;
-  --text-muted: #9090a8;
-  --accent: #7c5cfc;
-  --accent-hover: #9b7eff;
-  --correct: #22c55e;
-  --correct-bg: rgba(34, 197, 94, 0.15);
-  --wrong: #ef4444;
-  --wrong-bg: rgba(239, 68, 68, 0.15);
-  --border: #2a2a40;
-  --radius: 12px;
-  --radius-sm: 8px;
+  --bg: #080810;
+  --bg-card: #10101e;
+  --bg-hover: #18182c;
+  --text: #ededf5;
+  --text-muted: #7878a0;
+  --accent: #b06ef3;
+  --accent-2: #f06292;
+  --accent-hover: #c490ff;
+  --correct: #4ade80;
+  --correct-bg: rgba(74, 222, 128, 0.12);
+  --wrong: #f87171;
+  --wrong-bg: rgba(248, 113, 113, 0.12);
+  --border: #1c1c30;
+  --radius: 14px;
+  --radius-sm: 10px;
   --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Syne', system-ui, sans-serif;
   --max-w: 430px;
-  --transition: 0.2s ease;
+  --transition: 0.18s ease;
 }
 
 *, *::before, *::after {
@@ -36,6 +38,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  background-image: radial-gradient(circle at 1px 1px, rgba(176, 110, 243, 0.07) 1px, transparent 0);
+  background-size: 24px 24px;
 }
 
 #app {
@@ -65,10 +69,10 @@ a {
 }
 
 .screen-enter {
-  animation: fadeIn 0.25s ease-out;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: translateY(0); }
 }
