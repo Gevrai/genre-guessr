@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Song, Screen } from "./lib/types";
-  import { createQuizState, getUniqueValues, filterSongsWithFamilies } from "./lib/engine";
+  import { createQuizState, getUniqueValues, filterSongsWithFamilies } from "./lib/engine.svelte";
   import songsData from "./data/songs.json";
   import StartScreen from "./components/StartScreen.svelte";
   import QuizScreen from "./components/QuizScreen.svelte";

@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Song } from "../lib/types";
-  import { filterSongsWithFamilies, getDecade } from "../lib/engine";
+  import { filterSongsWithFamilies, getDecade } from "../lib/engine.svelte";
 
   interface Props {
     songs: Song[];
