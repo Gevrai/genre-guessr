@@ -40,6 +40,7 @@ body {
   overflow-x: hidden;
   background-image: radial-gradient(circle at 1px 1px, rgba(176, 110, 243, 0.07) 1px, transparent 0);
   background-size: 24px 24px;
+  transition: background 0.6s ease;
 }
 
 #app {

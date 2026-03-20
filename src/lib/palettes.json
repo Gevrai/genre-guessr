@@ -1,0 +1,452 @@
+{
+  "sticXkHxZC4": {
+    "--bg": "#0a1f1d",
+    "--bg-card": "#41542c",
+    "--bg-hover": "#949c64",
+    "--border": "rgba(148,156,100,0.4)",
+    "--accent": "#40bfb6",
+    "--accent-2": "#e2f5b6",
+    "--accent-hover": "#66ccc5"
+  },
+  "K6_zsJ8KPP0": {
+    "--bg": "#240506",
+    "--bg-card": "#674230",
+    "--bg-hover": "#a66f55",
+    "--border": "rgba(166,111,85,0.4)",
+    "--accent": "#ed7981",
+    "--accent-2": "#cf8b73",
+    "--accent-hover": "#b71924"
+  },
+  "sbRBCet8Y_w": {
+    "--bg": "#1d140c",
+    "--bg-card": "#59402d",
+    "--bg-hover": "#9f8965",
+    "--border": "rgba(159,137,101,0.4)",
+    "--accent": "#c4a481",
+    "--accent-2": "#dcc2a1",
+    "--accent-hover": "#d4bda4"
+  },
+  "wC16FJTI6XM": {
+    "--bg": "#021b27",
+    "--bg-card": "#345461",
+    "--bg-hover": "#4e7b71",
+    "--border": "rgba(78,123,113,0.4)",
+    "--accent": "#67acb6",
+    "--accent-2": "#a5cdd4",
+    "--accent-hover": "#45848e"
+  },
+  "JrAxmXDSiuA": {
+    "--bg": "#1c190d",
+    "--bg-card": "#4e3c2c",
+    "--bg-hover": "#a08f56",
+    "--border": "rgba(160,143,86,0.4)",
+    "--accent": "#a29148",
+    "--accent-2": "#d6cda3",
+    "--accent-hover": "#b2a051"
+  },
+  "A7ZxRs45tTg": {
+    "--bg": "#1e120b",
+    "--bg-card": "#2c3c4c",
+    "--bg-hover": "#5c7c8c",
+    "--border": "rgba(92,124,140,0.4)",
+    "--accent": "#cb6d34",
+    "--accent-2": "#f0ac5c",
+    "--accent-hover": "#d58a5d"
+  },
+  "CcNo07Xp8aQ": {
+    "--bg": "#1d0f0c",
+    "--bg-card": "#54342c",
+    "--bg-hover": "#8c6454",
+    "--border": "rgba(140,100,84,0.4)",
+    "--accent": "#c3806e",
+    "--accent-2": "#e8d7cc",
+    "--accent-hover": "#c4806e"
+  },
+  "Z-48u_uWMHY": {
+    "--bg": "#141414",
+    "--bg-card": "#434343",
+    "--bg-hover": "#878787",
+    "--border": "rgba(135,135,135,0.4)",
+    "--accent": "#9a9a9a",
+    "--accent-2": "#bdbdbd",
+    "--accent-hover": "#999999"
+  },
+  "FyYMzEplnfU": {
+    "--bg": "#0d0d1c",
+    "--bg-card": "#363461",
+    "--bg-hover": "#655d82",
+    "--border": "rgba(101,93,130,0.4)",
+    "--accent": "#8585c5",
+    "--accent-2": "#a5a5d4",
+    "--accent-hover": "#7575bd"
+  },
+  "oP7KHC129RQ": {
+    "--bg": "#1f0e0a",
+    "--bg-card": "#535332",
+    "--bg-hover": "#8c8a74",
+    "--border": "rgba(140,138,116,0.4)",
+    "--accent": "#d89b8c",
+    "--accent-2": "#c2cce4",
+    "--accent-hover": "#cc7a66"
+  },
+  "-3j0nugz1Pw": {
+    "--bg": "#1d140c",
+    "--bg-card": "#2c4852",
+    "--bg-hover": "#6ca4a4",
+    "--border": "rgba(108,164,164,0.4)",
+    "--accent": "#dfc42d",
+    "--accent-2": "#e7e039",
+    "--accent-hover": "#e6d059"
+  },
+  "M4fwLA1_ARM": {
+    "--bg": "#1d0c0c",
+    "--bg-card": "#5e3331",
+    "--bg-hover": "#7c9454",
+    "--border": "rgba(124,148,84,0.4)",
+    "--accent": "#da797f",
+    "--accent-2": "#e4d2b2",
+    "--accent-hover": "#ce5159"
+  },
+  "22U2LLVRwtk": {
+    "--bg": "#1c0f0d",
+    "--bg-card": "#4f3d36",
+    "--bg-hover": "#978270",
+    "--border": "rgba(151,130,112,0.4)",
+    "--accent": "#bd7c74",
+    "--accent-2": "#dcc8ad",
+    "--accent-hover": "#be7c74"
+  },
+  "REUXbGaEl94": {
+    "--bg": "#1f150a",
+    "--bg-card": "#604b33",
+    "--bg-hover": "#a2724c",
+    "--border": "rgba(162,114,76,0.4)",
+    "--accent": "#ecd474",
+    "--accent-2": "#efd3a6",
+    "--accent-hover": "#f2e2a1"
+  },
+  "DEE6FTYe8UM": {
+    "--bg": "#20080b",
+    "--bg-card": "#542c36",
+    "--bg-hover": "#966152",
+    "--border": "rgba(150,97,82,0.4)",
+    "--accent": "#b97064",
+    "--accent-2": "#f9e993",
+    "--accent-hover": "#c18075"
+  },
+  "UpjLLw-cVzU": {
+    "--bg": "#240905",
+    "--bg-card": "#2a384d",
+    "--bg-hover": "#af6c5a",
+    "--border": "rgba(175,108,90,0.4)",
+    "--accent": "#e05b3c",
+    "--accent-2": "#f9955e",
+    "--accent-hover": "#e36d52"
+  },
+  "x-G28iyPtz0": {
+    "--bg": "#1c1a0c",
+    "--bg-card": "#494035",
+    "--bg-hover": "#8c735b",
+    "--border": "rgba(140,115,91,0.4)",
+    "--accent": "#d4ac4c",
+    "--accent-2": "#e0d596",
+    "--accent-hover": "#debf75"
+  },
+  "4qQyUi4zfDs": {
+    "--bg": "#1d130c",
+    "--bg-card": "#543e3a",
+    "--bg-hover": "#92746e",
+    "--border": "rgba(146,116,110,0.4)",
+    "--accent": "#bc835c",
+    "--accent-2": "#d8b7a1",
+    "--accent-hover": "#c4916e"
+  },
+  "M1ZweG__q-w": {
+    "--bg": "#1c170d",
+    "--bg-card": "#4e493e",
+    "--bg-hover": "#a4906c",
+    "--border": "rgba(164,144,108,0.4)",
+    "--accent": "#c4b084",
+    "--accent-2": "#d4c5a5",
+    "--accent-hover": "#d5c6a6"
+  },
+  "-UV0QGLmYys": {
+    "--bg": "#271e02",
+    "--bg-card": "#63422e",
+    "--bg-hover": "#ac805c",
+    "--border": "rgba(172,128,92,0.4)",
+    "--accent": "#cf919e",
+    "--accent-2": "#bccc8c",
+    "--accent-hover": "#be6d7e"
+  },
+  "qc98u-eGzlc": {
+    "--bg": "#04040c",
+    "--bg-card": "#344e52",
+    "--bg-hover": "#5c8494",
+    "--border": "rgba(92,132,148,0.4)",
+    "--accent": "#7cbccd",
+    "--accent-2": "#8cbfd9",
+    "--accent-hover": "#a1cfdb"
+  },
+  "vACZA9dGvV4": {
+    "--bg": "#221907",
+    "--bg-card": "#5a4e3f",
+    "--bg-hover": "#b19967",
+    "--border": "rgba(177,153,103,0.4)",
+    "--accent": "#ccb03c",
+    "--accent-2": "#e6d494",
+    "--accent-hover": "#d7c064"
+  },
+  "Rht7rBHuXW8": {
+    "--bg": "#280201",
+    "--bg-card": "#5f3a2f",
+    "--bg-hover": "#9b7c61",
+    "--border": "rgba(155,124,97,0.4)",
+    "--accent": "#fc6960",
+    "--accent-2": "#ec443c",
+    "--accent-hover": "#fa2214"
+  },
+  "UBS4Gi1y_nc": {
+    "--bg": "#1d120c",
+    "--bg-card": "#4d3f36",
+    "--bg-hover": "#8d796d",
+    "--border": "rgba(141,121,109,0.4)",
+    "--accent": "#be7f5a",
+    "--accent-2": "#d9b5a0",
+    "--accent-hover": "#c58e6d"
+  },
+  "TmKh7lAwnBI": {
+    "--bg": "#230c06",
+    "--bg-card": "#544233",
+    "--bg-hover": "#aa796e",
+    "--border": "rgba(170,121,110,0.4)",
+    "--accent": "#c48160",
+    "--accent-2": "#f9b07f",
+    "--accent-hover": "#cb8f72"
+  },
+  "5eZ_TgE3x_A": {
+    "--bg": "#0c0404",
+    "--bg-card": "#474545",
+    "--bg-hover": "#847c6c",
+    "--border": "rgba(132,124,108,0.4)",
+    "--accent": "#d17979",
+    "--accent-2": "#faf0e1",
+    "--accent-hover": "#cc6666"
+  },
+  "421w1j87fEM": {
+    "--bg": "#141414",
+    "--bg-card": "#444444",
+    "--bg-hover": "#7c7c7c",
+    "--border": "rgba(124,124,124,0.4)",
+    "--accent": "#9a9a9a",
+    "--accent-2": "#bdbdbd",
+    "--accent-hover": "#999999"
+  },
+  "RWyVhIBmdGw": {
+    "--bg": "#1d0c0c",
+    "--bg-card": "#040404",
+    "--bg-hover": "#772222",
+    "--border": "rgba(119,34,34,0.4)",
+    "--accent": "#dc8484",
+    "--accent-2": "#fa8c8c",
+    "--accent-hover": "#e7acac"
+  },
+  "ejgpiWZHH34": {
+    "--bg": "#1c1a0c",
+    "--bg-card": "#503c28",
+    "--bg-hover": "#965e46",
+    "--border": "rgba(150,94,70,0.4)",
+    "--accent": "#a39120",
+    "--accent-2": "#f6f4d9",
+    "--accent-hover": "#b9a424"
+  },
+  "YH0KWX2a8zY": {
+    "--bg": "#271302",
+    "--bg-card": "#553b30",
+    "--bg-hover": "#947253",
+    "--border": "rgba(148,114,83,0.4)",
+    "--accent": "#d2ab25",
+    "--accent-2": "#eccc4c",
+    "--accent-hover": "#dfbe4b"
+  },
+  "JAYb8ZyjzD0": {
+    "--bg": "#270101",
+    "--bg-card": "#54642e",
+    "--bg-hover": "#9c9c64",
+    "--border": "rgba(156,156,100,0.4)",
+    "--accent": "#f69c8c",
+    "--accent-2": "#f8bf81",
+    "--accent-hover": "#f06043"
+  },
+  "rpaonSDPw7Y": {
+    "--bg": "#0c040c",
+    "--bg-card": "#383c4c",
+    "--bg-hover": "#747c84",
+    "--border": "rgba(116,124,132,0.4)",
+    "--accent": "#cb66cb",
+    "--accent-2": "#de9cde",
+    "--accent-hover": "#cc66cc"
+  },
+  "gfGz4MTQ28I": {
+    "--bg": "#270602",
+    "--bg-card": "#5c423b",
+    "--bg-hover": "#597297",
+    "--border": "rgba(89,114,151,0.4)",
+    "--accent": "#e67e60",
+    "--accent-2": "#f3b07f",
+    "--accent-hover": "#e57e60"
+  },
+  "jipQpjUA_o8": {
+    "--bg": "#250407",
+    "--bg-card": "#263642",
+    "--bg-hover": "#aa656a",
+    "--border": "rgba(170,101,106,0.4)",
+    "--accent": "#e83c72",
+    "--accent-2": "#dec29b",
+    "--accent-hover": "#e52462"
+  },
+  "rSXw6Ok47dQ": {
+    "--bg": "#141414",
+    "--bg-card": "#3c3c3c",
+    "--bg-hover": "#7c7c7c",
+    "--border": "rgba(124,124,124,0.4)",
+    "--accent": "#8d8d8d",
+    "--accent-2": "#bdbdbd",
+    "--accent-hover": "#999999"
+  },
+  "P5-2-jD-42Q": {
+    "--bg": "#062405",
+    "--bg-card": "#372d5d",
+    "--bg-hover": "#6858b4",
+    "--border": "rgba(104,88,180,0.4)",
+    "--accent": "#12e832",
+    "--accent-2": "#93f9e5",
+    "--accent-hover": "#3df058"
+  },
+  "q0lPeQA2hu4": {
+    "--bg": "#1f140a",
+    "--bg-card": "#563d29",
+    "--bg-hover": "#a08060",
+    "--border": "rgba(160,128,96,0.4)",
+    "--accent": "#b88449",
+    "--accent-2": "#dabea0",
+    "--accent-hover": "#956a3a"
+  },
+  "jPeheoBa2_Y": {
+    "--bg": "#031a25",
+    "--bg-card": "#323a4e",
+    "--bg-hover": "#5985a1",
+    "--border": "rgba(89,133,161,0.4)",
+    "--accent": "#249ec8",
+    "--accent-2": "#acd4e4",
+    "--accent-hover": "#249ec7"
+  },
+  "TGgcC5xg9YI": {
+    "--bg": "#041d25",
+    "--bg-card": "#394144",
+    "--bg-hover": "#af6354",
+    "--border": "rgba(175,99,84,0.4)",
+    "--accent": "#f4c450",
+    "--accent-2": "#fbf4cd",
+    "--accent-hover": "#f7d480"
+  },
+  "VGgIlLfVEmQ": {
+    "--bg": "#151514",
+    "--bg-card": "#434442",
+    "--bg-hover": "#84847c",
+    "--border": "rgba(132,132,124,0.4)",
+    "--accent": "#9a9a99",
+    "--accent-2": "#bdbdbc",
+    "--accent-hover": "#9a9a98"
+  },
+  "MQOG5BkY2Bc": {
+    "--bg": "#151415",
+    "--bg-card": "#6c543c",
+    "--bg-hover": "#817571",
+    "--border": "rgba(129,117,113,0.4)",
+    "--accent": "#b3b0b3",
+    "--accent-2": "#bfbbbf",
+    "--accent-hover": "#9c969c"
+  },
+  "wMwO9UACbSQ": {
+    "--bg": "#250604",
+    "--bg-card": "#602f35",
+    "--bg-hover": "#6c4044",
+    "--border": "rgba(108,64,68,0.4)",
+    "--accent": "#fb5043",
+    "--accent-2": "#fc877d",
+    "--accent-hover": "#fa392a"
+  },
+  "SDfELfpumEE": {
+    "--bg": "#24050b",
+    "--bg-card": "#5c2c54",
+    "--bg-hover": "#9d6b67",
+    "--border": "rgba(157,107,103,0.4)",
+    "--accent": "#d07979",
+    "--accent-2": "#cc9c93",
+    "--accent-hover": "#ba4141"
+  },
+  "CFC9ceKUm5Y": {
+    "--bg": "#240a04",
+    "--bg-card": "#315854",
+    "--bg-hover": "#a1647a",
+    "--border": "rgba(161,100,122,0.4)",
+    "--accent": "#f58263",
+    "--accent-2": "#ee4a6c",
+    "--accent-hover": "#f26f4b"
+  },
+  "5Oef61oHIBg": {
+    "--bg": "#011728",
+    "--bg-card": "#464f2a",
+    "--bg-hover": "#57909c",
+    "--border": "rgba(87,144,156,0.4)",
+    "--accent": "#5e9edd",
+    "--accent-2": "#79ccf8",
+    "--accent-hover": "#5e9edd"
+  },
+  "93ASUImTedo": {
+    "--bg": "#1a0c14",
+    "--bg-card": "#513633",
+    "--bg-hover": "#8b7977",
+    "--border": "rgba(139,121,119,0.4)",
+    "--accent": "#be739e",
+    "--accent-2": "#d5a4c0",
+    "--accent-hover": "#bf739e"
+  },
+  "wqCpjFMvz-k": {
+    "--bg": "#0c0b04",
+    "--bg-card": "#444434",
+    "--bg-hover": "#84846c",
+    "--border": "rgba(132,132,108,0.4)",
+    "--accent": "#bfaf40",
+    "--accent-2": "#ded69c",
+    "--accent-hover": "#ccbf66"
+  },
+  "3Ej-CcaHUKA": {
+    "--bg": "#240514",
+    "--bg-card": "#040404",
+    "--bg-hover": "#960355",
+    "--border": "rgba(150,3,85,0.4)",
+    "--accent": "#db057d",
+    "--accent-2": "#e83e90",
+    "--accent-hover": "#fa1997"
+  },
+  "XqzfrngoVqI": {
+    "--bg": "#220e07",
+    "--bg-card": "#363c3f",
+    "--bg-hover": "#646c6c",
+    "--border": "rgba(100,108,108,0.4)",
+    "--accent": "#f5aa14",
+    "--accent-2": "#fae05a",
+    "--accent-hover": "#f7bc45"
+  },
+  "s4prQ11orEM": {
+    "--bg": "#051524",
+    "--bg-card": "#413f41",
+    "--bg-hover": "#5a88ac",
+    "--border": "rgba(90,136,172,0.4)",
+    "--accent": "#2194f5",
+    "--accent-2": "#74a2c2",
+    "--accent-hover": "#0a79da"
+  }
+}

@@ -1,5 +1,7 @@
 <script lang="ts">
   import YouTubeEmbed from "./YouTubeEmbed.svelte";
+  import { extractPalette, paletteToStyle, type CSSPalette } from '../lib/palette';
+  import { onDestroy } from 'svelte';
 
   interface Props {
     quiz: any;
@@ -7,6 +9,8 @@
   }
 
   let { quiz, onComplete }: Props = $props();
+
+  let palette = $state<CSSPalette | null>(null);
 
   const LABELS = ['A', 'B', 'C', 'D'];
 
@@ -22,6 +26,21 @@
       quiz.next();
     }
   }
+
+  $effect(() => {
+    const id = quiz.current?.youtube_id;
+    const result = id ? extractPalette(id) : null;
+    palette = result;
+    if (result?.['--bg']) {
+      document.body.style.setProperty('--bg', result['--bg']);
+    } else {
+      document.body.style.removeProperty('--bg');
+    }
+  });
+
+  onDestroy(() => {
+    document.body.style.removeProperty('--bg');
+  });
 
   function optionClass(option: string): string {
     if (!quiz.revealed) return "";
@@ -39,7 +58,7 @@
 </script>
 
 {#if quiz.current}
-  <div class="quiz-screen">
+  <div class="quiz-screen" style={paletteToStyle(palette)}>
     <!-- Progress -->
     <div class="progress-row">
       <span class="progress-text">{quiz.currentIndex + 1} / {quiz.total}</span>
@@ -106,6 +125,7 @@
     gap: 16px;
     padding: 4px 0 32px;
     flex: 1;
+    transition: background-color 0.6s ease;
   }
 
   .progress-row {
@@ -129,14 +149,15 @@
     background: var(--bg-card);
     border-radius: 3px;
     overflow: hidden;
+    transition: background 0.6s ease, border-color 0.4s ease;
   }
 
   .progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, #b06ef3, #f06292);
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
     border-radius: 3px;
-    transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 0 8px rgba(176, 110, 243, 0.5);
+    transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1), background 0.6s ease, border-color 0.4s ease;
+    box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 50%, transparent);
   }
 
   .song-card {
@@ -147,6 +168,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    transition: background 0.6s ease, border-color 0.4s ease;
   }
 
   .song-info {
@@ -198,7 +220,7 @@
     text-align: left;
     font-size: 0.9rem;
     font-weight: 500;
-    transition: all var(--transition);
+    transition: background 0.6s ease, border-color 0.4s ease, transform var(--transition), opacity var(--transition);
     display: flex;
     align-items: center;
     gap: 12px;
@@ -290,6 +312,7 @@
     border-radius: var(--radius-sm);
     padding: 14px 16px;
     border-left: 3px solid var(--accent);
+    transition: background 0.6s ease, border-color 0.4s ease;
   }
 
   .explanation p {
@@ -302,17 +325,17 @@
     width: 100%;
     padding: 14px;
     border-radius: var(--radius-sm);
-    background: linear-gradient(135deg, #b06ef3, #f06292);
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
     color: #fff;
     font-family: var(--font-display);
     font-size: 1rem;
     font-weight: 700;
     transition: all var(--transition);
-    box-shadow: 0 0 20px rgba(176, 110, 243, 0.3);
+    box-shadow: 0 0 20px color-mix(in srgb, var(--accent) 30%, transparent);
   }
 
   .next-btn:hover {
-    box-shadow: 0 0 28px rgba(176, 110, 243, 0.5);
+    box-shadow: 0 0 28px color-mix(in srgb, var(--accent) 50%, transparent);
     transform: translateY(-1px);
   }
 
