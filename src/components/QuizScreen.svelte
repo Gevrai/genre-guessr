@@ -8,6 +8,7 @@
 
   let { quiz, onComplete }: Props = $props();
   let soundEnabled = $state(false);
+  let cluesRevealed = $state(false);
 
   function handleSelect(option: string) {
     quiz.selectAnswer(option);
@@ -25,6 +26,15 @@
       quiz.next();
     }
   }
+
+  function toggleClues() {
+    cluesRevealed = !cluesRevealed;
+  }
+
+  $effect(() => {
+    quiz.current?.youtube_id;
+    cluesRevealed = false;
+  });
 
   const answeredCorrectly = $derived(quiz.selectedAnswer === quiz.current?.answer);
 </script>
@@ -53,18 +63,41 @@
 
       <div class="song-info">
         <h2 class="song-title">{quiz.current.artist} — {quiz.current.song}</h2>
-        <div class="song-meta">
-          {#if quiz.current.album}
-            <span>{quiz.current.album}</span>
-            <span class="dot">·</span>
+        {#if quiz.current.album}
+          <p class="song-album">{quiz.current.album}</p>
+        {/if}
+
+        <div class="clue-section">
+          {#if cluesRevealed}
+            <div class="song-meta">
+              <span>{quiz.current.release_year}</span>
+              <span class="dot">·</span>
+              <span>{quiz.current.locale}</span>
+            </div>
+
+            <p class="hint">💡 {quiz.current.hint}</p>
+          {:else}
+            <button
+              type="button"
+              class="clue-toggle"
+              aria-label="Show hint, year, and location"
+              title="Show hint"
+              onclick={toggleClues}
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M9 18h6m-5 3h4m-6.314-5.5C6.536 14.48 5 12.423 5 10a7 7 0 1 1 14 0c0 2.423-1.536 4.48-2.686 5.5-.472.418-.708.627-.85.875-.143.248-.177.509-.245 1.032L15 18H9l-.219-.593c-.068-.523-.102-.784-.245-1.032-.142-.248-.378-.457-.85-.875Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
           {/if}
-          <span>{quiz.current.release_year}</span>
-          <span class="dot">·</span>
-          <span>{quiz.current.locale}</span>
         </div>
       </div>
-
-      <p class="hint">💡 {quiz.current.hint}</p>
     </div>
 
     {#if quiz.revealed}
@@ -165,6 +198,48 @@
     font-weight: 700;
     line-height: 1.3;
     letter-spacing: -0.01em;
+  }
+
+  .song-album {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  .clue-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .clue-toggle {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: color-mix(in srgb, var(--bg-hover) 75%, transparent);
+    color: var(--text);
+    transition: all var(--transition);
+    box-shadow: 0 0 0 rgba(176, 110, 243, 0);
+  }
+
+  .clue-toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: 0 0 18px rgba(176, 110, 243, 0.16);
+  }
+
+  .clue-toggle:active {
+    transform: scale(0.98);
+  }
+
+  .clue-toggle svg {
+    width: 18px;
+    height: 18px;
   }
 
   .song-meta {
