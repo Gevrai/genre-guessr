@@ -7,9 +7,20 @@
     "locale": "USA",
     "hint": "Sacramento trio known for abrasive, confrontational music with MC Ride's aggressive delivery",
     "answer": "Experimental hip-hop",
-    "options": ["Cloud rap", "Experimental hip-hop", "Trap metal", "Industrial rap"],
+    "options": [
+      "Cloud rap",
+      "Experimental hip-hop",
+      "Trap metal",
+      "Industrial rap"
+    ],
     "explanation": "Experimental hip-hop (also called noise rap or industrial hip-hop) — Death Grips fuse hip-hop structure with industrial noise, hardcore punk aggression, and avant-garde electronics. Distinct from trap metal (e.g. $uicideboy$) which is moodier, or cloud rap which is ambient and spacey.",
-    "tags": ["hip-hop", "experimental", "noise", "industrial", "hardcore"],
+    "tags": [
+      "hip-hop",
+      "experimental",
+      "noise",
+      "industrial",
+      "hardcore"
+    ],
     "youtube_id": "sticXkHxZC4"
   },
   {
@@ -20,9 +31,18 @@
     "locale": "USA",
     "hint": "28 minutes, 10 tracks, considered one of the most extreme records of its era",
     "answer": "Thrash metal",
-    "options": ["Death metal", "Black metal", "Thrash metal", "Speed metal"],
+    "options": [
+      "Death metal",
+      "Black metal",
+      "Thrash metal",
+      "Speed metal"
+    ],
     "explanation": "Thrash metal — Slayer are one of the 'Big Four' of thrash (with Metallica, Megadeth, Anthrax). Reign in Blood pushed thrash to its extreme edge, but it's still classifiable as thrash. Death metal came shortly after and features more guttural vocals and technical riffing. Speed metal is an earlier, slightly less aggressive predecessor.",
-    "tags": ["metal", "thrash", "heavy"],
+    "tags": [
+      "metal",
+      "thrash",
+      "heavy"
+    ],
     "youtube_id": "K6_zsJ8KPP0"
   },
   {
@@ -33,9 +53,19 @@
     "locale": "Canada",
     "hint": "Features a sample of Popcaan, prominent bassline, one-drop rhythm",
     "answer": "Dancehall-influenced R&B",
-    "options": ["Afrobeats", "Dancehall-influenced R&B", "Reggaeton", "UK funky"],
+    "options": [
+      "Afrobeats",
+      "Dancehall-influenced R&B",
+      "Reggaeton",
+      "UK funky"
+    ],
     "explanation": "Dancehall-influenced R&B — Controlla draws heavily from Jamaican dancehall (the one-drop rhythm, Popcaan sample, patois inflections) but sits within a pop R&B framework. Distinct from reggaeton (Latin, originated in Puerto Rico) or Afrobeats (West African-rooted).",
-    "tags": ["R&B", "dancehall", "Caribbean-influence", "pop"],
+    "tags": [
+      "R&B",
+      "dancehall",
+      "Caribbean-influence",
+      "pop"
+    ],
     "youtube_id": "sbRBCet8Y_w"
   },
   {
@@ -46,9 +76,19 @@
     "locale": "UK",
     "hint": "Anonymous South London producer, debut 2006, textures of rain and broken urban environments",
     "answer": "Post-dubstep",
-    "options": ["Dubstep", "Post-dubstep", "UK garage", "Ambient techno"],
+    "options": [
+      "Dubstep",
+      "Post-dubstep",
+      "UK garage",
+      "Ambient techno"
+    ],
     "explanation": "Post-dubstep — Burial uses dubstep's bass-weight and South London atmosphere but strips away the aggression and 'wub' in favour of spectral, melancholic textures. Classic dubstep (Skream, Benga) is harder and more dance-floor oriented.",
-    "tags": ["electronic", "dubstep", "post-dubstep", "ambient"],
+    "tags": [
+      "electronic",
+      "dubstep",
+      "post-dubstep",
+      "ambient"
+    ],
     "youtube_id": "wC16FJTI6XM"
   },
   {
@@ -59,9 +99,19 @@
     "locale": "USA",
     "hint": "Massachusetts band active since 1990, known for chaotic guitar work and screamed vocals",
     "answer": "Metalcore",
-    "options": ["Mathcore", "Metalcore", "Screamo", "Grindcore"],
+    "options": [
+      "Mathcore",
+      "Metalcore",
+      "Screamo",
+      "Grindcore"
+    ],
     "explanation": "Metalcore — though Converge blur lines, they're foundational metalcore: metal riffing combined with hardcore punk intensity. Mathcore (The Dillinger Escape Plan) is more rhythmically chaotic and technical. Screamo (Saetia, pg.99) is more rooted in emo and is softer. Grindcore (Napalm Death) is faster and shorter-form.",
-    "tags": ["metal", "hardcore", "metalcore", "punk"],
+    "tags": [
+      "metal",
+      "hardcore",
+      "metalcore",
+      "punk"
+    ],
     "youtube_id": "JrAxmXDSiuA"
   },
   {
@@ -72,9 +122,19 @@
     "locale": "UK",
     "hint": "Belfast duo, widely considered a modern peak of a specific British electronic tradition",
     "answer": "Acid house",
-    "options": ["Deep house", "Acid house", "UK garage", "Electro"],
+    "options": [
+      "Deep house",
+      "Acid house",
+      "UK garage",
+      "Electro"
+    ],
     "explanation": "Acid house — Glue is built around that signature Roland TB-303 bassline squelch that defines acid house. Deep house is warmer and more chord-based. UK garage has a shuffled 2-step rhythm. Bicep are deep lovers of the original late-80s acid house era and this track is a direct tribute to it.",
-    "tags": ["electronic", "house", "acid house", "dance"],
+    "tags": [
+      "electronic",
+      "house",
+      "acid house",
+      "dance"
+    ],
     "youtube_id": "A7ZxRs45tTg"
   },
   {
@@ -85,9 +145,19 @@
     "locale": "Sweden",
     "hint": "Swedish artist, breakout 2005–2010 era, often described as emotional but undeniably club-ready",
     "answer": "Electropop",
-    "options": ["Synthpop", "Electropop", "Nu-disco", "Dream pop"],
+    "options": [
+      "Synthpop",
+      "Electropop",
+      "Nu-disco",
+      "Dream pop"
+    ],
     "explanation": "Electropop — Robyn sits right at the intersection of electropop and dance-pop: electronic production with pop songwriting crafted for the club. Synthpop (Depeche Mode, New Order) is an earlier 80s-rooted category. Nu-disco leans into 70s funk-tinged disco revivals. Dance-pop is a related but broader label that undersells the electronic emphasis here.",
-    "tags": ["pop", "electronic", "electropop", "dance"],
+    "tags": [
+      "pop",
+      "electronic",
+      "electropop",
+      "dance"
+    ],
     "youtube_id": "CcNo07Xp8aQ"
   },
   {
@@ -98,9 +168,19 @@
     "locale": "USA",
     "hint": "Live instrumentation, jazz, funk, spoken word, politically charged, Compton roots",
     "answer": "Jazz rap",
-    "options": ["G-funk", "Trap", "Jazz rap", "Neo-soul"],
+    "options": [
+      "G-funk",
+      "Trap",
+      "Jazz rap",
+      "Neo-soul"
+    ],
     "explanation": "Jazz rap — TPAB is saturated in West Coast jazz tradition (Flying Lotus, Thundercat), Parliament-Funkadelic-era funk, and lyrically self-aware conscious hip-hop. G-funk is a West Coast subgenre with a very specific synthesizer sound. Trap uses 808s and hi-hats. TPAB deliberately rejects those sounds. The genre is also called conscious hip-hop, but jazz rap best captures the sonic identity.",
-    "tags": ["hip-hop", "jazz rap", "conscious", "funk"],
+    "tags": [
+      "hip-hop",
+      "jazz rap",
+      "conscious",
+      "funk"
+    ],
     "youtube_id": "Z-48u_uWMHY"
   },
   {
@@ -111,9 +191,19 @@
     "locale": "UK",
     "hint": "Dublin/London band, album cost a rumoured £250,000, guitar tone nicknamed 'The Glide'",
     "answer": "Shoegaze",
-    "options": ["Dream pop", "Shoegaze", "Noise pop", "Slowcore"],
+    "options": [
+      "Dream pop",
+      "Shoegaze",
+      "Noise pop",
+      "Slowcore"
+    ],
     "explanation": "Shoegaze — MBV are arguably THE shoegaze band. The genre is named after performers staring at their pedal boards on stage. Heavy use of reverb, tremolo, and feedback to create walls of sound while retaining pop melody. Dream pop is similar but cleaner and less distorted. Noise pop adds more abrasive punk energy.",
-    "tags": ["rock", "shoegaze", "alternative", "indie"],
+    "tags": [
+      "rock",
+      "shoegaze",
+      "alternative",
+      "indie"
+    ],
     "youtube_id": "FyYMzEplnfU"
   },
   {
@@ -124,9 +214,19 @@
     "locale": "UK",
     "hint": "Shepherd's Bush rapper, melodic delivery over a Spanish guitar-tinged beat",
     "answer": "UK drill",
-    "options": ["Grime", "UK drill", "Afro-swing", "Melodic rap"],
+    "options": [
+      "Grime",
+      "UK drill",
+      "Afro-swing",
+      "Melodic rap"
+    ],
     "explanation": "UK drill — Central Cee is one of UK drill's biggest names. UK drill evolved from Chicago drill but adapted to South London, using slower tempos (~140 BPM), syncopated hi-hats, and dark minor-key melodies. Grime (Dizzee Rascal, Wiley) is faster and predates drill. Afro-swing blends R&B with Afrobeats influence.",
-    "tags": ["hip-hop", "drill", "UK drill", "rap"],
+    "tags": [
+      "hip-hop",
+      "drill",
+      "UK drill",
+      "rap"
+    ],
     "youtube_id": "oP7KHC129RQ"
   },
   {
@@ -137,9 +237,19 @@
     "locale": "Nigeria",
     "hint": "Lagos bandleader, 70s–80s, 20-minute tracks, brass sections, politically charged Yoruba-inflected lyrics",
     "answer": "Afrobeat",
-    "options": ["Highlife", "Afrobeat", "Afrobeats", "Jùjú"],
+    "options": [
+      "Highlife",
+      "Afrobeat",
+      "Afrobeats",
+      "Jùjú"
+    ],
     "explanation": "Afrobeat — note the spelling: no 's'. Fela Kuti literally invented Afrobeat by fusing James Brown-style funk with West African highlife and jazz. Modern Afrobeats (with an 's') is a completely different, contemporary genre — pop-oriented, digitally produced, associated with Burna Boy, Wizkid. The two are often confused but span 50 years of distance.",
-    "tags": ["afrobeat", "funk", "jazz", "political"],
+    "tags": [
+      "afrobeat",
+      "funk",
+      "jazz",
+      "political"
+    ],
     "youtube_id": "-3j0nugz1Pw"
   },
   {
@@ -150,9 +260,18 @@
     "locale": "USA",
     "hint": "Atlanta duo, live instrumentation, André 3000's eccentricity vs Big Boi's street grounding, Dungeon Family",
     "answer": "Southern hip-hop",
-    "options": ["G-funk", "Southern hip-hop", "Neo-soul rap", "Crunk"],
+    "options": [
+      "G-funk",
+      "Southern hip-hop",
+      "Neo-soul rap",
+      "Crunk"
+    ],
     "explanation": "Southern hip-hop, specifically rooted in the Atlanta Dungeon Family collective. Aquemini resists easy labelling — it's too organic and eclectic for G-funk (LA and synth-heavy), too hip-hop for neo-soul, and predates and is far more refined than crunk. The Dungeon Family lineage is central to understanding OutKast's sound.",
-    "tags": ["hip-hop", "southern rap", "funk"],
+    "tags": [
+      "hip-hop",
+      "southern rap",
+      "funk"
+    ],
     "youtube_id": "M4fwLA1_ARM"
   },
   {
@@ -163,9 +282,19 @@
     "locale": "UK",
     "hint": "Birmingham MC Mike Skinner, debut 2002, everyday London/Brum life, spoken-word cadences",
     "answer": "UK garage",
-    "options": ["Grime", "Trip-hop", "UK garage", "Britpop"],
+    "options": [
+      "Grime",
+      "Trip-hop",
+      "UK garage",
+      "Britpop"
+    ],
     "explanation": "UK garage — The Streets grew out of the UK garage scene (2-step, speed garage) but Skinner's conversational, wordy delivery and kitchen-sink subject matter made it something sui generis. Often filed under British hip-hop but that undersells the garage DNA. The music is grime-adjacent — grime had barely been named when Original Pirate Material dropped — but the rhythmic foundation is UK garage.",
-    "tags": ["UK garage", "grime", "hip-hop", "electronic"],
+    "tags": [
+      "UK garage",
+      "grime",
+      "hip-hop",
+      "electronic"
+    ],
     "youtube_id": "22U2LLVRwtk"
   },
   {
@@ -176,9 +305,18 @@
     "locale": "Brazil",
     "hint": "Rio de Janeiro, samba percussion, social commentary, favela perspective, gentle melodic guitar",
     "answer": "Samba-soul",
-    "options": ["Bossa nova", "Samba-soul", "Tropicália", "MPB"],
+    "options": [
+      "Bossa nova",
+      "Samba-soul",
+      "Tropicália",
+      "MPB"
+    ],
     "explanation": "Samba-soul — Seu Jorge blends traditional samba rhythm with soul and funk production, a style rooted in Black Rio, the 1970s movement that fused American soul with Brazilian samba. Sometimes called samba funk when the funk influence is more pronounced. Bossa nova is cooler, jazzier, and upper-middle-class in origin. Tropicália (Caetano Veloso, Os Mutantes) is 60s avant-garde. MPB is an umbrella term, too broad.",
-    "tags": ["samba", "soul", "funk"],
+    "tags": [
+      "samba",
+      "soul",
+      "funk"
+    ],
     "youtube_id": "REUXbGaEl94"
   },
   {
@@ -189,9 +327,19 @@
     "locale": "USA",
     "hint": "Claimed to be from Saturn, big band, avant-garde, cosmic philosophy, active 1950s–1990s",
     "answer": "Free jazz",
-    "options": ["Hard bop", "Cool jazz", "Free jazz", "Modal jazz"],
+    "options": [
+      "Hard bop",
+      "Cool jazz",
+      "Free jazz",
+      "Modal jazz"
+    ],
     "explanation": "Free jazz — Sun Ra sits in the free jazz and avant-garde tradition. Hard bop (Art Blakey, Horace Silver) is rhythmically grounded blues-and-gospel-inflected bebop. Cool jazz (Miles Davis's Birth of the Cool) is restrained and cerebral. Modal jazz (Kind of Blue) uses scales rather than chord changes. Sun Ra rejected all conventions — free jazz best captures his boundary-dissolving approach.",
-    "tags": ["jazz", "free jazz", "avant-garde", "experimental"],
+    "tags": [
+      "jazz",
+      "free jazz",
+      "avant-garde",
+      "experimental"
+    ],
     "youtube_id": "DEE6FTYe8UM"
   },
   {
@@ -202,9 +350,17 @@
     "locale": "Jamaica",
     "hint": "Deejay style, fast-paced, digital riddim, one of the defining recordings of its moment",
     "answer": "Dancehall",
-    "options": ["Roots reggae", "Dancehall", "Ska", "Dub"],
+    "options": [
+      "Roots reggae",
+      "Dancehall",
+      "Ska",
+      "Dub"
+    ],
     "explanation": "Dancehall — specifically early digital dancehall (also called 'sleng teng era' after the Wayne Smith/King Jammy track that same year). Roots reggae (Bob Marley, Burning Spear) is slower, Rastafari-influenced, live band. Ska is the 1960s predecessor — faster tempo, offbeat horns. Dub strips songs down to bass and drum with heavy FX manipulation.",
-    "tags": ["dancehall", "reggae"],
+    "tags": [
+      "dancehall",
+      "reggae"
+    ],
     "youtube_id": "UpjLLw-cVzU"
   },
   {
@@ -215,9 +371,18 @@
     "locale": "Germany",
     "hint": "Düsseldorf, founded 1970, drum machines, vocoders, 'man-machine' aesthetic",
     "answer": "Krautrock",
-    "options": ["Synthpop", "Industrial", "Krautrock", "EBM"],
+    "options": [
+      "Synthpop",
+      "Industrial",
+      "Krautrock",
+      "EBM"
+    ],
     "explanation": "Krautrock — Kraftwerk began in the krautrock scene (experimental German rock of the early 70s) before inventing their own stripped electronic sound. They're the godparents of synthpop, techno, hip-hop, and electro — but none of those genres had been named when they made their most important records. Synthpop (Depeche Mode) descends from them; EBM (Front 242) is harsher industrial-electronic.",
-    "tags": ["electronic", "krautrock", "experimental"],
+    "tags": [
+      "electronic",
+      "krautrock",
+      "experimental"
+    ],
     "youtube_id": "x-G28iyPtz0"
   },
   {
@@ -228,9 +393,19 @@
     "locale": "UK",
     "hint": "Bristol, debut album, cinematic samples, turntablism, female vocals drenched in reverb",
     "answer": "Trip-hop",
-    "options": ["Dream pop", "Downtempo", "Trip-hop", "Darkwave"],
+    "options": [
+      "Dream pop",
+      "Downtempo",
+      "Trip-hop",
+      "Darkwave"
+    ],
     "explanation": "Trip-hop — Portishead alongside Massive Attack and Tricky defined trip-hop: Bristol-born, hip-hop-rooted but slower, darker, sample-heavy, cinematic. Downtempo is a broader, more neutral electronic category. Dream pop is guitar-based and less urban. Darkwave is goth-adjacent electronic with cold synths. Trip-hop has a very specific mid-90s Bristol fingerprint.",
-    "tags": ["trip-hop", "electronic", "downtempo", "hip-hop"],
+    "tags": [
+      "trip-hop",
+      "electronic",
+      "downtempo",
+      "hip-hop"
+    ],
     "youtube_id": "4qQyUi4zfDs"
   },
   {
@@ -241,9 +416,20 @@
     "locale": "USA",
     "hint": "Kristin Hayter, classically trained, extreme vocals, themes of abuse and religion, piano and noise",
     "answer": "Neoclassical darkwave",
-    "options": ["Black metal", "Dark cabaret", "Neoclassical darkwave", "Post-industrial"],
+    "options": [
+      "Black metal",
+      "Dark cabaret",
+      "Neoclassical darkwave",
+      "Post-industrial"
+    ],
     "explanation": "Neoclassical darkwave — Lingua Ignota defies easy categorisation but combines operatic classical training with extreme metal intensity and dark ambient texture. The music is also described as extreme music for its vocal violence and emotional weight. Black metal is a stretch — the metal elements appear but it's not riff-based. Dark cabaret (Amanda Palmer, Dresden Dolls) is theatrical but far less aggressive. Post-industrial is closer but misses the classical grandeur.",
-    "tags": ["neoclassical", "darkwave", "experimental", "extreme", "classical"],
+    "tags": [
+      "neoclassical",
+      "darkwave",
+      "experimental",
+      "extreme",
+      "classical"
+    ],
     "youtube_id": "M1ZweG__q-w"
   },
   {
@@ -254,9 +440,18 @@
     "locale": "Colombia",
     "hint": "Barranquilla, accordion, cumbia-inflected rhythm, modernised coastal Colombian sound, ft. Shakira",
     "answer": "Vallenato-pop",
-    "options": ["Reggaeton", "Cumbia", "Vallenato-pop", "Latin pop"],
+    "options": [
+      "Reggaeton",
+      "Cumbia",
+      "Vallenato-pop",
+      "Latin pop"
+    ],
     "explanation": "Vallenato-pop — Vives has spent his career modernising vallenato, a Colombian folk genre from the Caribbean coast built around accordion, caja drum, and guacharaca. La Bicicleta is a polished pop production but the vallenato DNA is front and centre. Cumbia is a related coastal Colombian genre but with different rhythm and instrumentation. Reggaeton uses dembow rhythm, which is absent here.",
-    "tags": ["vallenato", "pop", "folk"],
+    "tags": [
+      "vallenato",
+      "pop",
+      "folk"
+    ],
     "youtube_id": "-UV0QGLmYys"
   },
   {
@@ -267,9 +462,18 @@
     "locale": "Sweden",
     "hint": "Umeå band, polymetric riffs, mechanical precision, 7-minute single-riff endurance test",
     "answer": "Djent",
-    "options": ["Technical death metal", "Djent", "Industrial metal", "Mathcore"],
+    "options": [
+      "Technical death metal",
+      "Djent",
+      "Industrial metal",
+      "Mathcore"
+    ],
     "explanation": "Djent — Meshuggah are the architects of djent: polyrhythmic, palm-muted low-tuned guitar patterns with a distinctive percussive tone. The genre sits within progressive metal, but djent is the precise label. Technical death metal (Necrophagist) focuses on speed and complexity differently. Industrial metal (Fear Factory) uses electronics. Mathcore (Dillinger) is more chaotic and less groovy.",
-    "tags": ["metal", "djent", "progressive"],
+    "tags": [
+      "metal",
+      "djent",
+      "progressive"
+    ],
     "youtube_id": "qc98u-eGzlc"
   },
   {
@@ -280,9 +484,18 @@
     "locale": "Mali",
     "hint": "Tuareg musicians from the Sahara desert, electric guitars meeting ancient Tamashek vocal tradition",
     "answer": "Desert blues",
-    "options": ["Afrobeat", "Desert blues", "Gnawa", "Ethio-jazz"],
+    "options": [
+      "Afrobeat",
+      "Desert blues",
+      "Gnawa",
+      "Ethio-jazz"
+    ],
     "explanation": "Desert blues — also called Tishoumaren — Tinariwen pioneered this genre fusing Tuareg folk music with electric blues and rock guitar. It's distinct from Afrobeat (West African funk-jazz), Gnawa (Moroccan trance music), and Ethio-jazz (Ethiopian jazz fusion). The hypnotic, cyclical guitar patterns and call-and-response vocals are hallmarks.",
-    "tags": ["folk", "blues", "rock"],
+    "tags": [
+      "folk",
+      "blues",
+      "rock"
+    ],
     "youtube_id": "vACZA9dGvV4"
   },
   {
@@ -293,9 +506,18 @@
     "locale": "Spain",
     "hint": "Catalan artist, handclaps (palmas), melismatic singing, 808 bass, flamenco structures with electronic production",
     "answer": "Neo-flamenco",
-    "options": ["Reggaeton", "Neo-flamenco", "Latin trap", "Rumba catalana"],
+    "options": [
+      "Reggaeton",
+      "Neo-flamenco",
+      "Latin trap",
+      "Rumba catalana"
+    ],
     "explanation": "Neo-flamenco — Rosalía's breakthrough fuses traditional flamenco vocal technique (melisma, quejío) and rhythmic patterns (compás) with contemporary electronic production. Sometimes called flamenco-pop for its accessibility, but the production is too experimental for that label. Reggaeton uses dembow rhythm, which isn't present here. Latin trap is hip-hop-derived. Rumba catalana is street-level, acoustic, and less experimental.",
-    "tags": ["flamenco", "pop", "electronic"],
+    "tags": [
+      "flamenco",
+      "pop",
+      "electronic"
+    ],
     "youtube_id": "Rht7rBHuXW8"
   },
   {
@@ -306,9 +528,18 @@
     "locale": "UK",
     "hint": "Cornwall-born Richard D. James, Warp Records, complex breakbeats, unsettling but beautiful electronics",
     "answer": "IDM",
-    "options": ["Drum and bass", "IDM", "Ambient techno", "Breakcore"],
+    "options": [
+      "Drum and bass",
+      "IDM",
+      "Ambient techno",
+      "Breakcore"
+    ],
     "explanation": "IDM (Intelligent Dance Music) — Aphex Twin is synonymous with the genre (though he dislikes the name). Windowlicker layers intricate programmed beats with lush synth melodies. Drum and bass is faster and more dancefloor-oriented. Ambient techno (his own Selected Ambient Works) is more atmospheric. Breakcore (Venetian Snares) is more extreme and chaotic.",
-    "tags": ["electronic", "IDM", "experimental"],
+    "tags": [
+      "electronic",
+      "IDM",
+      "experimental"
+    ],
     "youtube_id": "UBS4Gi1y_nc"
   },
   {
@@ -319,9 +550,18 @@
     "locale": "Puerto Rico",
     "hint": "Biggest Latin artist of the streaming era, dembow rhythm, bilingual lyrics, Jhay Cortez feature",
     "answer": "Reggaeton",
-    "options": ["Latin trap", "Reggaeton", "Dembow", "Moombahton"],
+    "options": [
+      "Latin trap",
+      "Reggaeton",
+      "Dembow",
+      "Moombahton"
+    ],
     "explanation": "Reggaeton — Dakiti is built on the classic dembow riddim (boom-ch-boom-chick pattern) that defines reggaeton. Latin trap uses trap hi-hats and 808s without the dembow. Dominican dembow is faster and rawer. Moombahton is a hybrid of Dutch house and reggaeton at a slower tempo. Bad Bunny has moved between all these but Dakiti is pure reggaeton.",
-    "tags": ["reggaeton", "pop", "dancehall"],
+    "tags": [
+      "reggaeton",
+      "pop",
+      "dancehall"
+    ],
     "youtube_id": "TmKh7lAwnBI"
   },
   {
@@ -332,9 +572,18 @@
     "locale": "Canada",
     "hint": "Montreal collective, no vocals, 20-minute movements, field recordings, crescendo-driven orchestration",
     "answer": "Post-rock",
-    "options": ["Ambient", "Post-rock", "Drone metal", "Shoegaze"],
+    "options": [
+      "Ambient",
+      "Post-rock",
+      "Drone metal",
+      "Shoegaze"
+    ],
     "explanation": "Post-rock — GY!BE are central to post-rock: long-form instrumental pieces that use rock instruments to create orchestral dynamics. The genre builds slowly from quiet to loud. Ambient (Brian Eno) is more static. Drone metal (Sunn O)))) is heavier and more repetitive. Shoegaze has pop song structures and vocals.",
-    "tags": ["post-rock", "experimental", "ambient"],
+    "tags": [
+      "post-rock",
+      "experimental",
+      "ambient"
+    ],
     "youtube_id": "5eZ_TgE3x_A"
   },
   {
@@ -345,9 +594,18 @@
     "locale": "Nigeria",
     "hint": "Port Harcourt artist, Toni Braxton sample, danceable, global crossover hit, Grammy winner",
     "answer": "Afrobeats",
-    "options": ["Afrobeat", "Afrobeats", "Amapiano", "Dancehall"],
+    "options": [
+      "Afrobeat",
+      "Afrobeats",
+      "Amapiano",
+      "Dancehall"
+    ],
     "explanation": "Afrobeats (with an 's') — the contemporary West African pop sound. Distinct from Fela Kuti's Afrobeat (no 's'), which is jazz-funk-driven. Afrobeats is digitally produced, pop-oriented, and globally streamed. Amapiano is a South African genre with a different rhythmic feel. Last Last's production, tempo, and structure are pure Afrobeats.",
-    "tags": ["afrobeats", "pop", "dancehall"],
+    "tags": [
+      "afrobeats",
+      "pop",
+      "dancehall"
+    ],
     "youtube_id": "421w1j87fEM"
   },
   {
@@ -358,9 +616,18 @@
     "locale": "USA",
     "hint": "San Francisco, blast beats combined with shimmering major-key guitar, pink album cover, divisive in metal circles",
     "answer": "Blackgaze",
-    "options": ["Black metal", "Blackgaze", "Post-metal", "Shoegaze"],
+    "options": [
+      "Black metal",
+      "Blackgaze",
+      "Post-metal",
+      "Shoegaze"
+    ],
     "explanation": "Blackgaze — Deafheaven pioneered the fusion of black metal's blast beats and shrieked vocals with shoegaze's dreamy, reverb-drenched guitar textures. Pure black metal (Darkthrone) is rawer and darker. Post-metal (Isis, Neurosis) is slower and sludgier. Shoegaze (MBV) lacks the metal intensity entirely.",
-    "tags": ["metal", "shoegaze", "black metal"],
+    "tags": [
+      "metal",
+      "shoegaze",
+      "black metal"
+    ],
     "youtube_id": "RWyVhIBmdGw"
   },
   {
@@ -371,9 +638,18 @@
     "locale": "Ethiopia",
     "hint": "Addis Ababa, vibraphone and organ, pentatonic scales, featured in Broken Flowers soundtrack",
     "answer": "Ethio-jazz",
-    "options": ["Afrobeat", "Ethio-jazz", "Bossa nova", "Exotica"],
+    "options": [
+      "Afrobeat",
+      "Ethio-jazz",
+      "Bossa nova",
+      "Exotica"
+    ],
     "explanation": "Ethio-jazz — Mulatu Astatke is the father of Ethiopian jazz, which fuses traditional Ethiopian pentatonic scales and rhythms with American jazz, Latin percussion, and funk. Afrobeat is West African. Bossa nova is Brazilian. Exotica is a 1950s American genre that superficially uses 'exotic' sounds but lacks authenticity.",
-    "tags": ["jazz", "funk", "folk"],
+    "tags": [
+      "jazz",
+      "funk",
+      "folk"
+    ],
     "youtube_id": "ejgpiWZHH34"
   },
   {
@@ -384,9 +660,18 @@
     "locale": "UK",
     "hint": "Bow, East London, debut at age 18, aggressive MC delivery over angular electronic beats, 140 BPM",
     "answer": "Grime",
-    "options": ["UK garage", "Grime", "UK drill", "Dubstep"],
+    "options": [
+      "UK garage",
+      "Grime",
+      "UK drill",
+      "Dubstep"
+    ],
     "explanation": "Grime — Dizzee Rascal's Boy in da Corner is one of grime's founding documents. Grime emerged from UK garage, speeding up to ~140 BPM with aggressive MC delivery and angular synth stabs. UK garage is smoother and more soulful. UK drill came a decade later with different rhythmic patterns. Dubstep is instrumental and bass-heavy.",
-    "tags": ["grime", "electronic", "hip-hop"],
+    "tags": [
+      "grime",
+      "electronic",
+      "hip-hop"
+    ],
     "youtube_id": "YH0KWX2a8zY"
   },
   {
@@ -397,9 +682,18 @@
     "locale": "Iceland",
     "hint": "Reykjavik band, bowed guitar, falsetto vocals in Icelandic, cinematic crescendos, glacial beauty",
     "answer": "Post-rock",
-    "options": ["Ambient", "Post-rock", "Shoegaze", "Dream pop"],
+    "options": [
+      "Ambient",
+      "Post-rock",
+      "Shoegaze",
+      "Dream pop"
+    ],
     "explanation": "Post-rock — Sigur Rós create expansive, cinematic instrumental passages (despite having vocals) that build from quiet to overwhelmingly loud. Their approach to dynamics and song structure is quintessentially post-rock. Ambient is more static. Shoegaze is more distorted and guitar-driven. Dream pop has more conventional song structures.",
-    "tags": ["post-rock", "ambient", "experimental"],
+    "tags": [
+      "post-rock",
+      "ambient",
+      "experimental"
+    ],
     "youtube_id": "JAYb8ZyjzD0"
   },
   {
@@ -410,9 +704,18 @@
     "locale": "USA",
     "hint": "Masked villain persona, Madlib production, off-kilter rhyme schemes, comic-book samples",
     "answer": "Abstract hip-hop",
-    "options": ["Boom bap", "Abstract hip-hop", "Jazz rap", "Lo-fi hip-hop"],
+    "options": [
+      "Boom bap",
+      "Abstract hip-hop",
+      "Jazz rap",
+      "Lo-fi hip-hop"
+    ],
     "explanation": "Abstract hip-hop — DOOM and Madlib's Madvillainy is a cornerstone of abstract and underground rap: dense wordplay, unconventional flows, obscure samples, and experimental structure. Boom bap (DJ Premier) is more straightforward rhythmically. Jazz rap (A Tribe Called Quest) is jazzier and more accessible. Lo-fi hip-hop is instrumental and more relaxed.",
-    "tags": ["hip-hop", "experimental", "boom bap"],
+    "tags": [
+      "hip-hop",
+      "experimental",
+      "boom bap"
+    ],
     "youtube_id": "rpaonSDPw7Y"
   },
   {
@@ -423,9 +726,18 @@
     "locale": "Venezuela",
     "hint": "Venezuelan-born, experimental producer, collaborator with Björk and FKA twigs, shapeshifting electronic textures",
     "answer": "Deconstructed club",
-    "options": ["Hyperpop", "Deconstructed club", "PC Music", "Vaporwave"],
+    "options": [
+      "Hyperpop",
+      "Deconstructed club",
+      "PC Music",
+      "Vaporwave"
+    ],
     "explanation": "Deconstructed club — Arca takes dance music elements (reggaeton, techno, trance) and warps them into something alien and boundary-dissolving. This is also called experimental electronic, but deconstructed club is the more precise term for this post-club, rave-influenced avant-garde. Hyperpop (100 gecs) is poppier and more maximalist. PC Music (A.G. Cook) is more tongue-in-cheek and bubblegum. Vaporwave is nostalgic and sample-based.",
-    "tags": ["electronic", "experimental", "dance"],
+    "tags": [
+      "electronic",
+      "experimental",
+      "dance"
+    ],
     "youtube_id": "gfGz4MTQ28I"
   },
   {
@@ -436,9 +748,18 @@
     "locale": "Nigeria",
     "hint": "Lagos superstar, Tems feature, soft percussion, summer hit that crossed over globally, log drum rhythm",
     "answer": "Afrobeats",
-    "options": ["Afrobeat", "Afrobeats", "Amapiano", "Dancehall"],
+    "options": [
+      "Afrobeat",
+      "Afrobeats",
+      "Amapiano",
+      "Dancehall"
+    ],
     "explanation": "Afrobeats — Essence is one of the defining Afrobeats tracks of the 2020s. The log drum pattern, mid-tempo groove, and melodic vocal style are hallmarks of modern Afrobeats. Amapiano (South African) has a different bassline and rhythm. Classic Afrobeat (Fela) is live-band funk-jazz. Dancehall (Jamaican) has a different rhythmic structure.",
-    "tags": ["afrobeats", "pop", "R&B"],
+    "tags": [
+      "afrobeats",
+      "pop",
+      "R&B"
+    ],
     "youtube_id": "jipQpjUA_o8"
   },
   {
@@ -449,9 +770,19 @@
     "locale": "USA",
     "hint": "Providence, RI band, uncomfortable tension, grinding guitars, industrial textures, Birthday Party influence",
     "answer": "Noise rock",
-    "options": ["Post-punk", "Noise rock", "Sludge metal", "No wave"],
+    "options": [
+      "Post-punk",
+      "Noise rock",
+      "Sludge metal",
+      "No wave"
+    ],
     "explanation": "Noise rock — Daughters create abrasive, tension-filled music that draws from noise rock (Swans, The Birthday Party) and industrial (Ministry, Godflesh). Industrial textures are strong here, but the song structures and punk aggression place it firmly in noise rock. Post-punk is more structured and less extreme. Sludge metal is heavier and more riff-driven. No wave (DNA, Mars) was a late-70s NYC movement with a similar aesthetic but different era.",
-    "tags": ["noise", "industrial", "rock", "experimental"],
+    "tags": [
+      "noise",
+      "industrial",
+      "rock",
+      "experimental"
+    ],
     "youtube_id": "rSXw6Ok47dQ"
   },
   {
@@ -462,9 +793,18 @@
     "locale": "Japan",
     "hint": "Tokyo producer, jazz piano samples, laid-back beats, Cise Starr vocals, study-music icon",
     "answer": "Jazz hip-hop",
-    "options": ["Boom bap", "Jazz hip-hop", "Trip-hop", "Neo-soul"],
+    "options": [
+      "Boom bap",
+      "Jazz hip-hop",
+      "Trip-hop",
+      "Neo-soul"
+    ],
     "explanation": "Jazz hip-hop — Nujabes pioneered the fusion of smooth jazz samples with hip-hop beats that became the foundation of the lo-fi hip-hop movement. Boom bap is grittier and New York-rooted. Trip-hop is darker and more cinematic. Neo-soul is more vocal and R&B-oriented. Nujabes' warmth and melodic sensibility set him apart from all of these.",
-    "tags": ["hip-hop", "jazz", "electronic"],
+    "tags": [
+      "hip-hop",
+      "jazz",
+      "electronic"
+    ],
     "youtube_id": "P5-2-jD-42Q"
   },
   {
@@ -475,9 +815,18 @@
     "locale": "Niger",
     "hint": "Tuareg guitarist from Agadez, blistering solos, psychedelic wah pedal, Tamasheq lyrics, Saharan rock",
     "answer": "Desert rock",
-    "options": ["Psychedelic rock", "Desert rock", "Afrobeat", "Blues rock"],
+    "options": [
+      "Psychedelic rock",
+      "Desert rock",
+      "Afrobeat",
+      "Blues rock"
+    ],
     "explanation": "Desert rock — also called Tuareg guitar — Mdou Moctar takes the Tishoumaren tradition and cranks it up with Hendrix-inspired electric guitar heroics. Psychedelic rock is Western and lacks the Saharan melodic vocabulary. Afrobeat is West African funk-jazz. Blues rock shares the guitar intensity but not the rhythmic or tonal framework.",
-    "tags": ["rock", "folk", "psychedelic"],
+    "tags": [
+      "rock",
+      "folk",
+      "psychedelic"
+    ],
     "youtube_id": "q0lPeQA2hu4"
   },
   {
@@ -488,9 +837,19 @@
     "locale": "Iceland",
     "hint": "Reykjavik, industrial bass, distorted beats, operatic vocals, post-Sugarcubes solo career",
     "answer": "Art pop",
-    "options": ["Trip-hop", "Art pop", "Industrial", "Synthpop"],
+    "options": [
+      "Trip-hop",
+      "Art pop",
+      "Industrial",
+      "Synthpop"
+    ],
     "explanation": "Art pop — Björk's music defies genre but sits in the art pop tradition: experimental, boundary-pushing music rooted in pop songcraft. Electronic production is central to her work, but art pop is the broader container that holds it together. Trip-hop is Bristol-specific and more hip-hop-rooted. Industrial (Nine Inch Nails) is harder and more mechanical. Synthpop is more conventional and 80s-derived.",
-    "tags": ["pop", "electronic", "experimental", "art pop"],
+    "tags": [
+      "pop",
+      "electronic",
+      "experimental",
+      "art pop"
+    ],
     "youtube_id": "jPeheoBa2_Y"
   },
   {
@@ -501,9 +860,19 @@
     "locale": "USA",
     "hint": "Odd Future founder, warm synths, Kali Uchis feature, surprisingly tender and melodic, LA sunlight",
     "answer": "Neo-soul rap",
-    "options": ["Cloud rap", "Neo-soul rap", "Boom bap", "Funk rap"],
+    "options": [
+      "Cloud rap",
+      "Neo-soul rap",
+      "Boom bap",
+      "Funk rap"
+    ],
     "explanation": "Neo-soul rap — Flower Boy marked Tyler's pivot from abrasive horrorcore to warm, soulful, introspective hip-hop influenced by Pharrell, Stevie Wonder, and bossa nova. It's also called alternative hip-hop for its refusal to follow genre convention, but neo-soul rap best describes the sonic palette. Cloud rap (Yung Lean) is hazier and more detached. Boom bap is grittier. Funk rap (Anderson .Paak) is more rhythmically driven.",
-    "tags": ["hip-hop", "neo-soul", "R&B", "pop"],
+    "tags": [
+      "hip-hop",
+      "neo-soul",
+      "R&B",
+      "pop"
+    ],
     "youtube_id": "TGgcC5xg9YI"
   },
   {
@@ -514,9 +883,17 @@
     "locale": "Portugal",
     "hint": "Queen of Portuguese music, guitarra portuguesa accompaniment, themes of fate and longing (saudade)",
     "answer": "Fado",
-    "options": ["Bossa nova", "Fado", "Flamenco", "Chanson"],
+    "options": [
+      "Bossa nova",
+      "Fado",
+      "Flamenco",
+      "Chanson"
+    ],
     "explanation": "Fado — Portugal's signature musical form, characterised by the guitarra portuguesa (12-string guitar), melancholic vocals, and themes of saudade (bittersweet longing). Bossa nova is Brazilian and jazzier. Flamenco is Spanish with different rhythms and guitar technique. Chanson is French cabaret-rooted vocal music.",
-    "tags": ["fado", "folk"],
+    "tags": [
+      "fado",
+      "folk"
+    ],
     "youtube_id": "VGgIlLfVEmQ"
   },
   {
@@ -527,9 +904,18 @@
     "locale": "UK",
     "hint": "Tottenham MC, minimal beat, aggressive delivery, 'That's not me' era, Mercury Prize winner",
     "answer": "Grime",
-    "options": ["UK drill", "Grime", "UK garage", "Road rap"],
+    "options": [
+      "UK drill",
+      "Grime",
+      "UK garage",
+      "Road rap"
+    ],
     "explanation": "Grime — Skepta is one of grime's central figures. Shutdown's sparse, aggressive beat and rapid-fire delivery are classic grime elements. UK drill came later and has different rhythmic patterns. UK garage is smoother and more soulful. Road rap is a grittier UK hip-hop style without grime's electronic production DNA.",
-    "tags": ["grime", "hip-hop", "electronic"],
+    "tags": [
+      "grime",
+      "hip-hop",
+      "electronic"
+    ],
     "youtube_id": "MQOG5BkY2Bc"
   },
   {
@@ -540,9 +926,19 @@
     "locale": "UK",
     "hint": "Grangemouth, Scotland, Elizabeth Fraser's ethereal glossolalia vocals, 4AD label, layered guitars",
     "answer": "Dream pop",
-    "options": ["Shoegaze", "Dream pop", "Ethereal wave", "Ambient pop"],
+    "options": [
+      "Shoegaze",
+      "Dream pop",
+      "Ethereal wave",
+      "Ambient pop"
+    ],
     "explanation": "Dream pop — Cocteau Twins defined dream pop: lush, atmospheric guitar textures with angelic, often indecipherable vocals creating a dreamy, otherworldly mood. Shoegaze (MBV) is heavier and more distorted. Ethereal wave (Dead Can Dance) leans more gothic. Ambient pop is more minimal and less guitar-driven.",
-    "tags": ["dream pop", "rock", "alternative", "indie"],
+    "tags": [
+      "dream pop",
+      "rock",
+      "alternative",
+      "indie"
+    ],
     "youtube_id": "wMwO9UACbSQ"
   },
   {
@@ -553,9 +949,18 @@
     "locale": "Pakistan",
     "hint": "Faisalabad, powerful Sufi devotional singing, produced by Michael Brook, tablas and harmonium with ambient textures",
     "answer": "Qawwali",
-    "options": ["Hindustani classical", "Qawwali", "Bhangra", "Ghazal"],
+    "options": [
+      "Hindustani classical",
+      "Qawwali",
+      "Bhangra",
+      "Ghazal"
+    ],
     "explanation": "Qawwali — Nusrat is the master of qawwali, the Sufi devotional vocal tradition. Mustt Mustt is a fusion version: traditional qawwali with Western ambient production by Michael Brook. Hindustani classical is instrumental and raga-based. Bhangra is Punjabi dance music. Ghazal is Urdu/Persian poetic song, more restrained and less percussive than qawwali's ecstatic repetition.",
-    "tags": ["folk", "classical", "experimental"],
+    "tags": [
+      "folk",
+      "classical",
+      "experimental"
+    ],
     "youtube_id": "SDfELfpumEE"
   },
   {
@@ -566,9 +971,19 @@
     "locale": "Brazil",
     "hint": "Bahia artist, psychedelic guitars, avant-garde Brazilian pop, political movement against military dictatorship",
     "answer": "Tropicália",
-    "options": ["Bossa nova", "Tropicália", "MPB", "Psychedelic rock"],
+    "options": [
+      "Bossa nova",
+      "Tropicália",
+      "MPB",
+      "Psychedelic rock"
+    ],
     "explanation": "Tropicália — a late-1960s Brazilian movement that fused traditional Brazilian music with psychedelic rock, avant-garde experimentation, and political protest. Bossa nova is the cooler, jazzier predecessor. MPB (Música Popular Brasileira) is the broader umbrella that Tropicália helped create. Psychedelic rock shares influences but Tropicália is distinctly Brazilian.",
-    "tags": ["folk", "psychedelic", "rock", "experimental"],
+    "tags": [
+      "folk",
+      "psychedelic",
+      "rock",
+      "experimental"
+    ],
     "youtube_id": "CFC9ceKUm5Y"
   },
   {
@@ -579,9 +994,18 @@
     "locale": "Germany",
     "hint": "West Berlin, instruments built from scrap metal and power tools, Blixa Bargeld's vocals, Teutonic extremity",
     "answer": "Industrial",
-    "options": ["Noise rock", "Industrial", "Krautrock", "EBM"],
+    "options": [
+      "Noise rock",
+      "Industrial",
+      "Krautrock",
+      "EBM"
+    ],
     "explanation": "Industrial — Einstürzende Neubauten are foundational industrial: music created from non-traditional instruments (metal sheets, drills, concrete) as artistic statement. Noise rock (Sonic Youth) uses conventional instruments unconventionally. Krautrock (Can, Faust) is 70s experimental. EBM (Front 242, DAF) is dance-oriented industrial with drum machines and synth sequences.",
-    "tags": ["industrial", "experimental", "noise"],
+    "tags": [
+      "industrial",
+      "experimental",
+      "noise"
+    ],
     "youtube_id": "5Oef61oHIBg"
   },
   {
@@ -592,9 +1016,19 @@
     "locale": "UK",
     "hint": "Surrey brothers, Sam Smith vocals, two-step rhythm, bassline driven, UK club music",
     "answer": "UK garage revival",
-    "options": ["Deep house", "UK garage revival", "Nu-disco", "Bass music"],
+    "options": [
+      "Deep house",
+      "UK garage revival",
+      "Nu-disco",
+      "Bass music"
+    ],
     "explanation": "UK garage revival — Disclosure brought back the two-step shuffled rhythm and bassline-driven sound of late-90s UK garage, updated with modern production. Sometimes called future garage for its cleaner, contemporary feel. Deep house is four-on-the-floor and more mellow. Nu-disco revives 70s/80s disco. Bass music is a broad umbrella. Latch's syncopated rhythm is pure UK garage DNA.",
-    "tags": ["UK garage", "house", "electronic", "dance"],
+    "tags": [
+      "UK garage",
+      "house",
+      "electronic",
+      "dance"
+    ],
     "youtube_id": "93ASUImTedo"
   },
   {
@@ -605,9 +1039,18 @@
     "locale": "Senegal",
     "hint": "Dakar, griot tradition, Neneh Cherry duet, tama drum, global pop crossover from West African roots",
     "answer": "Mbalax",
-    "options": ["Afrobeat", "Mbalax", "Soukous", "Highlife"],
+    "options": [
+      "Afrobeat",
+      "Mbalax",
+      "Soukous",
+      "Highlife"
+    ],
     "explanation": "Mbalax — Youssou N'Dour's music is rooted in mbalax, Senegal's national popular music built on sabar drum patterns. 7 Seconds is a polished Afro-pop crossover version of that sound. Afrobeat (Fela) is Nigerian funk-jazz. Soukous is Congolese guitar-driven dance music. Highlife is Ghanaian/Nigerian and has a different melodic sensibility.",
-    "tags": ["afrobeat", "pop", "folk"],
+    "tags": [
+      "afrobeat",
+      "pop",
+      "folk"
+    ],
     "youtube_id": "wqCpjFMvz-k"
   },
   {
@@ -618,9 +1061,19 @@
     "locale": "Japan",
     "hint": "Tokyo trio, feedback worship, massive guitar volume, shifts from delicate to earth-shaking, Wata's soaring lead",
     "answer": "Stoner metal",
-    "options": ["Doom metal", "Stoner metal", "Post-rock", "Sludge metal"],
+    "options": [
+      "Doom metal",
+      "Stoner metal",
+      "Post-rock",
+      "Sludge metal"
+    ],
     "explanation": "Stoner metal — Boris blur lines between drone, stoner, and noise but Pink is primarily stoner-doom: heavy, fuzz-drenched riffs at moderate tempos with psychedelic textures. The drone influence is strong, but the riff-centric structure and distortion levels put it in stoner metal territory. Doom metal (Black Sabbath) is slower and more riff-focused. Post-rock is less heavy and more dynamic. Sludge metal (Eyehategod) is more aggressive and punk-influenced.",
-    "tags": ["metal", "stoner", "drone", "experimental"],
+    "tags": [
+      "metal",
+      "stoner",
+      "drone",
+      "experimental"
+    ],
     "youtube_id": "3Ej-CcaHUKA"
   },
   {
@@ -631,9 +1084,17 @@
     "locale": "Mali",
     "hint": "Wassoulou region, kamale ngoni lute, pentatonic melodies, songs about women's rights, warm vocal style",
     "answer": "Wassoulou music",
-    "options": ["Manding griot music", "Wassoulou music", "Highlife", "Desert blues"],
+    "options": [
+      "Manding griot music",
+      "Wassoulou music",
+      "Highlife",
+      "Desert blues"
+    ],
     "explanation": "Wassoulou music — a genre from southern Mali built around the kamale ngoni (hunter's harp), pentatonic scales, and didadi rhythm. Distinct from Manding griot music (which uses kora and balafon in the Manding tradition). Highlife is coastal West African (Ghana/Nigeria). Desert blues is Tuareg and northern Saharan.",
-    "tags": ["folk", "afrobeat"],
+    "tags": [
+      "folk",
+      "afrobeat"
+    ],
     "youtube_id": "XqzfrngoVqI"
   },
   {
@@ -644,9 +1105,2278 @@
     "locale": "UK",
     "hint": "Manchester, Martin Hannett production, cavernous drums, Ian Curtis baritone, Factory Records",
     "answer": "Post-punk",
-    "options": ["Goth rock", "Post-punk", "New wave", "Coldwave"],
+    "options": [
+      "Goth rock",
+      "Post-punk",
+      "New wave",
+      "Coldwave"
+    ],
     "explanation": "Post-punk — Joy Division are foundational post-punk: deconstructing punk's energy with atmospheric production, introspective lyrics, and experimental song structures. Goth rock (Bauhaus, Sisters of Mercy) is a descendant with more theatrical elements. New wave is poppier and more synth-driven. Coldwave is French post-punk with a slightly different aesthetic.",
-    "tags": ["post-punk", "rock", "alternative"],
+    "tags": [
+      "post-punk",
+      "rock",
+      "alternative"
+    ],
     "youtube_id": "s4prQ11orEM"
+  },
+  {
+    "artist": "Dua Lipa",
+    "song": "Levitating",
+    "album": "Future Nostalgia",
+    "release_year": 2020,
+    "locale": "UK",
+    "hint": "British-Albanian singer whose retro-futuristic second album became a lockdown-era worldwide smash",
+    "answer": "Dance-pop",
+    "options": [
+      "Nu-disco",
+      "Dance-pop",
+      "Synth-pop",
+      "Electropop"
+    ],
+    "explanation": "Dance-pop — Levitating pairs a four-on-the-floor disco groove with pure pop vocal hooks, placing it squarely in dance-pop territory. Nu-disco leans harder into instrumental funk textures and extended mixes. Synth-pop foregrounds synthesiser melody over rhythm. Electropop tends toward colder, more electronic production — Levitating's live-feeling bass and strings keep it warmer.",
+    "tags": [
+      "pop",
+      "dance",
+      "disco",
+      "retro"
+    ],
+    "youtube_id": "TUVcZfQe-Kw"
+  },
+  {
+    "artist": "Childish Gambino",
+    "song": "This Is America",
+    "album": null,
+    "release_year": 2018,
+    "locale": "USA",
+    "hint": "Actor-musician's viral single opens with a gospel choir before sharp percussion cuts in, paired with a provocative choreographed video",
+    "answer": "Trap",
+    "options": [
+      "Southern hip-hop",
+      "Trap",
+      "Conscious hip-hop",
+      "Gospel rap"
+    ],
+    "explanation": "Trap — the track's production relies on stuttering hi-hats, deep 808 kicks, and ad-libs characteristic of Atlanta trap music, deliberately juxtaposed against a gospel intro. Southern hip-hop is a broader umbrella. Conscious hip-hop describes lyrical content, not the sonic template. Gospel rap would sustain the choir-led feel throughout rather than using it as a brief contrast.",
+    "tags": [
+      "hip-hop",
+      "trap",
+      "political"
+    ],
+    "youtube_id": "VYOjWnS4cMY"
+  },
+  {
+    "artist": "Anitta",
+    "song": "Vai Malandra",
+    "album": null,
+    "release_year": 2017,
+    "locale": "Brazil",
+    "hint": "Rio de Janeiro singer filmed in a favela, driven by a booming bass pattern rooted in Brazilian street-party culture",
+    "answer": "Funk carioca",
+    "options": [
+      "Reggaeton",
+      "Funk carioca",
+      "Dembow",
+      "Cumbia digital"
+    ],
+    "explanation": "Funk carioca (also called baile funk) — Vai Malandra uses the tamborzão beat pattern native to Rio's favela sound-system scene. Reggaeton shares a Caribbean-rooted dembow rhythm but originates in Puerto Rico. Dembow is the Dominican variant. Cumbia digital remixes Colombian cumbia with electronics. Funk carioca's distinctive bass-heavy, syncopated kick pattern sets it apart from all three.",
+    "tags": [
+      "brazilian",
+      "funk carioca",
+      "baile funk",
+      "electronic"
+    ],
+    "youtube_id": "kDhptBT_-VI"
+  },
+  {
+    "artist": "BTS",
+    "song": "Dynamite",
+    "album": "BE",
+    "release_year": 2020,
+    "locale": "South Korea",
+    "hint": "Seven-member Seoul group whose all-English single became the first by a Korean act to debut at number one on the Billboard Hot 100",
+    "answer": "K-pop",
+    "options": [
+      "J-pop",
+      "K-pop",
+      "Bubblegum pop",
+      "Dance-pop"
+    ],
+    "explanation": "K-pop — BTS are the defining act of the Korean pop industry, and Dynamite follows K-pop's hallmark formula: precision choreography, high production values, and genre-blending within a pop framework. J-pop shares the idol-group model but has distinct production aesthetics rooted in Japan. Bubblegum pop is simpler and aimed younger. Dance-pop is a sonic descriptor but misses the cultural and industrial specificity of K-pop.",
+    "tags": [
+      "k-pop",
+      "pop",
+      "dance",
+      "korean"
+    ],
+    "youtube_id": "gdZLi9oWNZg"
+  },
+  {
+    "artist": "Tame Impala",
+    "song": "The Less I Know the Better",
+    "album": "Currents",
+    "release_year": 2015,
+    "locale": "Australia",
+    "hint": "Perth one-man studio project turned arena act, known for swirling reverb and vintage analog synthesisers",
+    "answer": "Psychedelic pop",
+    "options": [
+      "Psychedelic pop",
+      "Dream pop",
+      "Synth-pop",
+      "Indie rock"
+    ],
+    "explanation": "Psychedelic pop — the track layers phaser-drenched bass, spiralling synths, and Kevin Parker's processed vocals into a hazy, hook-driven song firmly rooted in psychedelia. Dream pop prioritises ethereal atmospherics over groove. Synth-pop emphasises clean, programmed synth lines. Indie rock would suggest rawer guitar-band textures rather than the lush studio production Tame Impala are known for.",
+    "tags": [
+      "psychedelic",
+      "pop",
+      "synth",
+      "indie"
+    ],
+    "youtube_id": "2SUwOgmvzK4"
+  },
+  {
+    "artist": "Stromae",
+    "song": "Papaoutai",
+    "album": "Racine Carrée",
+    "release_year": 2013,
+    "locale": "Belgium",
+    "hint": "Brussels artist singing in French, fusing electronic beats with deeply personal storytelling and theatrical choreography",
+    "answer": "Hip-house",
+    "options": [
+      "French house",
+      "Electropop",
+      "Hip-house",
+      "Afro house"
+    ],
+    "explanation": "Hip-house — Papaoutai rides a four-on-the-floor house beat while Stromae raps and sings over it, matching the late-80s hip-house blueprint of merging club rhythms with hip-hop vocals. French house (Daft Punk, Cassius) focuses on filtered disco loops. Electropop centres on synth melody rather than dancefloor drive. Afro house draws on African percussion patterns not present here.",
+    "tags": [
+      "electronic",
+      "house",
+      "hip-hop",
+      "french",
+      "belgian"
+    ],
+    "youtube_id": "oiKj0Z_Xnjc"
+  },
+  {
+    "artist": "Karol G",
+    "song": "Tusa",
+    "album": null,
+    "release_year": 2019,
+    "locale": "Colombia",
+    "hint": "Medellín singer's bilingual collaboration with a New York rapper, built on a bouncing Caribbean-rooted rhythm",
+    "answer": "Reggaeton",
+    "options": [
+      "Latin trap",
+      "Reggaeton",
+      "Dembow",
+      "Dancehall"
+    ],
+    "explanation": "Reggaeton — Tusa is anchored by the classic dembow riddim pattern (boom-ch-boom-chick) that defines reggaeton, paired with melodic singing and a polished pop arrangement. Latin trap uses heavier 808s and darker tones. Dembow as a standalone genre refers to the faster Dominican variant. Dancehall is the Jamaican ancestor — reggaeton adapted its rhythmic DNA but developed its own distinct identity in Puerto Rico and Colombia.",
+    "tags": [
+      "reggaeton",
+      "latin",
+      "pop",
+      "urban"
+    ],
+    "youtube_id": "tbneQDc2H3I"
+  },
+  {
+    "artist": "The Weeknd",
+    "song": "Blinding Lights",
+    "album": "After Hours",
+    "release_year": 2020,
+    "locale": "Canada",
+    "hint": "Toronto singer's megahit spent 90 weeks on the Hot 100, driven by a pulsing retro synthesiser line",
+    "answer": "Synth-pop",
+    "options": [
+      "Synthwave",
+      "New wave",
+      "Synth-pop",
+      "Electropop"
+    ],
+    "explanation": "Synth-pop — Blinding Lights is built around a bright, arpeggiated synth riff and a driving tempo that directly echoes 1980s synth-pop acts like a-ha and Depeche Mode. Synthwave is a more niche, instrumental-leaning retro movement. New wave is a broader 80s umbrella term encompassing post-punk and art rock. Electropop tends toward heavier electronic processing — this track's clean synth tones are pure synth-pop.",
+    "tags": [
+      "pop",
+      "synth-pop",
+      "retro",
+      "electronic"
+    ],
+    "youtube_id": "4NRXx6U8ABQ"
+  },
+  {
+    "artist": "YOASOBI",
+    "song": "Idol",
+    "album": null,
+    "release_year": 2023,
+    "locale": "Japan",
+    "hint": "Tokyo duo's anime tie-in became the fastest Japanese song to reach 100 million Spotify streams, mixing rapid-fire vocals with bright electronic production",
+    "answer": "J-pop",
+    "options": [
+      "K-pop",
+      "J-pop",
+      "Electropop",
+      "Anison"
+    ],
+    "explanation": "J-pop — YOASOBI's Idol epitomises modern Japanese pop: genre-fluid production (electronic, rock, jazz touches), virtuosic vocal melodies, and deep ties to Japanese media (it soundtracks the anime Oshi no Ko). K-pop is Korean and follows different industry structures. Electropop is a Western-centric label that misses the cultural specificity. Anison (anime song) is a related niche, but YOASOBI transcend it as mainstream J-pop artists.",
+    "tags": [
+      "j-pop",
+      "pop",
+      "electronic",
+      "japanese",
+      "anime"
+    ],
+    "youtube_id": "ZRtdQ81jPUQ"
+  },
+  {
+    "artist": "Gorillaz",
+    "song": "Feel Good Inc.",
+    "album": "Demon Days",
+    "release_year": 2005,
+    "locale": "UK",
+    "hint": "Virtual animated band created by a Britpop frontman and a comic-book artist, blending live instruments with samplers",
+    "answer": "Alternative rock",
+    "options": [
+      "Trip-hop",
+      "Alternative rock",
+      "Electro-funk",
+      "Indie pop"
+    ],
+    "explanation": "Alternative rock — Feel Good Inc. combines distorted bass, De La Soul's rapped verse, and Damon Albarn's melodic vocals into a genre-bending track that sits most comfortably under the alternative rock umbrella. Trip-hop is more downtempo and sample-heavy. Electro-funk would imply a stronger groove focus. Indie pop underestimates the grit and hip-hop influence running through the track.",
+    "tags": [
+      "alternative",
+      "rock",
+      "electronic",
+      "hip-hop"
+    ],
+    "youtube_id": "HyHNuVaZJ-k"
+  },
+  {
+    "artist": "Doja Cat",
+    "song": "Say So",
+    "album": "Hot Pink",
+    "release_year": 2019,
+    "locale": "USA",
+    "hint": "Los Angeles rapper-singer went viral on TikTok with a track built around a funky guitar loop and retro groove",
+    "answer": "Disco-pop",
+    "options": [
+      "Disco-pop",
+      "Nu-disco",
+      "Funk pop",
+      "Dance-pop"
+    ],
+    "explanation": "Disco-pop — Say So pairs a classic disco guitar lick and four-on-the-floor rhythm with modern pop vocal production, placing it firmly in the disco-pop tradition. Nu-disco leans more instrumental and DJ-oriented. Funk pop would centre on syncopated bass grooves rather than disco's steady pulse. Dance-pop is a broader category — disco-pop captures the specific retro-disco flavour of this track.",
+    "tags": [
+      "pop",
+      "disco",
+      "retro",
+      "dance"
+    ],
+    "youtube_id": "pok8H_KF1FA"
+  },
+  {
+    "artist": "Peggy Gou",
+    "song": "It Goes Like (Nanana)",
+    "album": "I Hear You",
+    "release_year": 2023,
+    "locale": "South Korea",
+    "hint": "Seoul-born, Berlin-based DJ whose sing-along club anthem crossed over to mainstream charts worldwide",
+    "answer": "House",
+    "options": [
+      "Tech house",
+      "House",
+      "Deep house",
+      "Eurodance"
+    ],
+    "explanation": "House — the track is a straightforward, joyful house record with a four-on-the-floor kick, organ stabs, and a catchy vocal hook. Tech house would imply a more minimalist, percussion-driven approach. Deep house is warmer and more chord-driven with less pop appeal. Eurodance belongs to the 90s high-energy vocal dance tradition. Peggy Gou keeps it classic house at its most accessible.",
+    "tags": [
+      "electronic",
+      "house",
+      "dance",
+      "club"
+    ],
+    "youtube_id": "sCz5y84dwuA"
+  },
+  {
+    "artist": "Bad Gyal",
+    "song": "Fiebre",
+    "album": null,
+    "release_year": 2018,
+    "locale": "Spain",
+    "hint": "Barcelona singer blending Caribbean rhythms with Catalan swagger, sung in Spanish over a skittering percussive beat",
+    "answer": "Dembow",
+    "options": [
+      "Reggaeton",
+      "Dembow",
+      "Dancehall",
+      "Moombahton"
+    ],
+    "explanation": "Dembow — Fiebre rides the fast, looping dembow riddim at a tempo and intensity distinct from reggaeton's smoother, slower take on the same rhythmic ancestor. Reggaeton typically sits at a more relaxed pace. Dancehall is the Jamaican original from which dembow diverged. Moombahton fuses house tempos with reggaeton patterns. Bad Gyal's uptempo, percussive approach aligns with the Dominican dembow tradition.",
+    "tags": [
+      "dembow",
+      "caribbean",
+      "spanish",
+      "electronic"
+    ],
+    "youtube_id": "JKzT0z3gOtc"
+  },
+  {
+    "artist": "Prince",
+    "song": "When Doves Cry",
+    "album": "Purple Rain",
+    "release_year": 1984,
+    "locale": "USA",
+    "hint": "Famously has no bass line — the Minneapolis multi-instrumentalist stripped the track down to drums, keys, and guitar",
+    "answer": "Minneapolis sound",
+    "options": [
+      "Synth-funk",
+      "Minneapolis sound",
+      "New wave",
+      "Post-disco"
+    ],
+    "explanation": "Minneapolis sound — Prince invented this hybrid of funk, synth-pop, rock, and R&B centred in his hometown, and When Doves Cry is its defining statement. Synth-funk captures the electronic-funk element but misses the rock and pop dimensions. New wave is the broader 80s alternative scene Prince influenced but stood apart from. Post-disco refers to the early-80s evolution of disco, which lacks Prince's guitar-driven edge.",
+    "tags": [
+      "funk",
+      "synth",
+      "pop",
+      "rock",
+      "80s"
+    ],
+    "youtube_id": "UG3VcCAlUgE"
+  },
+  {
+    "artist": "Daft Punk",
+    "song": "Get Lucky",
+    "album": "Random Access Memories",
+    "release_year": 2013,
+    "locale": "France",
+    "hint": "Parisian helmet-wearing duo recruited Chic's guitarist for a live-recorded groove that dominated 2013",
+    "answer": "Nu-disco",
+    "options": [
+      "French house",
+      "Nu-disco",
+      "Synth-funk",
+      "Disco house"
+    ],
+    "explanation": "Nu-disco — Get Lucky revives 1970s disco with live session musicians (notably Nile Rodgers' guitar) and a modern sheen, the hallmark of nu-disco. French house relies on filtered, sampled loops rather than live instrumentation. Synth-funk foregrounds synthesisers over guitars. Disco house blends disco samples with a heavier house kick — Get Lucky stays closer to the organic original.",
+    "tags": [
+      "disco",
+      "nu-disco",
+      "electronic",
+      "funk"
+    ],
+    "youtube_id": "5NV6Rdv1a3I"
+  },
+  {
+    "artist": "Solange",
+    "song": "Cranes in the Sky",
+    "album": "A Seat at the Table",
+    "release_year": 2016,
+    "locale": "USA",
+    "hint": "Houston singer-visual artist's introspective ballad about trying to outrun sadness, cushioned in lush strings and warm keys",
+    "answer": "Neo-soul",
+    "options": [
+      "Neo-soul",
+      "Contemporary R&B",
+      "Quiet storm",
+      "Dream pop"
+    ],
+    "explanation": "Neo-soul — Cranes in the Sky channels the organic warmth, jazz-inflected harmony, and introspective lyricism that define neo-soul, following in the lineage of Erykah Badu and D'Angelo. Contemporary R&B is a broader commercial category. Quiet storm is the smooth, slow-jam radio format from the 80s. Dream pop prioritises shimmering guitars and reverb over the soul-rooted vocal tradition Solange draws from.",
+    "tags": [
+      "soul",
+      "neo-soul",
+      "r&b",
+      "introspective"
+    ],
+    "youtube_id": "S0qrinhNnOM"
+  },
+  {
+    "artist": "Natalia Lafourcade",
+    "song": "Hasta la Raíz",
+    "album": "Hasta la Raíz",
+    "release_year": 2015,
+    "locale": "Mexico",
+    "hint": "Veracruz singer-songwriter who pivoted from teen pop to acoustic roots music, singing in Spanish over folk guitar",
+    "answer": "Latin folk",
+    "options": [
+      "Bolero",
+      "Latin folk",
+      "Bossa nova",
+      "Nueva canción"
+    ],
+    "explanation": "Latin folk — Hasta la Raíz is built on fingerpicked acoustic guitar and Lafourcade's intimate vocal, drawing from Mexican son jarocho and broader Latin American folk traditions. Bolero is a slower, more romantic Cuban-origin form. Bossa nova is specifically Brazilian. Nueva canción is the politically charged 60s–70s folk movement — Lafourcade's music is personal rather than protest-driven, though she shares its acoustic warmth.",
+    "tags": [
+      "folk",
+      "latin",
+      "mexican",
+      "acoustic"
+    ],
+    "youtube_id": "IKmPci5VXz0"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "song": "Dreams",
+    "album": "Rumours",
+    "release_year": 1977,
+    "locale": "UK",
+    "hint": "Written during a painful band breakup in Sausalito, built on a simple two-chord pattern and a heartbeat-like bass drum",
+    "answer": "Soft rock",
+    "options": [
+      "Folk rock",
+      "Soft rock",
+      "Yacht rock",
+      "Pop rock"
+    ],
+    "explanation": "Soft rock — Dreams exemplifies the polished, melodic, and emotionally restrained sound of late-70s soft rock: clean production, gentle dynamics, and Stevie Nicks' breathy vocal. Folk rock would imply more acoustic instrumentation and storytelling structure. Yacht rock is a later, smoother, jazz-influenced offshoot. Pop rock is a broad umbrella — soft rock is the more precise descriptor for this era and sonic palette.",
+    "tags": [
+      "rock",
+      "soft rock",
+      "70s",
+      "classic"
+    ],
+    "youtube_id": "mrZRURcb1cM"
+  },
+  {
+    "artist": "Lorde",
+    "song": "Royals",
+    "album": "Pure Heroine",
+    "release_year": 2013,
+    "locale": "New Zealand",
+    "hint": "Auckland teenager's minimalist debut hit stripped pop down to finger-snaps and a low hum, rejecting excess",
+    "answer": "Indie pop",
+    "options": [
+      "Electropop",
+      "Indie pop",
+      "Art pop",
+      "Dream pop"
+    ],
+    "explanation": "Indie pop — Royals was written and recorded outside the major-label pop machine with minimal production (finger-clicks, a sub-bass hum, and voice), giving it the DIY aesthetic and anti-commercial stance of indie pop. Electropop would imply heavier synth production. Art pop suggests more experimental sonic ambition. Dream pop relies on reverb-drenched textures — Royals is bone-dry and direct.",
+    "tags": [
+      "indie",
+      "pop",
+      "minimal",
+      "alternative"
+    ],
+    "youtube_id": "nlcIKh6sBtc"
+  },
+  {
+    "artist": "Billie Eilish",
+    "song": "bad guy",
+    "album": "When We All Fall Asleep, Where Do We Go?",
+    "release_year": 2019,
+    "locale": "USA",
+    "hint": "Recorded in a Los Angeles bedroom by a teenage sibling duo, driven by a bouncy sub-bass line and whispered vocals",
+    "answer": "Electropop",
+    "options": [
+      "Dark pop",
+      "Electropop",
+      "Hyperpop",
+      "Industrial pop"
+    ],
+    "explanation": "Electropop — bad guy fuses electronic production (programmed bass, clipped beats, synth textures) with a catchy pop structure, fitting the electropop mould. Dark pop describes a mood rather than a production style. Hyperpop is more maximalist and distorted. Industrial pop uses heavier, noisier textures. The Eilish siblings' bedroom production is inventive but stays within electropop's clean-yet-electronic framework.",
+    "tags": [
+      "pop",
+      "electronic",
+      "electropop",
+      "alternative"
+    ],
+    "youtube_id": "DyDfgMOUjCI"
+  },
+  {
+    "artist": "Flume",
+    "song": "Never Be Like You",
+    "album": "Skin",
+    "release_year": 2016,
+    "locale": "Australia",
+    "hint": "Sydney producer's breakout crossover hit featuring delicate vocals atop glitchy, pitched-up synth chords",
+    "answer": "Future bass",
+    "options": [
+      "Future bass",
+      "Chillwave",
+      "Electropop",
+      "Tropical house"
+    ],
+    "explanation": "Future bass — Never Be Like You is defined by its lush, detuned synth chords, sidechained rhythms, and pitched vocal chops — all hallmarks of future bass as pioneered by Flume and others. Chillwave is more lo-fi and retro-tinged. Electropop is less experimental. Tropical house (Kygo) uses steel drums and major-key melodies for a sunnier, less textured sound.",
+    "tags": [
+      "electronic",
+      "future bass",
+      "synth",
+      "dance"
+    ],
+    "youtube_id": "Ly7uj0JwgKg"
+  },
+  {
+    "artist": "LCD Soundsystem",
+    "song": "Dance Yrself Clean",
+    "album": "This Is Happening",
+    "release_year": 2010,
+    "locale": "USA",
+    "hint": "New York frontman's nine-minute track starts as a quiet murmur before erupting into a massive synth-and-drums crescendo",
+    "answer": "Dance-punk",
+    "options": [
+      "Post-punk revival",
+      "Dance-punk",
+      "Indie electronic",
+      "New rave"
+    ],
+    "explanation": "Dance-punk — LCD Soundsystem are the genre's flagship act, merging punk energy and indie-rock songwriting with dancefloor-ready beats and synths. Post-punk revival (Interpol, Editors) is more guitar-driven and brooding. Indie electronic is a vague umbrella. New rave was a brief mid-2000s UK trend centred on neon aesthetics and rave samples — LCD's influences are more rooted in late-70s New York no-wave and Krautrock.",
+    "tags": [
+      "rock",
+      "electronic",
+      "dance-punk",
+      "indie"
+    ],
+    "youtube_id": "OoA0cTC228M"
+  },
+  {
+    "artist": "Charli XCX",
+    "song": "Vroom Vroom",
+    "album": "Vroom Vroom",
+    "release_year": 2016,
+    "locale": "UK",
+    "hint": "Cambridge-born singer teamed up with a PC Music architect for a distorted, sugar-coated, high-octane club track",
+    "answer": "Bubblegum bass",
+    "options": [
+      "Hyperpop",
+      "Bubblegum bass",
+      "Electro house",
+      "Nightcore"
+    ],
+    "explanation": "Bubblegum bass — Vroom Vroom is the defining track of the style: hyper-processed vocals, abrasive yet playful synths, and pop songwriting pushed through extreme digital distortion, all hallmarks of the PC Music collective's aesthetic. Hyperpop emerged later as a broader internet-native offshoot. Electro house lacks the pop-art irony. Nightcore simply speeds up existing tracks — bubblegum bass is a deliberate, from-scratch production style.",
+    "tags": [
+      "electronic",
+      "pop",
+      "bubblegum bass",
+      "experimental"
+    ],
+    "youtube_id": "qfAqtFuGjWM"
+  },
+  {
+    "artist": "Olivia Rodrigo",
+    "song": "good 4 u",
+    "album": "SOUR",
+    "release_year": 2021,
+    "locale": "USA",
+    "hint": "Disney actress's debut album channelled breakup rage through power chords and belted vocals, topping charts globally",
+    "answer": "Pop-punk",
+    "options": [
+      "Pop rock",
+      "Pop-punk",
+      "Emo pop",
+      "Power pop"
+    ],
+    "explanation": "Pop-punk — good 4 u features distorted guitars, driving drums, and angst-filled lyrics delivered with punk energy inside a polished pop arrangement, ticking every pop-punk box. Pop rock is a broader, less aggressive category. Emo pop foregrounds emotional vulnerability over attitude — this track is more furious than fragile. Power pop emphasises jangly harmonies over the heavier riffing heard here.",
+    "tags": [
+      "pop",
+      "punk",
+      "rock",
+      "pop-punk"
+    ],
+    "youtube_id": "gNi_6U5Pm_o"
+  },
+  {
+    "artist": "Little Simz",
+    "song": "Introvert",
+    "album": "Sometimes I Might Be Introvert",
+    "release_year": 2021,
+    "locale": "UK",
+    "hint": "North London rapper opens her fourth album over sweeping orchestral strings, reflecting on identity and inner conflict",
+    "answer": "UK hip-hop",
+    "options": [
+      "Grime",
+      "UK hip-hop",
+      "Conscious hip-hop",
+      "Jazz rap"
+    ],
+    "explanation": "UK hip-hop — Introvert showcases Little Simz rapping with a distinctly British flow and accent over cinematic, orchestral production rooted in London's hip-hop scene. Grime is faster (140 BPM) with harsher electronic beats. Conscious hip-hop describes lyrical themes, not a sonic style. Jazz rap uses jazz samples and instrumentation — the orchestral arrangement here is classical, not jazz-inflected.",
+    "tags": [
+      "hip-hop",
+      "uk",
+      "rap",
+      "orchestral"
+    ],
+    "youtube_id": "hxfGQ2AJHGk"
+  },
+  {
+    "artist": "Neurosis",
+    "song": "Through Silver in Blood",
+    "album": "Through Silver in Blood",
+    "release_year": 1996,
+    "locale": "USA",
+    "hint": "Oakland collective active since the late '80s, known for overwhelming volume, ritualistic live performances with projected visuals, and a spiritual intensity",
+    "answer": "Post-metal",
+    "options": [
+      "Sludge metal",
+      "Post-metal",
+      "Doom metal",
+      "Hardcore punk"
+    ],
+    "explanation": "Post-metal — Neurosis are widely credited as the originators of post-metal, fusing sludge and doom metal's heaviness with post-rock's dynamics and cinematic atmosphere. Sludge metal (Eyehategod, Crowbar) is more directly rooted in hardcore punk without the expansive, crescendo-driven structures. Doom metal (Candlemass) is slower and more traditionally riff-based. Hardcore punk lacks the extended atmospheric passages that define this genre.",
+    "tags": [
+      "metal",
+      "post-metal",
+      "sludge",
+      "experimental"
+    ],
+    "youtube_id": "sjGZ2bpQxkY"
+  },
+  {
+    "artist": "Alcest",
+    "song": "Écailles de Lune (Part 1)",
+    "album": "Écailles de Lune",
+    "release_year": 2010,
+    "locale": "France",
+    "hint": "Avignon-based project of multi-instrumentalist Neige, layering tremolo-picked guitar over dreamlike, reverb-drenched atmospheres",
+    "answer": "Blackgaze",
+    "options": [
+      "Shoegaze",
+      "Blackgaze",
+      "Post-black metal",
+      "Atmospheric black metal"
+    ],
+    "explanation": "Blackgaze — Alcest pioneered blackgaze by merging black metal's tremolo-picked guitars and blast beats with shoegaze's wall-of-sound reverb and ethereal vocal melodies. Shoegaze (My Bloody Valentine) lacks the extreme metal elements entirely. Post-black metal (Wolves in the Throne Room) retains more overt black metal harshness. Atmospheric black metal (Summoning) leans toward folk and ambient textures rather than dreamy pop hooks.",
+    "tags": [
+      "metal",
+      "blackgaze",
+      "shoegaze",
+      "black metal"
+    ],
+    "youtube_id": "gk_gIOSHviA"
+  },
+  {
+    "artist": "Bolt Thrower",
+    "song": "The IVth Crusade",
+    "album": "The IVth Crusade",
+    "release_year": 1992,
+    "locale": "UK",
+    "hint": "Coventry band named after a weapon in a tabletop wargame, renowned for tank-treading riffs and Warhammer imagery across six studio albums",
+    "answer": "Death metal",
+    "options": [
+      "Thrash metal",
+      "Death metal",
+      "Grindcore",
+      "Crust punk"
+    ],
+    "explanation": "Death metal — Bolt Thrower emerged from the UK grindcore scene on Earache Records alongside Napalm Death, but by The IVth Crusade had fully settled into death metal: crushing downtuned riffs, guttural vocals, and mid-paced grooves. Thrash metal (Slayer, Megadeth) is faster with more traditional vocal delivery. Grindcore (Napalm Death's earliest work) is shorter, more chaotic, and punk-rooted. Crust punk (Amebix) is rawer and more politically oriented.",
+    "tags": [
+      "metal",
+      "death metal",
+      "heavy"
+    ],
+    "youtube_id": "4GPFduVKuEg"
+  },
+  {
+    "artist": "Oranssi Pazuzu",
+    "song": "Uusi teknokratia",
+    "album": "Mestarin kynsi",
+    "release_year": 2020,
+    "locale": "Finland",
+    "hint": "Finnish five-piece blending Scandinavian underground intensity with krautrock repetition and analog synthesizer experimentation",
+    "answer": "Psychedelic black metal",
+    "options": [
+      "Psychedelic black metal",
+      "Atmospheric black metal",
+      "Space rock",
+      "Industrial metal"
+    ],
+    "explanation": "Psychedelic black metal — Oranssi Pazuzu combine black metal's blast beats and shrieked vocals with swirling psychedelic synthesizers, krautrock motorik rhythms, and disorienting space-rock textures. Atmospheric black metal (Agalloch) uses nature-inspired ambience rather than psychedelic electronics. Space rock (Hawkwind) lacks the extreme metal aggression entirely. Industrial metal (Ministry) uses mechanical percussion rather than organic psychedelia.",
+    "tags": [
+      "metal",
+      "black metal",
+      "psychedelic",
+      "experimental"
+    ],
+    "youtube_id": "ScMbsZW3qn4"
+  },
+  {
+    "artist": "Nails",
+    "song": "You Will Never Be One of Us",
+    "album": "You Will Never Be One of Us",
+    "release_year": 2016,
+    "locale": "USA",
+    "hint": "Oxnard trio known for sub-two-minute eruptions of pure aggression, with extreme tempo shifts between blinding speed and crushing breakdowns",
+    "answer": "Powerviolence",
+    "options": [
+      "Grindcore",
+      "Powerviolence",
+      "Hardcore punk",
+      "Death metal"
+    ],
+    "explanation": "Powerviolence — Nails sit at the intersection of powerviolence, grindcore, and death metal, but their core identity is powerviolence: extreme tempo shifts between blasting speed and crushing slow sections, raw production, and confrontational brevity. Grindcore (Napalm Death) maintains more consistent high speed. Hardcore punk (Black Flag) is less extreme in tempo and tuning. Death metal focuses on technical riffing and more structured songwriting.",
+    "tags": [
+      "metal",
+      "powerviolence",
+      "hardcore",
+      "grindcore"
+    ],
+    "youtube_id": "hGGGh03jN4w"
+  },
+  {
+    "artist": "Amenra",
+    "song": "A Solitary Reign",
+    "album": "Mass VI",
+    "release_year": 2017,
+    "locale": "Belgium",
+    "hint": "Kortrijk collective with a ritualistic, almost spiritual approach to extreme heaviness, core of the Church of Ra arts collective",
+    "answer": "Sludge metal",
+    "options": [
+      "Post-metal",
+      "Sludge metal",
+      "Doom metal",
+      "Drone metal"
+    ],
+    "explanation": "Sludge metal — Amenra's sound is rooted in sludge metal's crushing, downtuned riffs and anguished screamed vocals, though they incorporate post-metal dynamics and near-spiritual intensity. Post-metal (Neurosis, Isis) tends toward longer atmospheric arcs with more clean passages. Doom metal (Electric Wizard) is slower and more riff-centric without the hardcore punk edge. Drone metal (Sunn O)))) strips away rhythm and melody almost entirely.",
+    "tags": [
+      "metal",
+      "sludge",
+      "post-metal",
+      "hardcore"
+    ],
+    "youtube_id": "CD7bxyzFbC4"
+  },
+  {
+    "artist": "Ulcerate",
+    "song": "Stare Into Death and Be Still",
+    "album": "Stare Into Death and Be Still",
+    "release_year": 2020,
+    "locale": "New Zealand",
+    "hint": "Auckland trio whose drummer plays a cymbal-less kit, producing uniquely percussive textures beneath dense, atonal guitar work",
+    "answer": "Dissonant death metal",
+    "options": [
+      "Technical death metal",
+      "Dissonant death metal",
+      "Progressive death metal",
+      "Brutal death metal"
+    ],
+    "explanation": "Dissonant death metal — Ulcerate are leaders of the dissonant death metal movement alongside Gorguts and Portal, defined by atonal riffing, unsettling harmonic tension, and complex rhythmic patterns. Technical death metal (Necrophagist) prioritizes virtuosic shredding and clean precision. Progressive death metal (Opeth) incorporates non-metal passages and broad dynamic range. Brutal death metal (Suffocation) focuses on guttural extremity and percussive slam riffs over harmonic complexity.",
+    "tags": [
+      "metal",
+      "death metal",
+      "dissonant",
+      "technical"
+    ],
+    "youtube_id": "2p2XpoCm62M"
+  },
+  {
+    "artist": "Rolo Tomassi",
+    "song": "Alma Mater",
+    "album": "Time Will Die and Love Will Bury It",
+    "release_year": 2018,
+    "locale": "UK",
+    "hint": "Sheffield band fronted by siblings, balancing jarring rhythmic unpredictability with moments of soaring, ethereal beauty",
+    "answer": "Mathcore",
+    "options": [
+      "Metalcore",
+      "Mathcore",
+      "Screamo",
+      "Post-hardcore"
+    ],
+    "explanation": "Mathcore — Rolo Tomassi play mathcore, combining metalcore's heaviness with math rock's angular time signatures and unpredictable song structures, while adding atmospheric post-rock passages. Metalcore (Killswitch Engage) is more straightforward in structure and rhythm. Screamo (Saetia, pg.99) is more emotionally raw and rooted in emo punk. Post-hardcore (Fugazi, At the Drive-In) is less rhythmically extreme and more groove-oriented.",
+    "tags": [
+      "metal",
+      "mathcore",
+      "hardcore",
+      "experimental"
+    ],
+    "youtube_id": "iTDi6jqrkrM"
+  },
+  {
+    "artist": "Zeal & Ardor",
+    "song": "Devil Is Fine",
+    "album": "Devil Is Fine",
+    "release_year": 2017,
+    "locale": "Switzerland",
+    "hint": "Basel-based project of Manuel Gagneux, born from a provocative internet forum prompt combining chain-gang chants and field hollers with Scandinavian underground extremity",
+    "answer": "Avant-garde metal",
+    "options": [
+      "Black metal",
+      "Avant-garde metal",
+      "Gothic metal",
+      "Folk metal"
+    ],
+    "explanation": "Avant-garde metal — Zeal & Ardor defy easy categorization by fusing African-American spirituals and blues with black metal tremolo riffs and blast beats, creating something genuinely unprecedented. Black metal (Mayhem, Darkthrone) does not incorporate blues or spiritual singing traditions. Gothic metal (Type O Negative) uses romantic aesthetics rather than African-American folk traditions. Folk metal (Finntroll, Korpiklaani) draws from European folk music, not American spirituals.",
+    "tags": [
+      "metal",
+      "avant-garde",
+      "black metal",
+      "experimental"
+    ],
+    "youtube_id": "jlGBer0VoF8"
+  },
+  {
+    "artist": "Bell Witch",
+    "song": "Mirror Reaper",
+    "album": "Mirror Reaper",
+    "release_year": 2017,
+    "locale": "USA",
+    "hint": "Seattle bass-and-drums duo who recorded a single 83-minute composition as a meditation on the death of their former drummer Adrian Guerra",
+    "answer": "Funeral doom",
+    "options": [
+      "Drone metal",
+      "Funeral doom",
+      "Death-doom",
+      "Sludge metal"
+    ],
+    "explanation": "Funeral doom — Bell Witch play funeral doom, the slowest and most dirge-like extreme metal subgenre, characterized by glacial tempos, mournful clean vocals interspersed with growls, and compositions that stretch beyond 20 minutes. Drone metal (Sunn O)))) eliminates rhythm and melody almost entirely. Death-doom (early Paradise Lost) combines doom's pace with death metal growls but in shorter, more structured songs. Sludge metal (Eyehategod) is faster, punkier, and more aggressive.",
+    "tags": [
+      "metal",
+      "funeral doom",
+      "doom",
+      "experimental"
+    ],
+    "youtube_id": "50Mei8QVig4"
+  },
+  {
+    "artist": "DJ Rashad",
+    "song": "Feelin",
+    "album": "Double Cup",
+    "release_year": 2013,
+    "locale": "USA",
+    "hint": "Chicago producer from a hyper-speed dance community, tragically passed in 2014, known for rapid-fire rhythmic patterns and chopped vocal loops",
+    "answer": "Footwork",
+    "options": [
+      "Juke",
+      "Footwork",
+      "Jungle",
+      "Grime"
+    ],
+    "explanation": "Footwork — DJ Rashad was a central figure in Chicago's footwork scene, which evolved from juke in the early 2000s. Footwork runs at ~160 BPM with intricate syncopated kicks and obsessively chopped vocal samples. Juke is the direct ancestor but typically simpler in its rhythmic patterns. Jungle shares a similar tempo range but uses UK breakbeat structures rooted in the Amen break. Grime is a London-born genre at ~140 BPM with MC-driven vocals.",
+    "tags": [
+      "electronic",
+      "footwork",
+      "dance",
+      "chicago"
+    ],
+    "youtube_id": "ZzEK5Z9ALU8"
+  },
+  {
+    "artist": "MC Kevin o Chris",
+    "song": "Evoluiu",
+    "album": null,
+    "release_year": 2019,
+    "locale": "Brazil",
+    "hint": "Rio de Janeiro vocalist whose breakout viral hit brought favela party music to a massive global audience via streaming platforms",
+    "answer": "Baile funk",
+    "options": [
+      "Reggaeton",
+      "Baile funk",
+      "Dembow",
+      "Kuduro"
+    ],
+    "explanation": "Baile funk (also called funk carioca) — this Rio de Janeiro genre is built on heavy sub-bass, rapid-fire Portuguese rapping, and the iconic 'Tamborzão' drum pattern. Reggaeton is a Puerto Rican genre with a distinctive dembow riddim feel. Dembow is a Dominican variant of dancehall with its own rhythmic identity. Kuduro is an Angolan/Portuguese dance genre with different percussive patterns and cadences.",
+    "tags": [
+      "baile funk",
+      "brazilian",
+      "dance",
+      "club"
+    ],
+    "youtube_id": "_VsBsZFG51Q"
+  },
+  {
+    "artist": "Nina Kraviz",
+    "song": "Ghetto Kraviz",
+    "album": "Nina Kraviz",
+    "release_year": 2012,
+    "locale": "Russia",
+    "hint": "Siberia-born DJ and producer whose self-titled debut fused raw, stripped-back production with breathy, intimate vocals over a squelchy bassline",
+    "answer": "Acid techno",
+    "options": [
+      "Acid techno",
+      "Minimal techno",
+      "Deep house",
+      "Electro"
+    ],
+    "explanation": "Acid techno — 'Ghetto Kraviz' is defined by its squelchy Roland TB-303 acid bassline over a driving techno framework. Minimal techno strips elements back to skeletal rhythms and lacks the 303's signature squelch. Deep house is warmer, more soulful, and typically slower. Electro emphasises robotic funk rhythms over an 808-style backbone rather than a 4/4 techno kick.",
+    "tags": [
+      "electronic",
+      "techno",
+      "acid",
+      "club"
+    ],
+    "youtube_id": "605bwlAz_iQ"
+  },
+  {
+    "artist": "DJ Koze",
+    "song": "Pick Up",
+    "album": "Knock Knock",
+    "release_year": 2018,
+    "locale": "Germany",
+    "hint": "Hamburg-based producer known for eccentric, sample-heavy work, whose 2018 album on Pampa Records featured an unlikely soul legend's vocal over a lush groove",
+    "answer": "Deep house",
+    "options": [
+      "Tech house",
+      "Deep house",
+      "Disco house",
+      "Acid house"
+    ],
+    "explanation": "Deep house — DJ Koze's 'Pick Up' is a masterclass in deep house warmth: a soulful, looping Gladys Knight vocal sample riding over a lush, rolling bassline and gentle pads. Tech house is more percussive and peak-time functional. Disco house leans into overt 70s disco string stabs and funky guitar. Acid house is defined by the TB-303 squelch, which is entirely absent here.",
+    "tags": [
+      "electronic",
+      "house",
+      "deep house",
+      "dance"
+    ],
+    "youtube_id": "JE63vMzb3UE"
+  },
+  {
+    "artist": "Goldie",
+    "song": "Inner City Life",
+    "album": "Timeless",
+    "release_year": 1995,
+    "locale": "UK",
+    "hint": "Wolverhampton-born artist with roots in graffiti culture, debuted with a landmark 1995 album featuring lush string arrangements layered over chopped breakbeats",
+    "answer": "Jungle",
+    "options": [
+      "Drum and bass",
+      "Jungle",
+      "Breakbeat hardcore",
+      "UK garage"
+    ],
+    "explanation": "Jungle — released in 1995 at the genre's creative peak, 'Inner City Life' layers Diane Charlemagne's haunting vocals over rapidly chopped Amen breaks and deep sub-bass. While Goldie's Timeless helped bridge jungle into what became drum and bass, this track's raw breakbeat manipulation and darker tone place it squarely in jungle territory. Breakbeat hardcore is the earlier, ravey precursor from the early 90s. UK garage emerged slightly later with a smoother, shuffled 2-step rhythm.",
+    "tags": [
+      "electronic",
+      "jungle",
+      "breakbeat",
+      "dance"
+    ],
+    "youtube_id": "6vHkOI-Z7lY"
+  },
+  {
+    "artist": "Kabza De Small",
+    "song": "Adiwele",
+    "album": "I Am the King of Amapiano: Sweet & Dust",
+    "release_year": 2020,
+    "locale": "South Africa",
+    "hint": "Pretoria-born producer crowned king of a South African sound, known for log-drum basslines, wide piano melodies, and a laid-back groove",
+    "answer": "Amapiano",
+    "options": [
+      "Gqom",
+      "Amapiano",
+      "Afro house",
+      "Kwaito"
+    ],
+    "explanation": "Amapiano — Kabza De Small is the most prominent figure in amapiano, a South African genre characterised by its distinctive log-drum bass, jazzy piano stabs, and laid-back tempo around 112 BPM. Gqom is darker, more minimal, and originates from Durban. Afro house is a broader, more four-on-the-floor international style. Kwaito is the earlier South African house variant from the 90s with slower tempos and chanted vocals.",
+    "tags": [
+      "electronic",
+      "amapiano",
+      "south african",
+      "dance"
+    ],
+    "youtube_id": "kjgzYp1Cm4Y"
+  },
+  {
+    "artist": "Deena Abdelwahed",
+    "song": "Klaam",
+    "album": "Khonnar",
+    "release_year": 2018,
+    "locale": "Tunisia",
+    "hint": "Tunis-born, Paris-based producer exploring identity and taboo through fractured electronic textures that draw on North African and global underground sounds",
+    "answer": "Deconstructed club",
+    "options": [
+      "Industrial techno",
+      "Deconstructed club",
+      "Darkwave",
+      "Experimental bass"
+    ],
+    "explanation": "Deconstructed club — Deena Abdelwahed's 'Klaam' takes club music structures and splinters them into jagged, unpredictable forms, a hallmark of the deconstructed club movement. Industrial techno maintains a steadier 4/4 pulse with harsher, noisier textures. Darkwave draws from post-punk and goth synth traditions. Experimental bass (Rustie, Hudson Mohawke) is more UK-rooted and focuses on maximal bass design.",
+    "tags": [
+      "electronic",
+      "deconstructed club",
+      "experimental"
+    ],
+    "youtube_id": "NcXU8_OVLMs"
+  },
+  {
+    "artist": "100 gecs",
+    "song": "money machine",
+    "album": "1000 gecs",
+    "release_year": 2019,
+    "locale": "USA",
+    "hint": "Missouri/LA duo whose debut album fused abrasive noise with candy-coated pop melodies, extreme autotune, and manic energy",
+    "answer": "Hyperpop",
+    "options": [
+      "Hyperpop",
+      "Bubblegum bass",
+      "Nightcore",
+      "Electropop"
+    ],
+    "explanation": "Hyperpop — 100 gecs are foundational to hyperpop as a genre: maximalist production, extreme autotune, chaotic dynamic shifts, and a willingness to smash together pop, dubstep, ska, and noise. Bubblegum bass (SOPHIE, A. G. Cook) is a predecessor that's more polished and club-oriented. Nightcore is simply pitch-shifted and sped-up existing tracks rather than original production. Electropop is far more restrained and conventional in its sonic palette.",
+    "tags": [
+      "electronic",
+      "pop",
+      "hyperpop",
+      "experimental"
+    ],
+    "youtube_id": "z97qLNXeAMQ"
+  },
+  {
+    "artist": "Lorenzo Senni",
+    "song": "Scars",
+    "album": "Scars",
+    "release_year": 2020,
+    "locale": "Italy",
+    "hint": "Warp Records artist who isolates the euphoric build-up of 90s rave culture, using only the rising tension without ever delivering the drop",
+    "answer": "Trance",
+    "options": [
+      "Trance",
+      "IDM",
+      "Ambient techno",
+      "Synthwave"
+    ],
+    "explanation": "Trance — Lorenzo Senni's 'pointillistic trance' strips the genre to its essence: soaring supersaw arpeggios and rising tension from classic 90s trance, frozen in perpetual build-up. IDM (Autechre, Aphex Twin) is rhythmically complex and cerebral rather than euphoric. Ambient techno is slow, atmospheric, and often beatless. Synthwave is a retro-80s aesthetic rooted in film scores rather than rave culture.",
+    "tags": [
+      "electronic",
+      "trance",
+      "experimental",
+      "rave"
+    ],
+    "youtube_id": "BFSzczPPtdQ"
+  },
+  {
+    "artist": "DJ Marfox",
+    "song": "Chapa Quente",
+    "album": "Chapa Quente",
+    "release_year": 2019,
+    "locale": "Portugal",
+    "hint": "Lisbon producer on the Príncipe label, fusing Angolan rhythmic traditions with frenetic electronic production from the city's outskirts",
+    "answer": "Kuduro",
+    "options": [
+      "Kuduro",
+      "Kizomba",
+      "Baile funk",
+      "Gqom"
+    ],
+    "explanation": "Kuduro — DJ Marfox is a pioneer of Lisbon's electronic scene rooted in kuduro, an Angolan genre built on hyperactive percussion and call-and-response energy. The Príncipe label crew adapted kuduro's frenetic rhythms into a distinctly Lisbon sound. Kizomba is a slower, more romantic Angolan/Portuguese dance genre. Baile funk is a Brazilian bass-heavy genre from Rio's favelas. Gqom is a South African genre from Durban with a darker, more minimal feel.",
+    "tags": [
+      "electronic",
+      "kuduro",
+      "global club",
+      "dance"
+    ],
+    "youtube_id": "WbPvyzFxVPQ"
+  },
+  {
+    "artist": "BLACKPINK",
+    "song": "DDU-DU DDU-DU",
+    "album": "Square Up",
+    "release_year": 2018,
+    "locale": "South Korea",
+    "hint": "Four-member group from YG Entertainment in Seoul, fierce choreography, record-breaking music video views, global fanbase called BLINK",
+    "answer": "K-pop",
+    "options": [
+      "J-pop",
+      "K-pop",
+      "Dance-pop",
+      "Electropop"
+    ],
+    "explanation": "K-pop — BLACKPINK are one of the biggest K-pop acts worldwide. K-pop is defined by more than Korean-language vocals: the idol training system, tightly choreographed performances, genre-blending production mixing hip-hop, EDM, and R&B, and a culture of integrated visual storytelling all define the genre. J-pop follows different production conventions and industry structure. Dance-pop and electropop are broader Western categories that don't capture K-pop's unique cultural ecosystem.",
+    "tags": [
+      "k-pop",
+      "pop",
+      "dance"
+    ],
+    "youtube_id": "IHNzOHi8sJs"
+  },
+  {
+    "artist": "Cardi B",
+    "song": "Bodak Yellow",
+    "album": "Invasion of Privacy",
+    "release_year": 2017,
+    "locale": "USA",
+    "hint": "Bronx rapper, former reality TV personality, debut single that reached number one, aggressive delivery over heavy 808 bass",
+    "answer": "Trap",
+    "options": [
+      "Drill",
+      "Trap",
+      "Boom bap",
+      "Crunk"
+    ],
+    "explanation": "Trap — Bodak Yellow rides classic trap production: booming 808 bass, skittering hi-hats, and dark synth textures. Drill shares sonic DNA but originated in Chicago with distinctive sliding bass patterns and a more menacing atmosphere. Boom bap is the sample-heavy, drum-break-driven sound of 90s East Coast hip-hop. Crunk is an earlier, high-energy Southern hip-hop subgenre built around call-and-response chants.",
+    "tags": [
+      "hip-hop",
+      "trap",
+      "rap"
+    ],
+    "youtube_id": "PEGccV-NOm8"
+  },
+  {
+    "artist": "J Balvin",
+    "song": "Mi Gente",
+    "album": null,
+    "release_year": 2017,
+    "locale": "Colombia",
+    "hint": "Medellín artist, collaboration with French DJ Willy William, Beyoncé later joined a remix, massive Latin crossover moment",
+    "answer": "Reggaeton",
+    "options": [
+      "Reggaeton",
+      "Dembow",
+      "Latin trap",
+      "Dancehall"
+    ],
+    "explanation": "Reggaeton — Mi Gente is built on the iconic dembow riddim that defines reggaeton, with its unmistakable boom-ch-boom-chick rhythm. While dembow is a related Dominican genre with typically faster tempos, reggaeton is the broader Latin urban style that J Balvin helped bring to global pop. Latin trap is slower and more melancholic with heavier 808s. Dancehall is Jamaican in origin and, while historically connected to reggaeton's roots, has distinct rhythmic patterns.",
+    "tags": [
+      "reggaeton",
+      "latin",
+      "urban",
+      "dance"
+    ],
+    "youtube_id": "wnJ6LuUFpMo"
+  },
+  {
+    "artist": "Tems",
+    "song": "Free Mind",
+    "album": "If Orange Was a Place",
+    "release_year": 2021,
+    "locale": "Nigeria",
+    "hint": "Lagos vocalist, breakout via a feature with a Nigerian superstar, EP named after a colour, dreamy layered harmonies",
+    "answer": "Alté",
+    "options": [
+      "Afrobeats",
+      "Alté",
+      "Neo-soul",
+      "R&B"
+    ],
+    "explanation": "Alté — Tems is a leading figure in Nigeria's alté movement, a loosely defined Lagos scene blending R&B, soul, and alternative sensibilities with Nigerian musical identity. While often filed under Afrobeats, alté specifically describes the genre-fluid, boundary-pushing approach that resists mainstream Afropop conventions. Neo-soul and R&B are American categories that miss the West African cultural context central to this sound.",
+    "tags": [
+      "alté",
+      "nigerian",
+      "alternative",
+      "r&b"
+    ],
+    "youtube_id": "e8GzTXRAJ30"
+  },
+  {
+    "artist": "Lil Nas X",
+    "song": "MONTERO (Call Me By Your Name)",
+    "album": "MONTERO",
+    "release_year": 2021,
+    "locale": "USA",
+    "hint": "Atlanta artist, controversial music video with religious imagery, flamenco guitar intro, massive social media following",
+    "answer": "Pop-rap",
+    "options": [
+      "Pop-rap",
+      "Emo rap",
+      "Dance-pop",
+      "Pop-rock"
+    ],
+    "explanation": "Pop-rap — MONTERO blends infectious pop hooks with hip-hop flow and trap-influenced 808 production, placing it squarely in pop-rap territory. Emo rap (Juice WRLD, Lil Peep) combines hip-hop with melancholic, punk-influenced melodies — MONTERO is too bombastic for that label. Dance-pop relies on consistent four-on-the-floor rhythms not present here. Pop-rock integrates live guitar and drums more centrally than this track's electronic production.",
+    "tags": [
+      "hip-hop",
+      "pop-rap",
+      "pop"
+    ],
+    "youtube_id": "6swmTBVI83k"
+  },
+  {
+    "artist": "Peso Pluma",
+    "song": "Ella Baila Sola",
+    "album": "Génesis",
+    "release_year": 2023,
+    "locale": "Mexico",
+    "hint": "Guadalajara singer, collaboration with Eslabon Armado, tuba and requinto guitar melodies, massive streaming phenomenon",
+    "answer": "Corridos tumbados",
+    "options": [
+      "Corridos tumbados",
+      "Narcocorrido",
+      "Cumbia urbana",
+      "Norteño"
+    ],
+    "explanation": "Corridos tumbados — this 2020s phenomenon fuses traditional Mexican corrido storytelling with trap-influenced production: 808 bass beneath requinto guitar and tuba creates a distinctly modern sound rooted in regional tradition. Narcocorridos are an older subgenre with more traditional instrumentation focused on drug culture narratives. Cumbia urbana modernises cumbia rhythms, which have a completely different rhythmic feel. Norteño features accordion and bajo sexto guitar in a more traditional framework.",
+    "tags": [
+      "regional mexican",
+      "corridos",
+      "latin"
+    ],
+    "youtube_id": "lZiaYpD9ZrI"
+  },
+  {
+    "artist": "Frank Ocean",
+    "song": "Nights",
+    "album": "Blonde",
+    "release_year": 2016,
+    "locale": "USA",
+    "hint": "New Orleans-raised, famously reclusive artist, second studio album, dramatic mid-song beat switch, confessional lyricism",
+    "answer": "Alternative R&B",
+    "options": [
+      "Alternative R&B",
+      "Contemporary R&B",
+      "Psychedelic soul",
+      "Bedroom pop"
+    ],
+    "explanation": "Alternative R&B — Frank Ocean helped define this genre: R&B's emotional core filtered through experimental production, unconventional song structures, and indie sensibilities. Blonde's 'Nights' epitomises this with its radical mid-song tempo and key change. Contemporary R&B (Usher, Beyoncé) favours more polished, radio-ready production. Psychedelic soul uses vintage-styled, trippy effects. Bedroom pop shares lo-fi intimacy but emerges from an indie rock tradition rather than R&B.",
+    "tags": [
+      "r&b",
+      "alternative",
+      "experimental"
+    ],
+    "youtube_id": "r4l9bFqgMaQ"
+  },
+  {
+    "artist": "Davido",
+    "song": "Fall",
+    "album": null,
+    "release_year": 2017,
+    "locale": "Nigeria",
+    "hint": "Atlanta-raised Lagos artist, one of Africa's most-streamed tracks globally, percussion-driven romantic ballad, OBO moniker",
+    "answer": "Afrobeats",
+    "options": [
+      "Afrobeats",
+      "Dancehall",
+      "Afro house",
+      "Amapiano"
+    ],
+    "explanation": "Afrobeats — Davido's 'Fall' became a crossover anthem and one of Africa's most-certified songs. Modern Afrobeats (with an 's', distinct from Fela Kuti's singular Afrobeat) is Nigeria's globally dominant pop export, defined by mid-tempo percussion patterns, layered vocals, and infectious melodies. Dancehall is Jamaican with different rhythmic DNA. Afro house is a South African electronic genre built for club DJs. Amapiano, also South African, features distinctive log drums and piano-driven production.",
+    "tags": [
+      "afrobeats",
+      "nigerian",
+      "pop"
+    ],
+    "youtube_id": "3Iyuym-Gci0"
+  },
+  {
+    "artist": "Rauw Alejandro",
+    "song": "Todo de Ti",
+    "album": "Vice Versa",
+    "release_year": 2021,
+    "locale": "Puerto Rico",
+    "hint": "San Juan artist, former basketball prospect, choreography-focused performer, nostalgic synth-heavy production with a retro feel",
+    "answer": "Latin pop",
+    "options": [
+      "Reggaeton",
+      "Latin pop",
+      "Synth-pop",
+      "Latin trap"
+    ],
+    "explanation": "Latin pop — Todo de Ti showcases Rauw Alejandro's range beyond reggaeton, with shimmering synthesisers and a disco-influenced groove channelling classic pop melody. While Rauw is best known for reggaeton, this track sits in the Latin pop tradition of accessible, melody-forward Spanish-language songs. Synth-pop captures the production aesthetic but misses the Latin cultural context. Latin trap is darker and more bass-heavy with a hip-hop foundation.",
+    "tags": [
+      "latin pop",
+      "pop",
+      "latin"
+    ],
+    "youtube_id": "CFPLIaMpGrY"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "song": "Video Games",
+    "album": "Born to Die",
+    "release_year": 2011,
+    "locale": "USA",
+    "hint": "New York-based singer, cinematic orchestral production, wistful Americana imagery, harp and strings, debut-era breakthrough",
+    "answer": "Baroque pop",
+    "options": [
+      "Baroque pop",
+      "Chamber pop",
+      "Dream pop",
+      "Indie folk"
+    ],
+    "explanation": "Baroque pop — Video Games layers lush orchestral strings, harp, and cinematic grandeur over a pop songwriting foundation, hallmarks of baroque pop pioneered by artists like the Beach Boys and Scott Walker. Chamber pop is a close relative but tends toward more experimental, indie-leaning arrangements (Sufjan Stevens). Dream pop emphasises ethereal guitar textures and reverb rather than orchestration. Indie folk foregrounds acoustic instruments and folk song structures, neither of which define this track.",
+    "tags": [
+      "pop",
+      "baroque pop",
+      "cinematic"
+    ],
+    "youtube_id": "cE6wxDqdOV0"
+  },
+  {
+    "artist": "Gojira",
+    "song": "Silvera",
+    "album": "Magma",
+    "release_year": 2016,
+    "locale": "France",
+    "hint": "Bayonne quartet known for environmentalist themes, technically demanding picking patterns, and a signature 'whale call' guitar effect",
+    "answer": "Progressive death metal",
+    "options": [
+      "Groove metal",
+      "Progressive death metal",
+      "Melodic death metal",
+      "Industrial metal"
+    ],
+    "explanation": "Progressive death metal — Gojira fuse death metal's brutality with progressive song structures, polyrhythmic riffing, and atmospheric dynamics. Groove metal (Pantera, Lamb of God) shares the mid-tempo heaviness but lacks progressive complexity and blast-beat intensity. Melodic death metal (At the Gates, In Flames) emphasises melodic guitar harmonies over Gojira's percussive rhythmic focus. Industrial metal (Fear Factory) incorporates electronic production elements absent from Gojira's organic sound.",
+    "tags": [
+      "metal",
+      "death metal",
+      "progressive",
+      "technical"
+    ],
+    "youtube_id": "iVvXB-Vwnco"
+  },
+  {
+    "artist": "Knocked Loose",
+    "song": "Mistakes Like Fractures",
+    "album": "A Different Shade of Blue",
+    "release_year": 2019,
+    "locale": "USA",
+    "hint": "Oldham County, Kentucky five-piece whose crushing breakdowns and desperate howled vocals brought a new generation to extreme live shows",
+    "answer": "Metallic hardcore",
+    "options": [
+      "Metallic hardcore",
+      "Beatdown hardcore",
+      "Metalcore",
+      "Deathcore"
+    ],
+    "explanation": "Metallic hardcore — Knocked Loose play metallic hardcore: hardcore punk's energy and ethos driven through metal-level heaviness and downtuning. Beatdown hardcore (Hatebreed, Bulldoze) is slower and focused primarily on mosh-inducing breakdowns. Metalcore (Killswitch Engage) typically includes clean vocal choruses and more melodic songwriting. Deathcore (Suicide Silence, Whitechapel) incorporates death metal blast beats and guttural vocals more centrally.",
+    "tags": [
+      "hardcore",
+      "metal",
+      "heavy"
+    ],
+    "youtube_id": "jOB3IYBcJEE"
+  },
+  {
+    "artist": "Electric Wizard",
+    "song": "Funeralopolis",
+    "album": "Dopethrone",
+    "release_year": 2000,
+    "locale": "UK",
+    "hint": "Dorset band, extreme downtuning, Sabbath worship at its most crushing, volume treated as a spiritual experience",
+    "answer": "Doom metal",
+    "options": [
+      "Stoner metal",
+      "Doom metal",
+      "Sludge metal",
+      "Drone metal"
+    ],
+    "explanation": "Doom metal — Electric Wizard play doom metal at its heaviest and most oppressive: ultra-downtuned guitars, glacial tempos, and an atmosphere of existential dread. Stoner metal (Sleep, Fu Manchu) shares the heavy riffs but is more groove-oriented and psychedelic. Sludge metal (Eyehategod, Crowbar) incorporates more hardcore punk aggression and feedback. Drone metal (Sunn O))), Earth) strips away rhythm and song structure almost entirely.",
+    "tags": [
+      "metal",
+      "doom",
+      "heavy",
+      "stoner"
+    ],
+    "youtube_id": "ZdlEIlq9nZg"
+  },
+  {
+    "artist": "The Dillinger Escape Plan",
+    "song": "43% Burnt",
+    "album": "Calculating Infinity",
+    "release_year": 1999,
+    "locale": "USA",
+    "hint": "Morris County, New Jersey band notorious for acrobatic and physically dangerous live performances, debut album of whiplash tempo changes",
+    "answer": "Mathcore",
+    "options": [
+      "Metalcore",
+      "Mathcore",
+      "Grindcore",
+      "Post-hardcore"
+    ],
+    "explanation": "Mathcore — The Dillinger Escape Plan are mathcore's most iconic act: metal riffing driven through math rock's jagged time-signature changes and unpredictable song structures. Metalcore (Converge, Hatebreed) is more rhythmically direct even at its most intense. Grindcore (Napalm Death, Pig Destroyer) prioritises sheer speed and brevity over rhythmic complexity. Post-hardcore (Fugazi, At the Drive-In) is less extreme and more groove-oriented.",
+    "tags": [
+      "metal",
+      "mathcore",
+      "hardcore",
+      "experimental"
+    ],
+    "youtube_id": "jiKjcrniJKY"
+  },
+  {
+    "artist": "Darkthrone",
+    "song": "Transilvanian Hunger",
+    "album": "Transilvanian Hunger",
+    "release_year": 1994,
+    "locale": "Norway",
+    "hint": "Kolbotn duo, deliberately lo-fi recording, hypnotic tremolo-picked guitars, part of the early-90s Scandinavian underground scene",
+    "answer": "Black metal",
+    "options": [
+      "Death metal",
+      "Black metal",
+      "Thrash metal",
+      "Speed metal"
+    ],
+    "explanation": "Black metal — Darkthrone are one of the pillars of Norwegian second-wave black metal: tremolo-picked guitar, shrieked vocals, blast beats, and intentionally raw production. The band began as a death metal act but by this album had fully committed to the black metal sound. Thrash metal (Slayer, Kreator) is more structured and polished. Speed metal (Motörhead, Agent Steel) is a melodic precursor that lacks black metal's atmospheric and ideological dimensions.",
+    "tags": [
+      "metal",
+      "black metal",
+      "extreme"
+    ],
+    "youtube_id": "KphlVeJX6fE"
+  },
+  {
+    "artist": "Code Orange",
+    "song": "Bleeding in the Blur",
+    "album": "Underneath",
+    "release_year": 2020,
+    "locale": "USA",
+    "hint": "Pittsburgh band, Grammy nominees, glitchy electronics woven through crushing live-band performances, boundary-pushing production on their 2020 record",
+    "answer": "Industrial metal",
+    "options": [
+      "Industrial metal",
+      "Metalcore",
+      "Nu-metal",
+      "Deathcore"
+    ],
+    "explanation": "Industrial metal — Code Orange's Underneath incorporates glitchy electronic production, distorted samples, and mechanical rhythms into a foundation of heavy, hardcore-rooted riffing. Metalcore (Killswitch Engage) relies on organic guitar-based dynamics without electronic manipulation. Nu-metal (Korn, Limp Bizkit) blends hip-hop and alternative rock elements rather than industrial noise. Deathcore (Whitechapel) focuses on death metal technicality over electronic textures.",
+    "tags": [
+      "metal",
+      "industrial",
+      "hardcore",
+      "electronic"
+    ],
+    "youtube_id": "o9-l8_t4AS8"
+  },
+  {
+    "artist": "Envy",
+    "song": "A Warm Room",
+    "album": "The Fallen Crimson",
+    "release_year": 2020,
+    "locale": "Japan",
+    "hint": "Tokyo five-piece active since 1992, emotionally overwhelming live performances, Japanese-language screamed and spoken vocals, crescendo-driven dynamics",
+    "answer": "Post-hardcore",
+    "options": [
+      "Screamo",
+      "Post-hardcore",
+      "Emo",
+      "Post-rock"
+    ],
+    "explanation": "Post-hardcore — Envy combine hardcore punk's raw intensity with cinematic dynamics, atmospheric guitar layers, and emotional depth that defines post-hardcore. Screamo (Saetia, Orchid) shares the emotional intensity and screamed vocals but is rawer and more chaotic. Emo (American Football, Sunny Day Real Estate) is more melodic and less aggressive. Post-rock (Mogwai, Explosions in the Sky) lacks the punk energy and vocal aggression central to Envy's sound.",
+    "tags": [
+      "hardcore",
+      "post-hardcore",
+      "experimental",
+      "japanese"
+    ],
+    "youtube_id": "TNJP_moDkUA"
+  },
+  {
+    "artist": "Full of Hell",
+    "song": "Burning Myrrh",
+    "album": "Weeping Choir",
+    "release_year": 2019,
+    "locale": "USA",
+    "hint": "Ocean City, Maryland band known for mercilessly brief songs, noise-drenched textures, and collaborations with a Japanese noise legend",
+    "answer": "Grindcore",
+    "options": [
+      "Powerviolence",
+      "Grindcore",
+      "Death metal",
+      "Noise rock"
+    ],
+    "explanation": "Grindcore — Full of Hell play grindcore at its most experimental: blast beats, microsecond song lengths, and extreme vocal aggression layered with harsh noise textures. Powerviolence (Infest, Charles Bronson) shares the brevity but uses more dramatic tempo shifts between fast and slow. Death metal (Cannibal Corpse) has more structured songwriting and longer compositions. Noise rock (Lightning Bolt) uses rock structures and is less rhythmically extreme.",
+    "tags": [
+      "grindcore",
+      "noise",
+      "extreme",
+      "hardcore"
+    ],
+    "youtube_id": "ob6y1mmILfc"
+  },
+  {
+    "artist": "Mgła",
+    "song": "Exercises in Futility I",
+    "album": "Exercises in Futility",
+    "release_year": 2015,
+    "locale": "Poland",
+    "hint": "Kraków duo, anonymous masked performers, nihilist philosophy, melodic yet relentless tremolo guitar work over a foundation of unbroken intensity",
+    "answer": "Black metal",
+    "options": [
+      "Black metal",
+      "Death metal",
+      "Post-metal",
+      "Doom metal"
+    ],
+    "explanation": "Black metal — Mgła play precise, riff-driven black metal that emphasises melodic tremolo guitar work and philosophical nihilism over the genre's more atmospheric or lo-fi tendencies. Death metal (Cannibal Corpse) uses deeper vocals and more technical riffing. Post-metal (Neurosis, Isis) combines metal heaviness with post-rock dynamics and extended compositions. Doom metal (Candlemass) is slower and more deliberate without black metal's blast beats and tremolo picking.",
+    "tags": [
+      "metal",
+      "black metal",
+      "extreme"
+    ],
+    "youtube_id": "uRQPpzE1U9s"
+  },
+  {
+    "artist": "Eyehategod",
+    "song": "Dixie Whiskey",
+    "album": "Dopesick",
+    "release_year": 1996,
+    "locale": "USA",
+    "hint": "New Orleans quartet, Sabbath's heaviness filtered through Southern swamp atmosphere, Mike IX Williams' tortured vocals over feedback-drenched riffs",
+    "answer": "Sludge metal",
+    "options": [
+      "Doom metal",
+      "Sludge metal",
+      "Stoner metal",
+      "Crust punk"
+    ],
+    "explanation": "Sludge metal — Eyehategod are godfathers of sludge metal, fusing Black Sabbath's crushing doom riffs with hardcore punk's aggression and a distinctly Southern, swamp-soaked atmosphere. Doom metal (Candlemass, Saint Vitus) is slower and more composed without sludge's punk edge. Stoner metal (Sleep, Electric Wizard) emphasises psychedelic groove over sludge's raw hostility. Crust punk (Amebix, Dystopia) shares the nihilism but is faster and more straightforwardly punk in structure.",
+    "tags": [
+      "metal",
+      "sludge",
+      "doom",
+      "hardcore"
+    ],
+    "youtube_id": "jcBfyDiwJnw"
+  },
+  {
+    "artist": "Cult of Luna",
+    "song": "The Silent Man",
+    "album": "A Dawn to Fear",
+    "release_year": 2019,
+    "locale": "Sweden",
+    "hint": "Umeå collective, architecturally structured compositions, dynamics ranging from near-silence to crushing walls of sound, deeply atmospheric",
+    "answer": "Post-metal",
+    "options": [
+      "Sludge metal",
+      "Post-metal",
+      "Doom metal",
+      "Post-rock"
+    ],
+    "explanation": "Post-metal — Cult of Luna are a cornerstone of post-metal, building vast cinematic compositions that move from whispered calm to devastating heaviness. Sludge metal (Eyehategod) maintains consistent aggression without the dynamic range. Doom metal (Electric Wizard) is riff-based and lacks post-metal's atmospheric architecture. Post-rock (Mogwai) shares the dynamic crescendo approach but without the heavy metal aggression and screamed vocals.",
+    "tags": [
+      "metal",
+      "post-metal",
+      "atmospheric",
+      "heavy"
+    ],
+    "youtube_id": "XoFJA24GhfA"
+  },
+  {
+    "artist": "Morbid Angel",
+    "song": "Immortal Rites",
+    "album": "Altars of Madness",
+    "release_year": 1989,
+    "locale": "USA",
+    "hint": "Tampa, Florida band, Trey Azagthoth's dizzying guitar solos, 1989 debut recorded at the legendary Morrisound Studios",
+    "answer": "Death metal",
+    "options": [
+      "Thrash metal",
+      "Death metal",
+      "Black metal",
+      "Speed metal"
+    ],
+    "explanation": "Death metal — Morbid Angel are one of death metal's founding acts. Altars of Madness helped define the genre: guttural vocals, dissonant tremolo riffing, blast beats, and technically dazzling solos. Thrash metal (Slayer, Kreator) is faster but cleaner in production and vocal delivery. Black metal (Mayhem, Darkthrone) emerged from a different Scandinavian lineage with shrieked vocals and atmospheric focus. Speed metal (Motörhead) is a more melodic precursor without death metal's extremity.",
+    "tags": [
+      "metal",
+      "death metal",
+      "extreme",
+      "technical"
+    ],
+    "youtube_id": "1spDf2sbuxk"
+  },
+  {
+    "artist": "Celeste",
+    "song": "Des Torrents De Coups",
+    "album": "Assassine(s)",
+    "release_year": 2022,
+    "locale": "France",
+    "hint": "Lyon collective performing in complete darkness, French-language vocals of despair, merging icy Scandinavian atmosphere with crushing punk-rooted directness",
+    "answer": "Blackened hardcore",
+    "options": [
+      "Blackened hardcore",
+      "Post-metal",
+      "Metalcore",
+      "Crust punk"
+    ],
+    "explanation": "Blackened hardcore — Celeste blend black metal's tremolo-picked guitars, blast beats, and icy atmosphere with hardcore punk's directness and emotional urgency. Post-metal (Neurosis, Isis) uses similar dynamics but with more expansive, atmospheric compositions. Metalcore (Converge) combines metal riffing with hardcore but without the specific black metal influence. Crust punk (Tragedy, Wolfbrigade) shares the raw punk energy but lacks the dense, layered textures.",
+    "tags": [
+      "hardcore",
+      "black metal",
+      "extreme",
+      "heavy"
+    ],
+    "youtube_id": "WmRIfUw1ymo"
+  },
+  {
+    "artist": "YOB",
+    "song": "Marrow",
+    "album": "Clearing the Path to Ascend",
+    "release_year": 2014,
+    "locale": "USA",
+    "hint": "Eugene, Oregon trio led by Mike Scheidt, massive sustain and feedback, meditative compositions stretching past 15 minutes, deeply spiritual heaviness",
+    "answer": "Doom metal",
+    "options": [
+      "Sludge metal",
+      "Doom metal",
+      "Post-metal",
+      "Drone metal"
+    ],
+    "explanation": "Doom metal — YOB play transcendental doom metal: massive, slow riffs building toward overwhelming emotional catharsis, with an emphasis on spiritual and cosmic themes. Sludge metal (Eyehategod) is punkier and more abrasive without the meditative quality. Post-metal (Isis) uses more dynamic light-to-heavy contrasts within tighter compositions. Drone metal (Sunn O)))) is more static and ambient, stripping away the riff-based songwriting that YOB maintain.",
+    "tags": [
+      "metal",
+      "doom",
+      "heavy",
+      "spiritual"
+    ],
+    "youtube_id": "2HdnaDuRwok"
+  },
+  {
+    "artist": "Leprous",
+    "song": "The Price",
+    "album": "Pitfalls",
+    "release_year": 2019,
+    "locale": "Norway",
+    "hint": "Notodden band, Einar Solberg's elastic voice spanning whisper to wail, formerly backing band for a legendary Norwegian solo artist, increasingly ambitious production",
+    "answer": "Progressive metal",
+    "options": [
+      "Progressive metal",
+      "Alternative metal",
+      "Art rock",
+      "Post-rock"
+    ],
+    "explanation": "Progressive metal — Leprous are a progressive metal band who have expanded their palette far beyond the genre's boundaries, incorporating electronic textures, pop dynamics, and emotional vulnerability. The Price sits on the more accessible end of their spectrum but retains the complex structures and unpredictable shifts that define progressive metal. Alternative metal (Deftones, Tool) is less compositionally complex. Art rock (Radiohead) lacks the metal-rooted heaviness. Post-rock (Sigur Rós) is instrumental and more atmospheric.",
+    "tags": [
+      "metal",
+      "progressive",
+      "experimental"
+    ],
+    "youtube_id": "0G9Qd_84YZs"
+  },
+  {
+    "artist": "Tatsuro Yamashita",
+    "song": "Ride on Time",
+    "album": "Ride on Time",
+    "release_year": 1980,
+    "locale": "Japan",
+    "hint": "Japanese pop icon of the 1980s whose glossy, funk-inflected sound found a massive second life through internet recommendation algorithms decades later",
+    "answer": "City pop",
+    "options": [
+      "Synth-pop",
+      "City pop",
+      "Disco",
+      "Sophisti-pop"
+    ],
+    "explanation": "City pop is a Japanese genre from the late '70s–80s blending funk, boogie, R&B, and yacht rock–style production into breezy, often summer-themed pop. 'Ride on Time' is one of its definitive tracks. Synth-pop shares the era but is more keyboard-forward and Western in origin. Disco influenced city pop's grooves but is a dance-floor genre with its own four-on-the-floor template. Sophisti-pop is a polished '80s UK movement with a different lineage entirely.",
+    "tags": [
+      "city pop",
+      "japanese pop",
+      "funk",
+      "boogie"
+    ],
+    "youtube_id": "-Y_UuHJJMOw"
+  },
+  {
+    "artist": "King Sunny Adé",
+    "song": "Ja Funmi",
+    "album": "Jùjú Music",
+    "release_year": 1982,
+    "locale": "Nigeria",
+    "hint": "Yoruba guitarist and bandleader whose shimmering, polyrhythmic ensemble sound was championed internationally by Island Records in the early '80s",
+    "answer": "Jùjú",
+    "options": [
+      "Highlife",
+      "Jùjú",
+      "Afrobeat",
+      "Soukous"
+    ],
+    "explanation": "Jùjú is a Yoruba popular music style built on interlocking guitars, talking drums, and call-and-response vocals. King Sunny Adé is its greatest ambassador. Highlife originated in Ghana with brass and dance-band instrumentation. Afrobeat is Fela Kuti's politically charged fusion of funk and jazz. Soukous is a Congolese guitar-driven dance style — related in its guitar interplay but rhythmically distinct from jùjú's talking drum foundation.",
+    "tags": [
+      "jùjú",
+      "yoruba",
+      "world music"
+    ],
+    "youtube_id": "LIO9MjfOo48"
+  },
+  {
+    "artist": "Ichiko Aoba",
+    "song": "Porcelain",
+    "album": "Windswept Adan",
+    "release_year": 2020,
+    "locale": "Japan",
+    "hint": "Japanese artist whose fingerpicked classical guitar and whispered vocals evoke an imaginary island civilisation in a conceptual double album",
+    "answer": "Chamber folk",
+    "options": [
+      "Dream pop",
+      "Chamber folk",
+      "Ambient",
+      "Art pop"
+    ],
+    "explanation": "Chamber folk weaves intimate acoustic songwriting — fingerpicked guitar, hushed vocals — with orchestral and classical arrangements. Ichiko Aoba's 'Windswept Adan' is a pinnacle of the style, layering nylon-string guitar with strings and woodwinds. Dream pop relies on reverb-drenched electric guitars and synthesizers. Ambient music prioritises atmosphere over song structure. Art pop is a broader category that deconstructs pop conventions more aggressively than Aoba's gentle, melodic approach.",
+    "tags": [
+      "chamber folk",
+      "japanese folk",
+      "art song"
+    ],
+    "youtube_id": "4JprPTHR808"
+  },
+  {
+    "artist": "Billy Woods",
+    "song": "Houdini",
+    "album": "Maps",
+    "release_year": 2023,
+    "locale": "USA",
+    "hint": "Fiercely independent New York rapper known for dense literary wordplay, rarely photographed, who runs his own label with Elucid",
+    "answer": "Underground hip-hop",
+    "options": [
+      "Boom bap",
+      "Underground hip-hop",
+      "Jazz rap",
+      "Conscious hip-hop"
+    ],
+    "explanation": "Underground hip-hop describes rap made outside mainstream commercial channels, emphasising lyrical complexity, artistic independence, and DIY distribution. Billy Woods is one of its most acclaimed modern voices, releasing through his own Backwoodz Studioz. Boom bap specifically refers to the drum-heavy '90s New York production style. Jazz rap foregrounds jazz samples and instrumentation. Conscious hip-hop centres political messaging — which Woods employs, but the underground label captures his entire artistic ecosystem more precisely.",
+    "tags": [
+      "underground hip-hop",
+      "indie rap",
+      "experimental"
+    ],
+    "youtube_id": "SVIuv62RQRs"
+  },
+  {
+    "artist": "black midi",
+    "song": "bmbmbm",
+    "album": "Schlagenheim",
+    "release_year": 2019,
+    "locale": "UK",
+    "hint": "London trio from the BRIT School whose ferociously complex live shows became legendary before they even released a debut album",
+    "answer": "Math rock",
+    "options": [
+      "Math rock",
+      "Noise rock",
+      "Post-punk",
+      "Prog rock"
+    ],
+    "explanation": "Math rock is defined by irregular time signatures, angular guitar riffs, and rhythmic complexity — all hallmarks of 'bmbmbm' with its dissonant staccato guitar stabs and constantly shifting meter. Noise rock shares the abrasiveness but is less concerned with rhythmic precision. Post-punk uses angular guitar too but in more straightforward song structures. Prog rock shares the technical ambition but leans toward longer, more composed and melodic pieces rather than this track's feral energy.",
+    "tags": [
+      "math rock",
+      "experimental rock",
+      "noise"
+    ],
+    "youtube_id": "Rc3LSW_XTwI"
+  },
+  {
+    "artist": "Bomba Estéreo",
+    "song": "Soy Yo",
+    "album": "Amanecer",
+    "release_year": 2015,
+    "locale": "Colombia",
+    "hint": "Bogotá collective whose music video starring a confident young girl dancing through city streets became a viral empowerment anthem",
+    "answer": "Electrocumbia",
+    "options": [
+      "Reggaeton",
+      "Electrocumbia",
+      "Tropical house",
+      "Latin pop"
+    ],
+    "explanation": "Electrocumbia fuses traditional cumbia's shuffling rhythms and accordion-influenced melodies with electronic production — synths, drum machines, and digital effects. 'Soy Yo' layers cumbia's signature rhythmic feel over pulsing electronic beats. Reggaeton has its own distinct dembow rhythm pattern. Tropical house is a European EDM subgenre that borrows tropical flavours without cumbia's roots. Latin pop is a broader commercial umbrella that lacks this track's specific electronic-meets-folklore identity.",
+    "tags": [
+      "electrocumbia",
+      "latin electronic",
+      "cumbia"
+    ],
+    "youtube_id": "bxWxXncl53U"
+  },
+  {
+    "artist": "Arooj Aftab",
+    "song": "Mohabbat",
+    "album": "Vulture Prince",
+    "release_year": 2021,
+    "locale": "Pakistan",
+    "hint": "Brooklyn-based Pakistani vocalist whose Grammy-winning album reimagines centuries-old Urdu poetry with minimalist arrangements and jazz-inflected harmony",
+    "answer": "Neo-Sufi",
+    "options": [
+      "Neo-Sufi",
+      "Qawwali",
+      "Art pop",
+      "Ambient"
+    ],
+    "explanation": "Neo-Sufi is a contemporary movement reinterpreting Sufi devotional traditions — particularly Urdu and Farsi poetry — through modern production and jazz harmony. 'Mohabbat' sets a ghazal by Hafeez Hoshiarpuri over sparse guitar, harp, and strings. Qawwali is the traditional high-energy devotional form exemplified by Nusrat Fateh Ali Khan, far more rhythmically intense and communal. Art pop is a broader Western category. Ambient music lacks the melodic focus and lyrical depth central to this piece.",
+    "tags": [
+      "neo-sufi",
+      "art song",
+      "south asian"
+    ],
+    "youtube_id": "iRZ98HX1MO8"
+  },
+  {
+    "artist": "Aldous Harding",
+    "song": "The Barrel",
+    "album": "Designer",
+    "release_year": 2019,
+    "locale": "New Zealand",
+    "hint": "New Zealand singer known for enigmatic, unsettling performances and a vocal delivery that shifts between delicate whisper and theatrical contortion",
+    "answer": "Art folk",
+    "options": [
+      "Indie folk",
+      "Art folk",
+      "Chamber pop",
+      "Dream pop"
+    ],
+    "explanation": "Art folk fuses folk songwriting and acoustic instrumentation with avant-garde performance, unconventional vocal techniques, and surreal imagery. Aldous Harding's theatrical delivery and strange choreography on 'The Barrel' are textbook art folk. Indie folk is warmer and more straightforward melodically. Chamber pop features fuller orchestral arrangements in service of conventional pop structures. Dream pop relies on heavy reverb and ethereal textures rather than Harding's deliberately uncanny clarity.",
+    "tags": [
+      "art folk",
+      "singer-songwriter",
+      "experimental folk"
+    ],
+    "youtube_id": "QyZeJr5ppm8"
+  },
+  {
+    "artist": "clipping.",
+    "song": "Body & Blood",
+    "album": "CLPPNG",
+    "release_year": 2014,
+    "locale": "USA",
+    "hint": "Los Angeles trio featuring an actor who later starred in Hamilton, building beats from harsh sine waves and power-electronics textures",
+    "answer": "Industrial hip-hop",
+    "options": [
+      "Noise rap",
+      "Industrial hip-hop",
+      "Horrorcore",
+      "Glitch hop"
+    ],
+    "explanation": "Industrial hip-hop merges rap vocals with abrasive, mechanical, noise-driven production drawn from industrial music. Daveed Diggs raps over Jonathan Snipes and William Hutson's harsh sine-wave tones and distorted percussion. Noise rap is a looser, less established descriptor. Horrorcore focuses on horror-themed lyrics rather than a particular production philosophy. Glitch hop uses digital artifacts playfully, whereas clipping.'s sonic palette is confrontational and physically aggressive.",
+    "tags": [
+      "industrial hip-hop",
+      "noise",
+      "experimental rap"
+    ],
+    "youtube_id": "3ZAPtFRpuu8"
+  },
+  {
+    "artist": "Yaeji",
+    "song": "raingurl",
+    "album": "EP2",
+    "release_year": 2017,
+    "locale": "South Korea",
+    "hint": "Korean-American DJ who murmurs bilingual vocals over hazy, stripped-back dance beats produced in her Brooklyn apartment",
+    "answer": "Lo-fi house",
+    "options": [
+      "Deep house",
+      "Lo-fi house",
+      "Tech house",
+      "Vaporwave"
+    ],
+    "explanation": "Lo-fi house applies a deliberately low-fidelity, hazy aesthetic to house music — tape hiss, muddied basslines, and distant vocals. 'raingurl' epitomises this with its muffled four-on-the-floor kick and whispered Korean-English lyrics. Deep house is warmer, more polished, and harmonically richer. Tech house is more driving and functional for peak-time dance floors. Vaporwave shares lo-fi aesthetics but deconstructs commercial music samples rather than building original dance tracks.",
+    "tags": [
+      "lo-fi house",
+      "electronic",
+      "house"
+    ],
+    "youtube_id": "_3T8KznhThQ"
+  },
+  {
+    "artist": "Heilung",
+    "song": "Krigsgaldr",
+    "album": "Ofnir",
+    "release_year": 2015,
+    "locale": "Denmark",
+    "hint": "Multinational collective performing reconstructed Northern European texts with bone flutes, animal hides, and throat singing at ritualistic outdoor ceremonies",
+    "answer": "Neofolk",
+    "options": [
+      "Dark ambient",
+      "Neofolk",
+      "Viking metal",
+      "Ritual ambient"
+    ],
+    "explanation": "Neofolk draws on pre-Christian European musical traditions, incorporating acoustic instruments, ritualistic percussion, and archaic texts into a modern framework. Heilung take this to extremes, recreating Iron Age and Viking-era soundscapes with bone flutes, frame drums, and runic chanting. Dark ambient shares atmospheric darkness but is purely electronic. Viking metal uses distorted guitars and metal structures to explore similar themes. Ritual ambient is closer but lacks the acoustic folk-instrument core that anchors Heilung's sound.",
+    "tags": [
+      "neofolk",
+      "dark folk",
+      "ritual"
+    ],
+    "youtube_id": "QRg_8NNPTD8"
+  },
+  {
+    "artist": "Marisa Monte",
+    "song": "Amor I Love You",
+    "album": "Memórias, Crônicas e Declarações de Amor",
+    "release_year": 2000,
+    "locale": "Brazil",
+    "hint": "One of Brazil's most celebrated vocalists, known for her work in the supergroup Tribalistas and collaborations with David Byrne and Laurie Anderson",
+    "answer": "MPB",
+    "options": [
+      "Bossa nova",
+      "MPB",
+      "Samba",
+      "Tropicália"
+    ],
+    "explanation": "MPB (Música Popular Brasileira) is a broad post-bossa nova movement that absorbs rock, pop, folk, and regional Brazilian styles into sophisticated Portuguese-language songcraft. 'Amor I Love You' is a lush MPB ballad layering Marisa Monte's expressive voice over orchestral arrangements. Bossa nova is a specific late-'50s/early-'60s style with a distinct rhythmic feel and cool jazz harmony. Samba is percussion-driven and dance-oriented. Tropicália was a late-'60s avant-garde movement that preceded MPB's mainstream emergence.",
+    "tags": [
+      "mpb",
+      "brazilian pop",
+      "singer-songwriter"
+    ],
+    "youtube_id": "2CPHbEIC6EM"
+  },
+  {
+    "artist": "Molchat Doma",
+    "song": "Sudno",
+    "album": "Этажи",
+    "release_year": 2018,
+    "locale": "Belarus",
+    "hint": "Minsk trio who went viral on TikTok with a brooding post-Soviet aesthetic, drum machines, and baritone Russian-language vocals",
+    "answer": "Darkwave",
+    "options": [
+      "Post-punk",
+      "Darkwave",
+      "Synthpop",
+      "Coldwave"
+    ],
+    "explanation": "Darkwave combines post-punk's somber mood with synth-driven production and gothic atmospherics — drum machine pulse, icy synthesiser lines, and deep vocals. Molchat Doma's 'Sudno' is a textbook example. Post-punk shares the brooding mood but typically features more guitar-driven arrangements. Synthpop uses similar instruments but aims for catchier, more upbeat songwriting. Coldwave is a closely related early-'80s French movement, but Molchat Doma draw more from the Eastern European and Russian underground tradition.",
+    "tags": [
+      "darkwave",
+      "post-punk",
+      "synth"
+    ],
+    "youtube_id": "91GTuZWCQmY"
+  },
+  {
+    "artist": "Omara Portuondo",
+    "song": "Veinte Años",
+    "album": "Buena Vista Social Club",
+    "release_year": 1997,
+    "locale": "Cuba",
+    "hint": "Cuban vocalist nicknamed the 'Fiancée of Feeling' who gained worldwide fame in her seventies through a landmark Ry Cooder–produced album project",
+    "answer": "Bolero",
+    "options": [
+      "Son cubano",
+      "Bolero",
+      "Bossa nova",
+      "Trova"
+    ],
+    "explanation": "Bolero is a Latin American ballad tradition characterised by romantic lyrics, slow tempo, and expressive vocal delivery. 'Veinte Años' is one of the most famous Cuban boleros, here given its definitive rendition through the Buena Vista Social Club project. Son cubano is a more rhythmically upbeat Cuban genre with different percussion patterns. Bossa nova is a Brazilian genre with a distinct rhythmic and harmonic language. Trova is a Cuban singer-songwriter tradition — related but typically more guitar-driven and politically themed.",
+    "tags": [
+      "bolero",
+      "cuban",
+      "latin"
+    ],
+    "youtube_id": "KmzXBEA4C8E"
+  },
+  {
+    "artist": "Idles",
+    "song": "Danny Nedelko",
+    "album": "Joy as an Act of Resistance",
+    "release_year": 2018,
+    "locale": "UK",
+    "hint": "Bristol five-piece channelling working-class rage and radical empathy into ferocious, chant-along anthems about immigration and vulnerability",
+    "answer": "Post-punk",
+    "options": [
+      "Punk rock",
+      "Post-punk",
+      "Hardcore punk",
+      "Noise rock"
+    ],
+    "explanation": "Post-punk emerged after punk's initial explosion, retaining the energy and politics but adding angular guitar work, rhythmic complexity, and broader sonic ambition. Idles fit firmly here — 'Danny Nedelko' has the driving bassline and declamatory vocals of classic post-punk updated with modern muscle. Punk rock is more straightforward in its chord progressions and structure. Hardcore punk is faster and more unrelenting. Noise rock prioritises dissonance and texture over the anthemic hooks that define this track.",
+    "tags": [
+      "post-punk",
+      "punk",
+      "indie rock"
+    ],
+    "youtube_id": "QkF_G-RF66M"
+  },
+  {
+    "artist": "Les Filles de Illighadad",
+    "song": "Eghass Malan",
+    "album": "Eghass Malan",
+    "release_year": 2017,
+    "locale": "Niger",
+    "hint": "All-women ensemble from a remote Saharan village performing a hypnotic rhythmic tradition usually heard at weddings and naming ceremonies",
+    "answer": "Tende",
+    "options": [
+      "Desert blues",
+      "Tende",
+      "Gnawa",
+      "Highlife"
+    ],
+    "explanation": "Tende is a Tuareg musical tradition named after the mortar drum central to its sound, performed communally at ceremonies and gatherings. Les Filles de Illighadad bring this tradition — call-and-response vocals over hypnotic hand-clapped rhythms and repetitive guitar — to global audiences. Desert blues (Tinariwen, Bombino) uses amplified electric guitars in a more rock-influenced framework. Gnawa is a Moroccan spiritual tradition with different instrumentation and ritual context. Highlife is a West African genre rooted in big-band jazz and dance music.",
+    "tags": [
+      "tende",
+      "tuareg",
+      "saharan"
+    ],
+    "youtube_id": "MJXBTbARVs0"
+  },
+  {
+    "artist": "Mabe Fratti",
+    "song": "Se Ve Desde Aquí",
+    "album": "Se Ve Desde Aquí",
+    "release_year": 2022,
+    "locale": "Guatemala",
+    "hint": "Guatemala City cellist based in Mexico City whose compositions dissolve the boundary between free improvisation and song structure using looped strings and electronics",
+    "answer": "Experimental pop",
+    "options": [
+      "Art pop",
+      "Experimental pop",
+      "Chamber pop",
+      "Post-rock"
+    ],
+    "explanation": "Experimental pop retains pop's melodic instinct while radically reimagining structure, instrumentation, and production. Mabe Fratti builds songs around her cello and voice, layering electronics and unconventional arrangements into something that remains emotionally direct. Art pop is adjacent but typically works within more recognisable pop frameworks. Chamber pop uses orchestral instruments in service of conventional songwriting. Post-rock eschews vocals and traditional song form for long instrumental builds, unlike Fratti's compact, vocal-centred pieces.",
+    "tags": [
+      "experimental pop",
+      "art song",
+      "avant-garde"
+    ],
+    "youtube_id": "1oRab_1RQ0o"
+  },
+  {
+    "artist": "Earl Sweatshirt",
+    "song": "December 24",
+    "album": "Some Rap Songs",
+    "release_year": 2018,
+    "locale": "USA",
+    "hint": "Former teen prodigy of an LA rap collective who stripped his production down to murky, fragmentary loops and 80-second vignettes",
+    "answer": "Lo-fi hip-hop",
+    "options": [
+      "Abstract hip-hop",
+      "Lo-fi hip-hop",
+      "Boom bap",
+      "Cloud rap"
+    ],
+    "explanation": "Lo-fi hip-hop uses intentionally degraded, sample-heavy production — short loops, tape hiss, and muddy mixing — as a deliberate aesthetic choice. 'December 24' from Some Rap Songs epitomises this with its warped soul sample and disorienting brevity. Abstract hip-hop (MF DOOM) is about lyrical surrealism and complex wordplay. Boom bap emphasises punchy, clean drum breaks. Cloud rap (Lil B, early Clams Casino) uses spacious, atmospheric beats — the opposite of Earl's dense, claustrophobic murk.",
+    "tags": [
+      "lo-fi hip-hop",
+      "experimental rap",
+      "underground"
+    ],
+    "youtube_id": "mvtpGspVHgs"
+  },
+  {
+    "artist": "Yellow Magic Orchestra",
+    "song": "Tong Poo",
+    "album": "Yellow Magic Orchestra",
+    "release_year": 1978,
+    "locale": "Japan",
+    "hint": "Tokyo supergroup of studio veterans — including the future composer of the Last Emperor soundtrack — who built a computer-driven sound years before it went mainstream in the West",
+    "answer": "Synth-pop",
+    "options": [
+      "Synth-pop",
+      "Krautrock",
+      "New wave",
+      "Electro"
+    ],
+    "explanation": "Synth-pop uses synthesisers as the primary melodic and harmonic voice over electronic rhythms, and Yellow Magic Orchestra were among its earliest global pioneers. 'Tong Poo' features Moog and ARP synthesisers over a sequenced rhythmic foundation, predating much of the British synth-pop wave. Krautrock is a German experimental tradition with different aesthetics and goals. New wave is a broader umbrella that encompasses synth-pop alongside guitar-driven styles. Electro is more funk-driven and emerged slightly later in the early '80s.",
+    "tags": [
+      "synth-pop",
+      "electronic",
+      "japanese"
+    ],
+    "youtube_id": "K3DSwl3gMTc"
+  },
+  {
+    "artist": "Sons of Kemet",
+    "song": "My Queen is Harriet Tubman",
+    "album": "Your Queen Is a Reptile",
+    "release_year": 2018,
+    "locale": "UK",
+    "hint": "London ensemble led by a saxophonist-clarinetist, built around a tuba-and-double-drums lineup with fierce anti-colonial themes",
+    "answer": "UK jazz",
+    "options": [
+      "Afrobeat",
+      "UK jazz",
+      "Free jazz",
+      "Ska"
+    ],
+    "explanation": "UK jazz describes the vibrant 2010s London scene fusing jazz improvisation with Caribbean rhythms, grime energy, and Afrodiasporic influences. Sons of Kemet — with their distinctive tuba-and-double-drums instrumentation — are central to this movement. Afrobeat is Fela Kuti's Nigerian creation with a different compositional structure. Free jazz abandons conventional harmony and rhythm entirely, while Sons of Kemet always maintain a hard groove. Ska shares Caribbean roots but is a specific Jamaican genre with its own upbeat rhythmic pattern.",
+    "tags": [
+      "uk jazz",
+      "london jazz",
+      "caribbean"
+    ],
+    "youtube_id": "twjaSC5Ym9s"
+  },
+  {
+    "artist": "Ebo Taylor",
+    "song": "Love and Death",
+    "album": "Love and Death",
+    "release_year": 2010,
+    "locale": "Ghana",
+    "hint": "Ghanaian guitarist and bandleader active since the 1960s who experienced a major career revival through European reissue labels and festival circuits",
+    "answer": "Highlife",
+    "options": [
+      "Highlife",
+      "Afrobeat",
+      "Funk",
+      "Soukous"
+    ],
+    "explanation": "Highlife is a West African genre originating in Ghana that blends traditional melodies with jazz, swing, and funk influences, typically featuring guitar-driven arrangements and horn sections. Ebo Taylor is one of its living legends. Afrobeat, created by Fela Kuti in Nigeria, shares some DNA but builds on more insistent polyrhythmic structures and political intent. Funk influenced highlife's grooves but is an American genre with a different rhythmic emphasis. Soukous is a Congolese guitar-driven dance music with its own distinct sebene guitar patterns.",
+    "tags": [
+      "highlife",
+      "ghanaian",
+      "afro-funk"
+    ],
+    "youtube_id": "ZkHzk07vb_w"
+  },
+  {
+    "artist": "Duma",
+    "song": "Lionsblood",
+    "album": "Duma",
+    "release_year": 2020,
+    "locale": "Kenya",
+    "hint": "Nairobi duo merging extreme heaviness with East African electronic music, creating one of the most punishing sounds to emerge from the continent",
+    "answer": "Industrial metal",
+    "options": [
+      "Death metal",
+      "Industrial metal",
+      "Grindcore",
+      "Noise rock"
+    ],
+    "explanation": "Industrial metal combines metal's heaviness with electronic noise, programmed beats, and mechanistic textures. Duma's 'Lionsblood' hammers blast beats and screamed vocals over harsh digital distortion and glitched percussion. Death metal shares the extreme vocals and speed but relies on organic instrumentation. Grindcore is faster, shorter, and more punk-influenced in its construction. Noise rock is abrasive but typically less extreme in both its electronic elements and its metal intensity than Duma's singular fusion.",
+    "tags": [
+      "industrial metal",
+      "extreme metal",
+      "electronic"
+    ],
+    "youtube_id": "zd35MhHqjhc"
+  },
+  {
+    "artist": "Floating Points",
+    "song": "Movement 6",
+    "album": "Promises",
+    "release_year": 2021,
+    "locale": "UK",
+    "hint": "A late collaboration between a legendary tenor saxophonist and a British electronic producer, performed with a full symphony orchestra over nine seamless movements",
+    "answer": "Spiritual jazz",
+    "options": [
+      "Ambient",
+      "Spiritual jazz",
+      "Third stream",
+      "New age"
+    ],
+    "explanation": "Spiritual jazz is a meditative, transcendence-seeking approach to jazz pioneered by Alice Coltrane and Pharoah Sanders. Promises extends this tradition — Sanders' tenor sax soars over Sam Shepherd's repeating harpsichord-like motif and the London Symphony Orchestra's swelling strings. Ambient music lacks the jazz improvisation and harmonic movement central to this piece. Third stream is a mid-century classical-jazz fusion with more formal compositional aims. New age may sound superficially calm but lacks the improvisational depth and emotional gravitas of Sanders' playing.",
+    "tags": [
+      "spiritual jazz",
+      "ambient jazz",
+      "orchestral"
+    ],
+    "youtube_id": "FQdLWlvgHOg"
+  },
+  {
+    "artist": "Bladee",
+    "song": "Be Nice 2 Me",
+    "album": "Red Light",
+    "release_year": 2018,
+    "locale": "Sweden",
+    "hint": "Stockholm rapper and Drain Gang co-founder whose heavily pitch-shifted vocals and ethereal production became a cult phenomenon through SoundCloud and fan communities",
+    "answer": "Cloud rap",
+    "options": [
+      "Emo rap",
+      "Cloud rap",
+      "Hyperpop",
+      "Trap"
+    ],
+    "explanation": "Cloud rap is characterised by spacious, atmospheric beats, reverb-drenched vocals, and a dreamy, detached aesthetic — pioneered by Lil B and Clams Casino and evolved by artists like Bladee. 'Be Nice 2 Me' floats pitch-shifted vocals over shimmering synth pads and sparse percussion. Emo rap foregrounds emotional lyrics over emo-influenced guitar. Hyperpop pushes pop to maximalist extremes, while Bladee's sound is more minimal and ghostly. Trap emphasises hard-hitting 808 bass and hi-hat rolls in a more grounded sonic space.",
+    "tags": [
+      "cloud rap",
+      "drain gang",
+      "experimental rap"
+    ],
+    "youtube_id": "vcAp4nmTZCA"
+  },
+  {
+    "artist": "FKA twigs",
+    "song": "Two Weeks",
+    "album": "LP1",
+    "release_year": 2014,
+    "locale": "UK",
+    "hint": "Cheltenham-born vocalist, dancer, and visual artist whose debut album redefined the intersection of avant-garde production and sensual songwriting",
+    "answer": "Electronic R&B",
+    "options": [
+      "Trip-hop",
+      "Electronic R&B",
+      "Art pop",
+      "Downtempo"
+    ],
+    "explanation": "Electronic R&B fuses contemporary R&B vocal style with experimental electronic production — glitchy beats, heavy bass, and digital manipulation — while keeping the emotional intimacy of R&B songwriting. 'Two Weeks' layers FKA twigs' multi-tracked falsetto over pulsing bass and stuttering percussion. Trip-hop is slower and more sample-based, rooted in a specific '90s Bristol sound. Art pop is broader and less grounded in R&B tradition. Downtempo is an electronic umbrella term that lacks the vocal and rhythmic specificity of this track.",
+    "tags": [
+      "electronic r&b",
+      "experimental",
+      "art pop"
+    ],
+    "youtube_id": "3yDP9MKVhZc"
+  },
+  {
+    "artist": "Fugazi",
+    "song": "Waiting Room",
+    "album": "13 Songs",
+    "release_year": 1989,
+    "locale": "USA",
+    "hint": "Washington D.C., Dischord Records, Ian MacKaye after Minor Threat, $5 all-ages shows, staunchly anti-corporate",
+    "answer": "Post-hardcore",
+    "options": [
+      "Hardcore punk",
+      "Post-hardcore",
+      "Indie rock",
+      "Noise rock"
+    ],
+    "explanation": "Post-hardcore — Fugazi helped define the genre: taking hardcore punk's intensity and DIY ethics but expanding the palette with dynamic shifts, funk-influenced basslines, and inventive song structures. Hardcore punk (Minor Threat, MacKaye's prior band) is faster and more straightforward. Indie rock shares the DIY ethos but lacks the punk aggression. Noise rock (Sonic Youth) is more dissonant and art-school-rooted.",
+    "tags": [
+      "punk",
+      "post-hardcore",
+      "indie"
+    ],
+    "youtube_id": "cMOAXm94VWo"
+  },
+  {
+    "artist": "Rammstein",
+    "song": "Deutschland",
+    "album": "Rammstein",
+    "release_year": 2019,
+    "locale": "Germany",
+    "hint": "Berlin sextet, pyrotechnic spectacles, German-language vocals, exploring complex national identity through heavy music and provocation",
+    "answer": "Neue Deutsche Härte",
+    "options": [
+      "Industrial metal",
+      "Neue Deutsche Härte",
+      "Gothic metal",
+      "EBM"
+    ],
+    "explanation": "Neue Deutsche Härte (literally 'New German Hardness') — Rammstein are the genre's defining act, combining heavy guitar riffs with electronic beats, German-language lyrics, and dramatic presentation. Industrial metal (Ministry, Nine Inch Nails) is the American counterpart but lacks the distinctly Germanic character. Gothic metal (Type O Negative) is more romantic and less electronic. EBM (Front 242) is purely electronic without heavy guitars.",
+    "tags": [
+      "metal",
+      "industrial",
+      "rock"
+    ],
+    "youtube_id": "NeQM1c-XCDc"
+  },
+  {
+    "artist": "Turnstile",
+    "song": "Mystery",
+    "album": "Glow On",
+    "release_year": 2021,
+    "locale": "USA",
+    "hint": "Baltimore band, breakthrough 2021, boundary-pushing energy, surprisingly melodic and joyful for their scene, Roadrunner Records",
+    "answer": "Hardcore punk",
+    "options": [
+      "Pop-punk",
+      "Hardcore punk",
+      "Post-hardcore",
+      "Metalcore"
+    ],
+    "explanation": "Hardcore punk — Turnstile emerged from Baltimore's hardcore scene and retain the genre's intensity, breakdowns, and community-driven ethos. Glow On added unexpected melody and shoegaze textures but the foundation is still hardcore. Pop-punk (blink-182) is less aggressive and more radio-friendly. Post-hardcore (Fugazi) deconstructs punk further. Metalcore (Converge) is heavier and more metal-influenced. Turnstile's innovation is making hardcore punk feel joyful and inclusive.",
+    "tags": [
+      "punk",
+      "hardcore",
+      "rock"
+    ],
+    "youtube_id": "1Ny1fjdLKew"
+  },
+  {
+    "artist": "PUP",
+    "song": "DVP",
+    "album": "The Dream Is Over",
+    "release_year": 2016,
+    "locale": "Canada",
+    "hint": "Toronto four-piece, Stefan Babcock's raspy vocals, self-deprecating humour, high-energy mosh-pit anthems, DIY ethos",
+    "answer": "Pop-punk",
+    "options": [
+      "Punk rock",
+      "Pop-punk",
+      "Emo",
+      "Indie rock"
+    ],
+    "explanation": "Pop-punk — PUP blend punk energy and aggression with catchy, singalong melodies and hooks, the essence of pop-punk. DVP is a fast, furious song about getting drunk on the Don Valley Parkway. Unlike classic pop-punk (blink-182, Green Day), PUP lean grittier and more indebted to hardcore. Punk rock (Bad Religion) is less melodically focused. Emo (American Football) is more introspective and less party-oriented. Indie rock is softer and less punk-rooted.",
+    "tags": [
+      "punk",
+      "pop-punk",
+      "rock",
+      "indie"
+    ],
+    "youtube_id": "iVuB1ZASrGw"
+  },
+  {
+    "artist": "Spiritbox",
+    "song": "Holy Roller",
+    "album": "Eternal Blue",
+    "release_year": 2021,
+    "locale": "Canada",
+    "hint": "Vancouver duo, Courtney LaPlante's clean-to-harsh vocal range, low-tuned polyrhythmic guitars, digital-age heavy music breakout",
+    "answer": "Progressive metalcore",
+    "options": [
+      "Djent",
+      "Progressive metalcore",
+      "Nu-metal",
+      "Deathcore"
+    ],
+    "explanation": "Progressive metalcore — Spiritbox fuse metalcore's heavy breakdowns and harsh vocals with progressive song structures and clean melodic passages. The low-tuned, palm-muted guitar tone is prominent but serves a wider musical vision. Djent (Meshuggah) is more rhythmically focused and less melodic. Nu-metal (Korn) is more groove-based and less technical. Deathcore (Suicide Silence) is heavier throughout with less clean singing and melodic contrast.",
+    "tags": [
+      "metal",
+      "metalcore",
+      "progressive"
+    ],
+    "youtube_id": "cWE0sSZ9yLc"
   }
 ]
