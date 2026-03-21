@@ -77,20 +77,23 @@
   }
 
   .app-header {
-    padding: 18px 0 10px;
-    text-align: center;
+    padding: 4px 0 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
     flex-shrink: 0;
   }
 
   .logo {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
     font-family: var(--font-display);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
   }
 
   .logo-text {
@@ -98,7 +101,7 @@
   }
 
   .logo-accent {
-    background: linear-gradient(135deg, #b06ef3, #f06292);
+    background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -116,7 +119,7 @@
     display: block;
     width: 3px;
     border-radius: 1.5px;
-    background: linear-gradient(to top, #b06ef3, #f06292);
+    background: linear-gradient(to top, var(--primary-container), var(--secondary-container));
     animation: eq-bounce 1.4s ease-in-out infinite;
     transform-origin: bottom;
   }
@@ -136,7 +139,9 @@
     display: flex;
     flex-direction: column;
     min-height: 0;
-    overflow: hidden;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--surface-highest) transparent;
   }
 
   .quiz-screen-wrap {

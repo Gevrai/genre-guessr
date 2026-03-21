@@ -55,19 +55,18 @@ async function findAndValidate(query, label) {
 async function autoFix() {
   const songs = JSON.parse(readFileSync(SONGS_PATH, "utf8"));
 
-  // 1. Find broken IDs
+  // 1. Find broken IDs concurrently
   console.log(`Checking ${songs.length} videos for broken embeds…\n`);
-  const broken = [];
-  for (const song of songs) {
-    const status = await checkEmbed(song.youtube_id);
-    if (status !== 200) {
-      broken.push(song);
-      process.stdout.write("✗");
-    } else {
-      process.stdout.write(".");
-    }
-  }
+  const statuses = await Promise.all(
+    songs.map(async (song) => {
+      const status = await checkEmbed(song.youtube_id);
+      process.stdout.write(status !== 200 ? "✗" : ".");
+      return { song, status };
+    })
+  );
   console.log(`\n`);
+
+  const broken = statuses.filter(({ status }) => status !== 200).map(({ song }) => song);
 
   if (broken.length === 0) {
     console.log("All embeds are working. Nothing to fix.");
@@ -76,14 +75,16 @@ async function autoFix() {
 
   console.log(`Found ${broken.length} broken embed(s). Searching for replacements…\n`);
 
-  // 2. Search for replacements
+  // 2. Search for replacements concurrently
   const fixes = {};
-  for (const song of broken) {
-    const query = `${song.artist} ${song.song} official`;
-    const { id, ok } = await findAndValidate(query, `${song.artist} — ${song.song}`);
-    console.log(`${ok}  ${song.artist} — ${song.song}: ${id ?? "NOT FOUND"}`);
-    if (id) fixes[song.youtube_id] = id;
-  }
+  await Promise.all(
+    broken.map(async (song) => {
+      const query = `${song.artist} ${song.song} official`;
+      const { id, ok } = await findAndValidate(query, `${song.artist} — ${song.song}`);
+      console.log(`${ok}  ${song.artist} — ${song.song}: ${id ?? "NOT FOUND"}`);
+      if (id) fixes[song.youtube_id] = id;
+    })
+  );
 
   // 3. Apply fixes
   const fixCount = Object.keys(fixes).length;
@@ -103,13 +104,15 @@ async function autoFix() {
 // ── Mode: look up specific songs by "Artist - Song" ───────────────────────────
 
 async function lookupSongs(args) {
-  for (const arg of args) {
-    // Accept "Artist - Song" or "Artist — Song"
-    const query = `${arg} official`;
-    const { id, ok } = await findAndValidate(query, arg);
-    console.log(`${ok}  ${arg}: ${id ?? "NOT FOUND"}`);
-    if (id) console.log(`     https://www.youtube.com/watch?v=${id}`);
-  }
+  await Promise.all(
+    args.map(async (arg) => {
+      // Accept "Artist - Song" or "Artist — Song"
+      const query = `${arg} official`;
+      const { id, ok } = await findAndValidate(query, arg);
+      console.log(`${ok}  ${arg}: ${id ?? "NOT FOUND"}`);
+      if (id) console.log(`     https://www.youtube.com/watch?v=${id}`);
+    })
+  );
 }
 
 // ── Mode: raw query ────────────────────────────────────────────────────────────

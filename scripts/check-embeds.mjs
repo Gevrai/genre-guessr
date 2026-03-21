@@ -30,24 +30,26 @@ const results = { ok: [], disabled: [], missing: [], error: [] };
 
 console.log(`Checking ${songs.length} videos...\n`);
 
-for (const song of songs) {
-  const status = await checkEmbed(song.youtube_id);
-  const label = `${song.artist} — ${song.song} (${song.youtube_id})`;
+await Promise.all(
+  songs.map(async (song) => {
+    const status = await checkEmbed(song.youtube_id);
+    const label = `${song.artist} — ${song.song} (${song.youtube_id})`;
 
-  if (status === 200) {
-    results.ok.push(label);
-    process.stdout.write(".");
-  } else if (status === 401) {
-    results.disabled.push(label);
-    process.stdout.write("✗");
-  } else if (status === 404) {
-    results.missing.push(label);
-    process.stdout.write("?");
-  } else {
-    results.error.push(`${label} [${status}]`);
-    process.stdout.write("!");
-  }
-}
+    if (status === 200) {
+      results.ok.push(label);
+      process.stdout.write(".");
+    } else if (status === 401) {
+      results.disabled.push(label);
+      process.stdout.write("✗");
+    } else if (status === 404) {
+      results.missing.push(label);
+      process.stdout.write("?");
+    } else {
+      results.error.push(`${label} [${status}]`);
+      process.stdout.write("!");
+    }
+  })
+);
 
 console.log("\n");
 

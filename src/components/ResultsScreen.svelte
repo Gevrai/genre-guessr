@@ -97,30 +97,34 @@
   .results-screen {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding: 16px 0 32px;
+    gap: 28px;
+    padding: 8px 0 32px;
     flex: 1;
   }
 
   .score-hero {
     text-align: center;
-    padding: 16px 0 8px;
+    padding: 18px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
+    background: var(--surface-low);
+    border-radius: var(--radius);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
 
   .grade-ring {
     width: 88px;
     height: 88px;
     border-radius: 50%;
-    border: 3px solid var(--grade-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 28px color-mix(in srgb, var(--grade-color) 35%, transparent);
-    background: color-mix(in srgb, var(--grade-color) 8%, transparent);
+    box-shadow:
+      inset 0 0 0 1px color-mix(in srgb, var(--grade-color) 25%, transparent),
+      0 20px 40px color-mix(in srgb, var(--grade-color) 12%, transparent);
+    background: color-mix(in srgb, var(--grade-color) 10%, var(--surface-highest));
   }
 
   .grade {
@@ -169,8 +173,9 @@
   .score-message {
     font-size: 0.95rem;
     font-weight: 500;
-    line-height: 1.4;
-    color: var(--text);
+    line-height: 1.5;
+    color: var(--text-muted);
+    max-width: 24ch;
   }
 
   .share-row {
@@ -179,44 +184,48 @@
   }
 
   .share-btn {
-    padding: 10px 24px;
-    border-radius: 20px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
+    padding: 12px 20px;
+    border-radius: var(--radius);
+    background: var(--secondary-container);
+    color: var(--on-secondary-container);
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 700;
     transition: all var(--transition);
   }
 
   .share-btn:hover {
-    background: var(--bg-hover);
-    border-color: var(--accent);
+    transform: translateY(-1px);
+    box-shadow: 0 18px 34px rgba(255, 199, 3, 0.16);
+  }
+
+  .breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .breakdown h3 {
-    font-family: var(--font-display);
-    font-size: 0.72rem;
+    font-size: 0.74rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.11em;
     color: var(--text-muted);
-    margin-bottom: 12px;
   }
 
   .breakdown-list {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
   }
 
   .breakdown-item {
     display: flex;
     gap: 12px;
     align-items: flex-start;
-    padding: 10px 12px;
-    background: var(--bg-card);
+    padding: 12px 14px;
+    background: var(--surface-low);
     border-radius: var(--radius-sm);
-    border: 1px solid var(--border);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
 
   .breakdown-icon {
@@ -238,15 +247,17 @@
   }
 
   .breakdown-song {
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.87rem;
+    font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
   .breakdown-genre {
-    font-size: 0.75rem;
+    font-size: 0.76rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
   }
 
   .correct-text { color: var(--correct); }
@@ -256,18 +267,18 @@
     width: 100%;
     padding: 16px;
     border-radius: var(--radius);
-    background: linear-gradient(135deg, #b06ef3, #f06292);
-    color: #fff;
+    background: var(--gradient-primary);
+    color: var(--on-primary-container);
     font-family: var(--font-display);
     font-size: 1.05rem;
     font-weight: 700;
     transition: all var(--transition);
-    box-shadow: 0 0 28px rgba(176, 110, 243, 0.35);
+    box-shadow: var(--glow-warm);
     margin-top: auto;
   }
 
   .play-again-btn:hover {
-    box-shadow: 0 0 36px rgba(176, 110, 243, 0.55);
+    box-shadow: 0 24px 44px rgba(255, 77, 0, 0.16);
     transform: translateY(-1px);
   }
 

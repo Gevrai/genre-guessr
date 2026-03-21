@@ -136,7 +136,7 @@
   .quiz-screen {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 18px;
     padding: 4px 0 20px;
     flex: 1;
     min-height: 0;
@@ -152,56 +152,58 @@
 
   .progress-text {
     font-family: var(--font-display);
-    font-size: 0.78rem;
+    font-size: 0.74rem;
     color: var(--text-muted);
     font-weight: 700;
     white-space: nowrap;
     min-width: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
   }
 
   .progress-bar {
     flex: 1;
     height: 6px;
-    background: var(--bg-card);
+    background: var(--surface-low);
     border-radius: 3px;
     overflow: hidden;
   }
 
   .progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, #b06ef3, #f06292);
+    background: linear-gradient(90deg, var(--primary-container), var(--secondary-container));
     border-radius: 3px;
     transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 0 8px rgba(176, 110, 243, 0.5);
+    box-shadow: 0 0 12px rgba(255, 87, 26, 0.3);
   }
 
   .song-card {
-    background: var(--bg-card);
+    background: var(--surface-low);
     border-radius: var(--radius);
-    border: 1px solid var(--border);
     padding: 16px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
     flex-shrink: 0;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
 
   .song-info {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
   }
 
   .song-title {
     font-family: var(--font-display);
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
+    font-size: 1.1rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
   }
 
   .song-album {
-    font-size: 0.82rem;
+    font-size: 0.84rem;
     color: var(--text-muted);
     line-height: 1.4;
   }
@@ -209,7 +211,8 @@
   .clue-section {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
+    margin-top: 2px;
   }
 
   .clue-toggle {
@@ -220,17 +223,21 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid var(--border);
-    background: color-mix(in srgb, var(--bg-hover) 75%, transparent);
-    color: var(--text);
+    background: var(--surface-variant);
+    color: var(--primary);
     transition: all var(--transition);
-    box-shadow: 0 0 0 rgba(176, 110, 243, 0);
+    backdrop-filter: blur(24px);
+    box-shadow:
+      inset 0 0 0 1px var(--outline-ghost),
+      0 12px 28px rgba(255, 87, 26, 0.1);
   }
 
   .clue-toggle:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    box-shadow: 0 0 18px rgba(176, 110, 243, 0.16);
+    color: var(--text);
+    transform: translateY(-1px);
+    box-shadow:
+      inset 0 0 0 1px var(--outline-strong),
+      0 16px 30px rgba(255, 87, 26, 0.14);
   }
 
   .clue-toggle:active {
@@ -243,23 +250,27 @@
   }
 
   .song-meta {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
   }
 
   .dot {
-    color: var(--border);
+    color: color-mix(in srgb, var(--text-muted) 45%, transparent);
   }
 
   .hint {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    font-style: italic;
-    line-height: 1.4;
+    font-size: 0.92rem;
+    color: var(--text);
+    line-height: 1.55;
+    padding: 14px 16px;
+    background: var(--surface-highest);
+    border-radius: var(--radius-sm);
   }
 
   .options {
@@ -271,22 +282,22 @@
 
   .option-btn {
     width: 100%;
-    padding: 12px 14px;
+    padding: 14px 16px;
     border-radius: var(--radius-sm);
-    background: var(--bg-card);
-    border: 1.5px solid var(--border);
+    background: var(--surface-low);
     text-align: left;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: all var(--transition);
     display: flex;
     align-items: center;
-    min-height: 48px;
+    min-height: 52px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
 
   .option-btn:hover:not(:disabled) {
-    background: var(--bg-hover);
-    border-color: var(--accent);
+    background: var(--surface-high);
+    transform: translateY(-1px);
   }
 
   .option-btn:active:not(:disabled) {
@@ -309,48 +320,65 @@
     font-size: 0.85rem;
     line-height: 1.5;
     margin-bottom: 12px;
+    color: var(--text-muted);
   }
 
   .explanation {
-    background: var(--bg-card);
+    background:
+      radial-gradient(circle at top left, rgba(255, 199, 3, 0.08), transparent 38%),
+      linear-gradient(180deg, var(--surface-container), var(--surface-high));
     border-radius: var(--radius-sm);
-    padding: 14px 16px;
-    border-left: 3px solid var(--accent);
+    padding: 16px;
     flex: 1;
     min-height: 0;
     overflow-y: auto;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.04),
+      0 18px 34px rgba(0, 0, 0, 0.16);
   }
 
   .explanation p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     line-height: 1.55;
     color: var(--text);
   }
 
   .explanation.correct {
-    border-left-color: var(--correct);
+    background:
+      radial-gradient(circle at top left, rgba(183, 224, 124, 0.22), transparent 34%),
+      linear-gradient(180deg, color-mix(in srgb, var(--surface-container) 84%, var(--correct-bg)), color-mix(in srgb, var(--surface-high) 88%, var(--correct-bg)));
+    box-shadow:
+      inset 0 0 0 1px rgba(183, 224, 124, 0.14),
+      0 0 0 1px rgba(183, 224, 124, 0.08),
+      0 22px 42px rgba(183, 224, 124, 0.16);
   }
 
   .explanation.wrong {
-    border-left-color: var(--wrong);
+    background:
+      radial-gradient(circle at top left, rgba(255, 155, 114, 0.24), transparent 34%),
+      linear-gradient(180deg, color-mix(in srgb, var(--surface-container) 84%, var(--wrong-bg)), color-mix(in srgb, var(--surface-high) 88%, var(--wrong-bg)));
+    box-shadow:
+      inset 0 0 0 1px rgba(255, 155, 114, 0.14),
+      0 0 0 1px rgba(255, 155, 114, 0.08),
+      0 22px 42px rgba(255, 87, 26, 0.18);
   }
 
   .next-btn {
     width: 100%;
     padding: 14px;
     border-radius: var(--radius-sm);
-    background: linear-gradient(135deg, #b06ef3, #f06292);
-    color: #fff;
+    background: var(--gradient-primary);
+    color: var(--on-primary-container);
     font-family: var(--font-display);
     font-size: 1rem;
     font-weight: 700;
     transition: all var(--transition);
-    box-shadow: 0 0 20px rgba(176, 110, 243, 0.3);
+    box-shadow: var(--glow-warm);
     margin-top: auto;
   }
 
   .next-btn:hover {
-    box-shadow: 0 0 28px rgba(176, 110, 243, 0.5);
+    box-shadow: 0 24px 44px rgba(255, 77, 0, 0.16);
     transform: translateY(-1px);
   }
 

@@ -55,13 +55,7 @@
 </script>
 
 <div class="start-screen">
-  <div class="hero">
-    <p class="tagline">Can you tell UK drill from grime?<br/>Shoegaze from dream pop?</p>
-    <p class="subtitle">Test your music subgenre knowledge</p>
-  </div>
-
   <div class="start-footer">
-    <p class="match-count">{Math.min(matchCount, 10)} question{Math.min(matchCount, 10) !== 1 ? 's' : ''} · {matchCount} available</p>
     <button class="start-btn" onclick={start} disabled={matchCount === 0}>
       Start Quiz
     </button>
@@ -73,6 +67,11 @@
       {#if hasFilters}
         <button class="clear-btn" onclick={clearFilters}>Clear all</button>
       {/if}
+    </div>
+
+    <div class="match-panel">
+      <p class="match-label">Available Pool</p>
+      <p class="match-count">{Math.min(matchCount, 10)} question{Math.min(matchCount, 10) !== 1 ? 's' : ''} · {matchCount} available</p>
     </div>
 
     <div class="filter-group">
@@ -126,59 +125,55 @@
   .start-screen {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding: 8px 0 32px;
+    gap: 32px;
+    padding: 4px 0 32px;
     flex: 1;
   }
 
-  .hero {
-    text-align: center;
-    padding: 20px 0 4px;
-  }
-
-  .tagline {
-    font-family: var(--font-display);
-    font-size: 1.3rem;
-    font-weight: 700;
-    line-height: 1.45;
-    color: var(--text);
-    letter-spacing: -0.02em;
-  }
-
-  .subtitle {
-    margin-top: 10px;
-    color: var(--text-muted);
-    font-size: 0.875rem;
-  }
-
   .start-footer {
-    text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
+    padding: 16px;
+  }
+
+  .match-panel {
+    padding: 16px;
+    border-radius: var(--radius);
+    background: var(--surface-container);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  }
+
+  .match-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    margin-bottom: 6px;
   }
 
   .match-count {
-    font-size: 0.82rem;
-    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.45;
+    color: var(--text);
   }
 
   .start-btn {
     width: 100%;
     padding: 16px;
     border-radius: var(--radius);
-    background: linear-gradient(135deg, #b06ef3, #f06292);
-    color: #fff;
+    background: var(--gradient-primary);
+    color: var(--on-primary-container);
     font-family: var(--font-display);
     font-size: 1.05rem;
     font-weight: 700;
     letter-spacing: 0.01em;
     transition: all var(--transition);
-    box-shadow: 0 0 28px rgba(176, 110, 243, 0.35);
+    box-shadow: var(--glow-warm);
   }
 
   .start-btn:hover:not(:disabled) {
-    box-shadow: 0 0 36px rgba(176, 110, 243, 0.55);
+    box-shadow: 0 24px 44px rgba(255, 77, 0, 0.16);
     transform: translateY(-1px);
   }
 
@@ -187,7 +182,7 @@
   }
 
   .start-btn:disabled {
-    background: var(--bg-hover);
+    background: var(--surface-high);
     color: var(--text-muted);
     box-shadow: none;
   }
@@ -195,7 +190,7 @@
   .filters {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 18px;
   }
 
   .filter-header {
@@ -205,29 +200,37 @@
   }
 
   .filter-header h2 {
-    font-family: var(--font-display);
     font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.11em;
     color: var(--text-muted);
   }
 
   .clear-btn {
     font-size: 0.8rem;
-    color: var(--accent);
-    transition: color var(--transition);
+    color: var(--primary);
+    transition: color var(--transition), transform var(--transition);
   }
 
   .clear-btn:hover {
     color: var(--accent-hover);
+    transform: translateX(1px);
+  }
+
+  .filter-group {
+    padding: 16px;
+    border-radius: var(--radius);
+    background: var(--surface-low);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
   }
 
   .filter-group h3 {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
-    margin-bottom: 8px;
-    font-weight: 500;
-    letter-spacing: 0.04em;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
 
   .chips {
@@ -237,26 +240,25 @@
   }
 
   .chip {
-    padding: 6px 14px;
-    border-radius: 20px;
+    padding: 8px 14px;
+    border-radius: 999px;
     font-size: 0.8rem;
-    font-weight: 500;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
+    font-weight: 600;
+    background: var(--surface-high);
     color: var(--text-muted);
     transition: all var(--transition);
   }
 
   .chip:hover {
-    background: var(--bg-hover);
+    background: var(--surface-highest);
     color: var(--text);
-    border-color: var(--accent);
+    transform: translateY(-1px);
   }
 
   .chip.active {
-    background: linear-gradient(135deg, #b06ef3, #f06292);
-    border-color: transparent;
-    color: #fff;
+    background: var(--primary-container);
+    color: var(--on-primary-container);
     font-weight: 600;
+    box-shadow: 0 14px 28px rgba(255, 87, 26, 0.18);
   }
 </style>

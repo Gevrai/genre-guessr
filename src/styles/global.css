@@ -1,23 +1,39 @@
 :root {
-  --bg: #080810;
-  --bg-card: #10101e;
-  --bg-hover: #18182c;
-  --text: #ededf5;
-  --text-muted: #7878a0;
-  --accent: #b06ef3;
-  --accent-2: #f06292;
-  --accent-hover: #c490ff;
-  --correct: #4ade80;
-  --correct-bg: rgba(74, 222, 128, 0.12);
-  --wrong: #f87171;
-  --wrong-bg: rgba(248, 113, 113, 0.12);
-  --border: #1c1c30;
-  --radius: 14px;
-  --radius-sm: 10px;
-  --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-display: 'Syne', system-ui, sans-serif;
-  --max-w: 430px;
-  --transition: 0.18s ease;
+  --surface-lowest: #0e0e0e;
+  --surface: #131313;
+  --surface-low: #1c1b1b;
+  --surface-container: #201f1f;
+  --surface-high: #2a2928;
+  --surface-highest: #353534;
+  --surface-variant: rgba(53, 53, 52, 0.6);
+  --text: #e5e2e1;
+  --text-muted: #e6beb2;
+  --primary: #ffb59e;
+  --primary-container: #ff571a;
+  --on-primary-container: #521300;
+  --secondary-container: #ffc703;
+  --on-secondary-container: #6e5400;
+  --outline-ghost: rgba(92, 64, 55, 0.2);
+  --outline-strong: rgba(255, 181, 158, 0.4);
+  --correct: #b7e07c;
+  --correct-bg: rgba(183, 224, 124, 0.14);
+  --wrong: #ff9b72;
+  --wrong-bg: rgba(255, 155, 114, 0.14);
+  --glow-warm: 0 20px 40px rgba(255, 77, 0, 0.08);
+  --gradient-primary: linear-gradient(135deg, #ff571a, #ffc703);
+  --bg: var(--surface);
+  --bg-card: var(--surface-low);
+  --bg-hover: var(--surface-high);
+  --accent: var(--primary);
+  --accent-2: var(--secondary-container);
+  --accent-hover: #ffd0bf;
+  --border: var(--outline-ghost);
+  --radius: 8px;
+  --radius-sm: 8px;
+  --font: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --max-w: 460px;
+  --transition: 0.22s ease;
 }
 
 *, *::before, *::after {
@@ -39,8 +55,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
-  background-image: radial-gradient(circle at 1px 1px, rgba(176, 110, 243, 0.07) 1px, transparent 0);
-  background-size: 24px 24px;
+  background-image:
+    radial-gradient(circle at top left, rgba(255, 87, 26, 0.18), transparent 30%),
+    radial-gradient(circle at 85% 14%, rgba(255, 199, 3, 0.12), transparent 20%),
+    radial-gradient(circle at 50% 100%, rgba(255, 87, 26, 0.08), transparent 30%),
+    linear-gradient(180deg, var(--surface-lowest), var(--surface));
 }
 
 #app {
@@ -48,7 +67,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100dvh;
-  padding: 0 16px env(safe-area-inset-bottom, 0);
+  padding: 12px 16px env(safe-area-inset-bottom, 0);
   overflow: hidden;
 }
 
@@ -65,13 +84,19 @@ button:disabled {
   opacity: 0.6;
 }
 
+button:focus-visible,
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--outline-strong), 0 0 0 6px rgba(255, 181, 158, 0.1);
+}
+
 a {
-  color: var(--accent);
+  color: var(--primary);
   text-decoration: none;
 }
 
 .screen-enter {
-  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: slideUp 0.32s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @keyframes slideUp {

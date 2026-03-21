@@ -45,7 +45,8 @@
     padding-bottom: 56.25%; /* 16:9 */
     border-radius: var(--radius-sm);
     overflow: hidden;
-    background: #000;
+    background: var(--surface-highest);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
   }
 
   .sound-overlay {
@@ -54,25 +55,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, rgba(8, 8, 16, 0.2), rgba(8, 8, 16, 0.55));
+    background:
+      linear-gradient(180deg, rgba(19, 19, 19, 0.18), rgba(19, 19, 19, 0.68)),
+      radial-gradient(circle at 50% 20%, rgba(255, 87, 26, 0.18), transparent 35%);
     padding: 16px;
+    backdrop-filter: blur(24px);
   }
 
   .sound-btn {
     padding: 12px 18px;
-    border-radius: 999px;
-    background: rgba(16, 16, 30, 0.92);
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    color: #fff;
+    border-radius: var(--radius);
+    background: var(--surface-variant);
+    color: var(--text);
     font-family: var(--font-display);
     font-size: 0.9rem;
     font-weight: 700;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(6px);
+    box-shadow:
+      inset 0 0 0 1px var(--outline-ghost),
+      0 20px 36px rgba(255, 77, 0, 0.12);
+    backdrop-filter: blur(24px);
+    transition: all var(--transition);
   }
 
   .sound-btn:hover {
-    background: rgba(176, 110, 243, 0.9);
+    transform: translateY(-1px);
+    color: var(--primary);
   }
 
   iframe {

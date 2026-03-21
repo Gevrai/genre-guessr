@@ -1,22 +1,29 @@
+---
+name: "Fix YouTube URLs"
+description: "Find and fix broken YouTube embed IDs in songs.json."
+---
+
 Find and fix broken YouTube embed IDs in songs.json.
 
 Arguments: $ARGUMENTS
 
 ## Behaviour based on arguments
 
+When running `npm run test`, some YouTube embeds may fail to load due to deleted videos or changes in YouTube's embed policies. This skill provides a way to automatically find working replacements for those broken embeds. Depending on the arguments passed, it can either scan all entries in `songs.json` for broken embeds or look up specific songs.
+
 **No arguments** — scan all entries in `src/data/songs.json`, detect broken embeds, find working replacements via YouTube search, and apply them automatically:
 ```
-node scripts/find-youtube-ids.mjs
+node .github/skills/fix-youtube-urls/scripts/find-youtube-ids.mjs
 ```
 
 **One or more `"Artist - Song"` strings** — look up YouTube IDs for those specific songs without touching songs.json (useful when adding new entries):
 ```
-node scripts/find-youtube-ids.mjs "Burial - Archangel" "Arca - Nonbinary"
+node .github/skills/fix-youtube-urls/scripts/find-youtube-ids.mjs "Burial - Archangel" "Arca - Nonbinary"
 ```
 
 **`--query <search terms>`** — run a raw YouTube search and return the top embeddable result (useful when the artist/song name is ambiguous):
 ```
-node scripts/find-youtube-ids.mjs --query "fela kuti zombie live 1977"
+node .github/skills/fix-youtube-urls/scripts/find-youtube-ids.mjs --query "fela kuti zombie live 1977"
 ```
 
 ## Instructions
