@@ -1,12 +1,23 @@
 <script lang="ts">
   import YouTubeEmbed from "./YouTubeEmbed.svelte";
+  import { songKey } from "../lib/storage.svelte";
 
   interface Props {
     quiz: any;
     onComplete: () => void;
+    favorites: {
+      toggleSong: (key: string) => void;
+      toggleTag: (tag: string) => void;
+      isSongFavorited: (key: string) => boolean;
+      isTagFavorited: (tag: string) => boolean;
+    };
   }
 
-  let { quiz, onComplete }: Props = $props();
+  let { quiz, onComplete, favorites }: Props = $props();
+
+  const currentSongKey = $derived(
+    quiz.current ? songKey(quiz.current.artist, quiz.current.song) : ""
+  );
   let soundEnabled = $state(false);
   let cluesRevealed = $state(false);
 
@@ -111,6 +122,29 @@
             {/if}
           </p>
           <p>{quiz.current.explanation}</p>
+
+          <div class="reveal-actions">
+            <button
+              class="heart-btn"
+              class:active={favorites.isSongFavorited(currentSongKey)}
+              onclick={() => favorites.toggleSong(currentSongKey)}
+              title="Favorite this song"
+            >
+              {favorites.isSongFavorited(currentSongKey) ? "♥" : "♡"}
+            </button>
+            <div class="reveal-tags">
+              {#each quiz.current.tags as tag}
+                <button
+                  class="tag-chip"
+                  class:active={favorites.isTagFavorited(tag)}
+                  onclick={() => favorites.toggleTag(tag)}
+                  title="Favorite tag"
+                >
+                  {tag}
+                </button>
+              {/each}
+            </div>
+          </div>
         </div>
 
         <button class="next-btn" onclick={handleNext}>
@@ -384,5 +418,61 @@
 
   .next-btn:active {
     transform: translateY(0);
+  }
+
+  .reveal-actions {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--outline-ghost);
+  }
+
+  .heart-btn {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: color var(--transition), transform var(--transition);
+    padding: 4px;
+    flex-shrink: 0;
+  }
+
+  .heart-btn.active {
+    color: var(--wrong);
+  }
+
+  .heart-btn:hover {
+    transform: scale(1.15);
+  }
+
+  .reveal-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .tag-chip {
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: var(--surface-high);
+    color: var(--text-muted);
+    transition: all var(--transition);
+    cursor: pointer;
+    border: none;
+  }
+
+  .tag-chip:hover {
+    background: var(--surface-highest);
+    color: var(--text);
+  }
+
+  .tag-chip.active {
+    background: var(--primary-container);
+    color: var(--on-primary-container);
   }
 </style>

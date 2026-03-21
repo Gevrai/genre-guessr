@@ -1,10 +1,16 @@
 <script lang="ts">
+  import { songKey } from "../lib/storage.svelte";
+
   interface Props {
     quiz: any;
     onPlayAgain: () => void;
+    favorites: {
+      toggleSong: (key: string) => void;
+      isSongFavorited: (key: string) => boolean;
+    };
   }
 
-  let { quiz, onPlayAgain }: Props = $props();
+  let { quiz, onPlayAgain, favorites }: Props = $props();
 
   const pct = $derived(quiz.total > 0 ? Math.round((quiz.score / quiz.total) * 100) : 0);
 
@@ -73,6 +79,7 @@
     <h3>Breakdown</h3>
     <ul class="breakdown-list">
       {#each quiz.answers as record, i}
+        {@const sk = songKey(record.question.artist, record.question.song)}
         <li class="breakdown-item">
           <span class="breakdown-icon {record.correct ? 'icon-correct' : 'icon-wrong'}">
             {record.correct ? "✓" : "✗"}
@@ -83,6 +90,14 @@
               {record.correct ? record.question.answer : `${record.selected} → ${record.question.answer}`}
             </span>
           </div>
+          <button
+            class="heart-btn"
+            class:active={favorites.isSongFavorited(sk)}
+            onclick={() => favorites.toggleSong(sk)}
+            title="Favorite this song"
+          >
+            {favorites.isSongFavorited(sk) ? "♥" : "♡"}
+          </button>
         </li>
       {/each}
     </ul>
@@ -262,6 +277,26 @@
 
   .correct-text { color: var(--correct); }
   .wrong-text { color: var(--wrong); }
+
+  .heart-btn {
+    font-size: 1.05rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: color var(--transition), transform var(--transition);
+    padding: 4px;
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+
+  .heart-btn.active {
+    color: var(--wrong);
+  }
+
+  .heart-btn:hover {
+    transform: scale(1.15);
+  }
 
   .play-again-btn {
     width: 100%;

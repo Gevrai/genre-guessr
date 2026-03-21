@@ -29,3 +29,16 @@ export interface AnswerRecord {
 }
 
 export type Screen = "start" | "quiz" | "results";
+
+export type Route = "/" | "/explore" | "/favorites";
+
+export interface HistoryEntry {
+  songKey: string;
+  correct: boolean;
+  timestamp: number;
+}
+
+export interface Favorites {
+  songs: string[];
+  tags: string[];
+}

@@ -1,31 +1,85 @@
 <script lang="ts">
-  import type { Song, Screen } from "./lib/types";
-  import { createQuizState, getUniqueValues, filterSongsWithFamilies } from "./lib/engine.svelte";
+  import type { Song, Screen, Route } from "./lib/types";
+  import { createQuizState, getUniqueValues, filterSongsWithFamilies, buildQuizWithFamilies } from "./lib/engine.svelte";
+  import { createHistoryStore, createFavoritesStore, songKey } from "./lib/storage.svelte";
   import songsData from "./data/songs.json";
   import StartScreen from "./components/StartScreen.svelte";
   import QuizScreen from "./components/QuizScreen.svelte";
   import ResultsScreen from "./components/ResultsScreen.svelte";
+  import FavoritesPage from "./components/FavoritesPage.svelte";
+  import ExplorePage from "./components/ExplorePage.svelte";
 
   const songs: Song[] = songsData as Song[];
   const meta = getUniqueValues(songs);
   const quiz = createQuizState();
+  const history = createHistoryStore();
+  const favorites = createFavoritesStore();
 
+  // Routing
+  const VALID_ROUTES: Route[] = ["/", "/explore", "/favorites"];
+
+  function parseHash(): Route {
+    const raw = window.location.hash.replace(/^#/, "") || "/";
+    return VALID_ROUTES.includes(raw as Route) ? (raw as Route) : "/";
+  }
+
+  let route = $state<Route>(parseHash());
   let screen = $state<Screen>("start");
+
+  function navigate(to: Route) {
+    window.location.hash = `#${to}`;
+  }
+
+  $effect(() => {
+    function onHashChange() {
+      route = parseHash();
+      if (route !== "/") {
+        // Reset quiz when navigating away
+        if (screen === "quiz" || screen === "results") {
+          quiz.reset();
+          screen = "start";
+        }
+      }
+    }
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  });
 
   function startQuiz(families: string[], continents: string[], decades: number[]) {
     const filtered = filterSongsWithFamilies(songs, families, continents, decades);
     if (filtered.length === 0) return;
-    quiz.start(filtered, { tags: [], locales: [], decades: [] });
+    const questions = buildQuizWithFamilies(songs, families, continents, decades, history.entries);
+    quiz.startWithQuestions(questions);
     screen = "quiz";
   }
 
   function handleQuizComplete() {
+    // Record quiz results to history
+    const entries = quiz.answers.map((a) => ({
+      songKey: songKey(a.question.artist, a.question.song),
+      correct: a.correct,
+      timestamp: Date.now(),
+    }));
+    history.record(entries);
     screen = "results";
   }
 
   function handlePlayAgain() {
     quiz.reset();
     screen = "start";
+  }
+
+  function handleQuizWithTags(tags: string[]) {
+    // Navigate to quiz and pre-start with those tags as raw filters
+    navigate("/");
+    // Direct start with the filtered songs
+    const filtered = songs.filter((s) =>
+      s.tags.some((t) => tags.some((ft) => ft.toLowerCase() === t.toLowerCase()))
+    );
+    if (filtered.length === 0) return;
+    const questions = buildQuizWithFamilies(filtered, [], [], [], history.entries);
+    quiz.startWithQuestions(questions);
+    screen = "quiz";
   }
 </script>
 
@@ -40,26 +94,54 @@
       </span>
       <span class="logo-text">Genre <span class="logo-accent">Guessr</span></span>
     </h1>
+
+    <nav class="nav-bar">
+      <a
+        href="#/"
+        class="nav-link"
+        class:active={route === "/"}
+      >Quiz</a>
+      <a
+        href="#/explore"
+        class="nav-link"
+        class:active={route === "/explore"}
+      >Explore</a>
+      <a
+        href="#/favorites"
+        class="nav-link"
+        class:active={route === "/favorites"}
+      >Favorites</a>
+    </nav>
   </header>
 
   <main class="app-main">
-    {#if screen === "start"}
+    {#if route === "/"}
+      {#if screen === "start"}
+        <div class="screen-enter">
+          <StartScreen
+            {songs}
+            tagFamilies={meta.tags}
+            continents={meta.continents}
+            decades={meta.decades}
+            onStart={startQuiz}
+          />
+        </div>
+      {:else if screen === "quiz"}
+        <div class="screen-enter quiz-screen-wrap">
+          <QuizScreen {quiz} onComplete={handleQuizComplete} {favorites} />
+        </div>
+      {:else if screen === "results"}
+        <div class="screen-enter">
+          <ResultsScreen {quiz} onPlayAgain={handlePlayAgain} {favorites} />
+        </div>
+      {/if}
+    {:else if route === "/explore"}
       <div class="screen-enter">
-        <StartScreen
-          {songs}
-          tagFamilies={meta.tags}
-          continents={meta.continents}
-          decades={meta.decades}
-          onStart={startQuiz}
-        />
+        <ExplorePage {songs} {favorites} />
       </div>
-    {:else if screen === "quiz"}
-      <div class="screen-enter quiz-screen-wrap">
-        <QuizScreen {quiz} onComplete={handleQuizComplete} />
-      </div>
-    {:else if screen === "results"}
+    {:else if route === "/favorites"}
       <div class="screen-enter">
-        <ResultsScreen {quiz} onPlayAgain={handlePlayAgain} />
+        <FavoritesPage {favorites} {songs} onQuizWithTags={handleQuizWithTags} />
       </div>
     {/if}
   </main>
@@ -132,6 +214,38 @@
   @keyframes eq-bounce {
     0%, 100% { transform: scaleY(0.35); }
     50% { transform: scaleY(1); }
+  }
+
+  .nav-bar {
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    padding: 4px;
+    background: var(--surface-low);
+    border-radius: var(--radius);
+  }
+
+  .nav-link {
+    flex: 1;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    border-radius: calc(var(--radius) - 2px);
+    text-decoration: none;
+    transition: all var(--transition);
+  }
+
+  .nav-link:hover {
+    color: var(--text);
+    background: var(--surface-high);
+  }
+
+  .nav-link.active {
+    color: var(--on-primary-container);
+    background: var(--primary-container);
+    font-weight: 700;
   }
 
   .app-main {

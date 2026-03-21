@@ -1,4 +1,4 @@
-import type { Song, QuizFilters, QuizQuestion, AnswerRecord } from "./types";
+import type { Song, QuizFilters, QuizQuestion, AnswerRecord, HistoryEntry } from "./types";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -90,6 +90,14 @@ export function createQuizState() {
     revealed = false;
   }
 
+  function startWithQuestions(q: QuizQuestion[]) {
+    questions = q;
+    currentIndex = 0;
+    answers = [];
+    selectedAnswer = null;
+    revealed = false;
+  }
+
   function selectAnswer(answer: string) {
     if (revealed || !current) return;
     selectedAnswer = answer;
@@ -132,6 +140,7 @@ export function createQuizState() {
     get selectedAnswer() { return selectedAnswer; },
     get revealed() { return revealed; },
     start,
+    startWithQuestions,
     selectAnswer,
     next,
     reset,
@@ -214,15 +223,56 @@ export function filterSongsWithFamilies(
   });
 }
 
+const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
+
+function getSongWeight(
+  artist: string,
+  song: string,
+  history: HistoryEntry[]
+): number {
+  const key = `${artist}::${song}`;
+  let latest: HistoryEntry | undefined;
+  for (let i = history.length - 1; i >= 0; i--) {
+    if (history[i].songKey === key) { latest = history[i]; break; }
+  }
+  if (!latest) return 10;
+  if (!latest.correct) return 8;
+  const age = Date.now() - latest.timestamp;
+  return age > SEVEN_DAYS_MS ? 3 : 1;
+}
+
+function weightedSample<T extends Song>(items: T[], weights: number[], count: number): T[] {
+  if (items.length <= count) return shuffle(items);
+  const picked: T[] = [];
+  const remaining = items.map((item, i) => ({ item, weight: weights[i] }));
+  for (let n = 0; n < count && remaining.length > 0; n++) {
+    const totalWeight = remaining.reduce((s, r) => s + r.weight, 0);
+    let r = Math.random() * totalWeight;
+    let idx = 0;
+    for (let i = 0; i < remaining.length; i++) {
+      r -= remaining[i].weight;
+      if (r <= 0) { idx = i; break; }
+    }
+    picked.push(remaining[idx].item);
+    remaining.splice(idx, 1);
+  }
+  return picked;
+}
+
 export function buildQuizWithFamilies(
   songs: Song[],
   families: string[],
   continents: string[],
-  decades: number[]
+  decades: number[],
+  history: HistoryEntry[] = []
 ): QuizQuestion[] {
   const filtered = filterSongsWithFamilies(songs, families, continents, decades);
-  return shuffle(filtered).slice(0, QUIZ_SIZE).map((s) => ({
+  const weights = filtered.map((s) => getSongWeight(s.artist, s.song, history));
+  const selected = weightedSample(filtered, weights, QUIZ_SIZE);
+  return shuffle(selected).map((s) => ({
     ...s,
     shuffledOptions: shuffle(s.options),
   }));
 }
+
+export { TAG_FAMILIES };
