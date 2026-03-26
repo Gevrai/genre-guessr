@@ -172,9 +172,6 @@
     flex-direction: column;
     gap: 18px;
     padding: 4px 0 20px;
-    flex: 1;
-    min-height: 0;
-    overflow: hidden;
   }
 
   .progress-row {
@@ -346,8 +343,6 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    flex: 1;
-    min-height: 0;
   }
 
   .answer-detail {
@@ -363,9 +358,6 @@
       linear-gradient(180deg, var(--surface-container), var(--surface-high));
     border-radius: var(--radius-sm);
     padding: 16px;
-    flex: 1;
-    min-height: 0;
-    overflow-y: auto;
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.04),
       0 18px 34px rgba(0, 0, 0, 0.16);
@@ -408,7 +400,6 @@
     font-weight: 700;
     transition: all var(--transition);
     box-shadow: var(--glow-warm);
-    margin-top: auto;
   }
 
   .next-btn:hover {
