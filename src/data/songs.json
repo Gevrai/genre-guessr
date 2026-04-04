@@ -1193,20 +1193,20 @@
     "album": "BE",
     "release_year": 2020,
     "locale": "South Korea",
-    "hint": "Seven-member Seoul group whose all-English single became the first by a Korean act to debut at number one on the Billboard Hot 100",
-    "answer": "K-pop",
+    "hint": "Seven-member Seoul group who released this all-English single during a global pandemic as a deliberate gift to listeners — built around a vintage 1970s sound palette designed to lift spirits",
+    "answer": "K-pop disco-pop",
     "options": [
-      "J-pop",
-      "K-pop",
-      "Bubblegum pop",
-      "Dance-pop"
+      "K-pop electropop",
+      "K-pop dance-pop",
+      "Retro K-pop",
+      "K-pop disco-pop"
     ],
-    "explanation": "K-pop — BTS are the defining act of the Korean pop industry, and Dynamite follows K-pop's hallmark formula: precision choreography, high production values, and genre-blending within a pop framework. J-pop shares the idol-group model but has distinct production aesthetics rooted in Japan. Bubblegum pop is simpler and aimed younger. Dance-pop is a sonic descriptor but misses the cultural and industrial specificity of K-pop.",
+    "explanation": "K-pop disco-pop — Dynamite was BTS's first all-English-language single and a deliberate pivot into a retro 1970s disco-pop sound: a funky walking bassline, four-on-the-floor kick, brass stabs, and an unabashedly celebratory energy modelled on classic disco. K-pop electropop foregrounds hard electronic textures rather than organic-feeling funk. K-pop dance-pop is more contemporary in production without the vintage disco flavour. Retro K-pop (Wonder Girls' Nobody) evokes the 1950s–60s; Dynamite's specific retro reference point is 1970s disco-funk.",
     "tags": [
       "k-pop",
-      "pop",
-      "dance",
-      "korean"
+      "disco-pop",
+      "retro",
+      "dance-pop"
     ],
     "youtube_id": "gdZLi9oWNZg"
   },
@@ -2160,19 +2160,20 @@
     "album": "Square Up",
     "release_year": 2018,
     "locale": "South Korea",
-    "hint": "Four-member group from YG Entertainment in Seoul, fierce choreography, record-breaking music video views, global fanbase called BLINK",
-    "answer": "K-pop",
+    "hint": "YG's four-member group who became the most-subscribed music act on YouTube — their debut EP brought the label's signature trap-influenced production together with a high-fashion visual identity and a fierce, non-negotiable attitude",
+    "answer": "Girl crush K-pop",
     "options": [
-      "J-pop",
-      "K-pop",
-      "Dance-pop",
-      "Electropop"
+      "K-pop dance-pop",
+      "Bubblegum K-pop",
+      "K-pop hip-hop",
+      "Girl crush K-pop"
     ],
-    "explanation": "K-pop — BLACKPINK are one of the biggest K-pop acts worldwide. K-pop is defined by more than Korean-language vocals: the idol training system, tightly choreographed performances, genre-blending production mixing hip-hop, EDM, and R&B, and a culture of integrated visual storytelling all define the genre. J-pop follows different production conventions and industry structure. Dance-pop and electropop are broader Western categories that don't capture K-pop's unique cultural ecosystem.",
+    "explanation": "Girl crush K-pop — DDU-DU DDU-DU is the genre's most commercially successful example: assertive power-anthem lyrics, trap-influenced 808 bass, a hard-edged delivery, and a visual aesthetic modelled on dominance and cool rather than cute and approachable. K-pop dance-pop is more upbeat and synthetically melodic. Bubblegum K-pop (Girls' Generation's Gee, Twice's TT) is the literal tonal opposite — sweet, innocent, and approachable. K-pop hip-hop centres extended rapping; BLACKPINK have rap members but the track is built around a pop-anthem structure.",
     "tags": [
       "k-pop",
-      "pop",
-      "dance"
+      "girl crush",
+      "trap influenced",
+      "3rd gen"
     ],
     "youtube_id": "IHNzOHi8sJs"
   },
@@ -3378,5 +3379,580 @@
       "progressive"
     ],
     "youtube_id": "cWE0sSZ9yLc"
+  },
+  {
+    "artist": "Seo Taiji and Boys",
+    "song": "난 알아요 (Nan Arayo)",
+    "album": "Seo Taiji and Boys",
+    "release_year": 1992,
+    "locale": "South Korea",
+    "hint": "A trio that received the lowest jury scores in Korean TV history on their debut performance, then sold over a million records and transformed the country's entire pop landscape within months",
+    "answer": "K-pop new jack swing",
+    "options": [
+      "Bubblegum K-pop",
+      "K-pop new jack swing",
+      "K-pop R&B",
+      "K-pop hip-hop"
+    ],
+    "explanation": "K-pop new jack swing — Seo Taiji and Boys fused New Jack Swing (the syncopated R&B-funk hybrid popularised by producers like Teddy Riley) with Korean lyrics, a combination unprecedented in Korea in 1992. This moment is widely considered the founding of modern K-pop. Bubblegum K-pop came in the late 90s with cuter, more polished idol concepts. K-pop R&B is smoother and more romantically focused. K-pop hip-hop puts rapping at the centre, whereas Seo Taiji blends hip-hop influence with funk and New Jack Swing grooves.",
+    "tags": [
+      "k-pop",
+      "new jack swing",
+      "r&b",
+      "1st gen"
+    ],
+    "youtube_id": "OEDHEzs5kyk"
+  },
+  {
+    "artist": "H.O.T.",
+    "song": "Candy",
+    "album": "We Hate All Kinds of Violence",
+    "release_year": 1996,
+    "locale": "South Korea",
+    "hint": "SM Entertainment's first major idol group, who wore oversized colourful clothing and paired their debut with an anti-bullying message, sparking a fandom culture that set the template for all Korean idol groups that followed",
+    "answer": "Bubblegum K-pop",
+    "options": [
+      "K-pop new jack swing",
+      "K-pop R&B",
+      "Bubblegum K-pop",
+      "K-pop ballad"
+    ],
+    "explanation": "Bubblegum K-pop — Candy exemplifies the bright, candy-coloured strand of K-pop that H.O.T. helped define in the late 1990s: upbeat tempo, chanted choruses, positive energy, and a distinctly sweet vocal tone. K-pop new jack swing (Seo Taiji and Boys) is funkier and rhythmically more complex. K-pop R&B leans into slower grooves and more emotive delivery. K-pop ballads are slower and emotionally heavier — the opposite of Candy's bouncy pace.",
+    "tags": [
+      "k-pop",
+      "bubblegum pop",
+      "idol pop",
+      "1st gen"
+    ],
+    "youtube_id": "3NUaXU1d-NY"
+  },
+  {
+    "artist": "S.E.S.",
+    "song": "I'm Your Girl",
+    "album": "I'm Your Girl",
+    "release_year": 1997,
+    "locale": "South Korea",
+    "hint": "SM Entertainment's first major girl group, whose three-member unit name was formed from the initials of their given names — they modelled their sound closely on American girl-group R&B that dominated late-1990s US charts",
+    "answer": "K-pop R&B",
+    "options": [
+      "Bubblegum K-pop",
+      "K-pop R&B",
+      "K-pop dance-pop",
+      "K-pop new jack swing"
+    ],
+    "explanation": "K-pop R&B — S.E.S. drew directly from American R&B girl groups like TLC and En Vogue, blending smooth harmonies, a laid-back groove, and emotive delivery with Korean lyrics. Bubblegum K-pop (like H.O.T.'s Candy) is peppier and more upbeat with chanted hooks. K-pop dance-pop is more tempo-driven and production-heavy. K-pop new jack swing emphasises funk-influenced rhythmic syncopation typical of early-90s American production.",
+    "tags": [
+      "k-pop",
+      "r&b",
+      "idol pop",
+      "1st gen"
+    ],
+    "youtube_id": "fBge8oUfFwU"
+  },
+  {
+    "artist": "BoA",
+    "song": "No.1",
+    "album": "No.1",
+    "release_year": 2002,
+    "locale": "South Korea",
+    "hint": "A teenage Korean soloist who trained intensively in Japanese from age 13 and became the first Korean artist to top the Oricon singles chart — paving the way for Korean pop's systematic expansion into Japan",
+    "answer": "K-pop dance-pop",
+    "options": [
+      "K-pop R&B",
+      "K-pop dance-pop",
+      "K-pop electropop",
+      "Retro K-pop"
+    ],
+    "explanation": "K-pop dance-pop — No.1 is driven by a four-on-the-floor pulse, punchy synth stabs, and BoA's clear melodic delivery over a tight groove designed for choreography. K-pop R&B is warmer and more romantically textured, with less emphasis on driving beats. K-pop electropop leans harder into synthesiser leads and electronic sound design. Retro K-pop consciously evokes older musical eras, whereas No.1 is a product of its early-2000s moment.",
+    "tags": [
+      "k-pop",
+      "dance-pop",
+      "j-pop crossover",
+      "2nd gen"
+    ],
+    "youtube_id": "ceZc-5p3g1w"
+  },
+  {
+    "artist": "TVXQ",
+    "song": "Mirotic",
+    "album": "4th Album Mirotic",
+    "release_year": 2008,
+    "locale": "South Korea",
+    "hint": "Five-member SM group whose 2008 comeback broke Korean pre-order records — their subsequent legal dispute with their agency became a landmark case that reshaped idol contract law in Korea",
+    "answer": "K-pop electropop",
+    "options": [
+      "K-pop R&B",
+      "K-pop electropop",
+      "K-pop dance-pop",
+      "Dark K-pop"
+    ],
+    "explanation": "K-pop electropop — Mirotic layers dense synthesiser textures, processed vocal effects, and an electronic pulse under the group's powerful harmonies, with production influenced by European electropop of the period. K-pop R&B would be warmer and groove-based without the hard electronic edge. K-pop dance-pop is more immediately upbeat and hook-driven. Dark K-pop describes the song's themes of obsession well, but refers to a concept rather than a production genre — the actual sonic template is electropop.",
+    "tags": [
+      "k-pop",
+      "electropop",
+      "electronic",
+      "2nd gen"
+    ],
+    "youtube_id": "HtJS32n6LNQ"
+  },
+  {
+    "artist": "Wonder Girls",
+    "song": "Nobody",
+    "album": "The Wonder Years",
+    "release_year": 2008,
+    "locale": "South Korea",
+    "hint": "JYP Entertainment group who defied contemporary production trends by wearing pencil skirts and coordinated vintage outfits to channel a specific era of pre-British-Invasion American popular music",
+    "answer": "Retro K-pop",
+    "options": [
+      "Bubblegum K-pop",
+      "K-pop dance-pop",
+      "Retro K-pop",
+      "K-pop R&B"
+    ],
+    "explanation": "Retro K-pop — Nobody is a deliberate homage to late-1950s and early-1960s Motown-era pop, with a walking bassline, handclaps, a girl-group call-and-response structure, and a brass section that recalls groups like The Marvelettes. Bubblegum K-pop is contemporary in production and targets a younger, sugar-rush aesthetic. K-pop dance-pop is electronic and club-oriented. K-pop R&B draws from late-1990s American R&B rather than vintage soul and Motown.",
+    "tags": [
+      "k-pop",
+      "retro pop",
+      "motown influenced",
+      "2nd gen"
+    ],
+    "youtube_id": "BA7fdSkp8ds"
+  },
+  {
+    "artist": "Girls' Generation",
+    "song": "Gee",
+    "album": "Gee",
+    "release_year": 2009,
+    "locale": "South Korea",
+    "hint": "Nine-member group dubbed 'The Nation's Girl Group' in South Korea, whose 2009 title track spent nine consecutive weeks at number one on the Gaon chart — a record that stood for years",
+    "answer": "Bubblegum K-pop",
+    "options": [
+      "Retro K-pop",
+      "K-pop dance-pop",
+      "Bubblegum K-pop",
+      "K-pop R&B"
+    ],
+    "explanation": "Bubblegum K-pop — Gee is the definitive example of the style: a giddy, candy-sweet melody, onomatopoeic hook ('Gee gee gee gee'), high-pitched delivery, bright production, and pure feel-good energy with no dramatic weight. Retro K-pop consciously evokes older eras (e.g. Wonder Girls' Nobody), whereas Gee is solidly contemporary early-2000s pop production. K-pop dance-pop is more rhythm-forward and club-oriented. K-pop R&B is smoother, warmer, and more emotionally textured.",
+    "tags": [
+      "k-pop",
+      "bubblegum pop",
+      "idol pop",
+      "2nd gen"
+    ],
+    "youtube_id": "U7mPqycQ0tQ"
+  },
+  {
+    "artist": "2PM",
+    "song": "Again & Again",
+    "album": "2PM 1st Album",
+    "release_year": 2009,
+    "locale": "South Korea",
+    "hint": "JYP's six-member boyband who were marketed as 'beast idols' for their physical, acrobatic stage performances — a deliberate contrast to the softer image of most Korean idol groups at the time",
+    "answer": "K-pop R&B",
+    "options": [
+      "K-pop dance-pop",
+      "K-pop R&B",
+      "Bubblegum K-pop",
+      "K-pop electropop"
+    ],
+    "explanation": "K-pop R&B — Again & Again is built on a mid-tempo R&B groove with layered vocal harmonies, a synth-bass pulse, and the kind of melodic restraint that distinguishes R&B from dance-pop. JYP was heavily influenced by US R&B production of the late 1990s and early 2000s, and 2PM's vocal style reflects that. K-pop dance-pop is more uptempo and production-forward. Bubblegum K-pop is sweeter and aimed at a younger demographic. K-pop electropop leans into harder electronic textures.",
+    "tags": [
+      "k-pop",
+      "r&b",
+      "idol pop",
+      "2nd gen"
+    ],
+    "youtube_id": "cUgReo37ECw"
+  },
+  {
+    "artist": "SHINee",
+    "song": "Lucifer",
+    "album": "Lucifer",
+    "release_year": 2010,
+    "locale": "South Korea",
+    "hint": "SM Entertainment group known as 'the Princes of K-pop' for their fashion-forward image and technically demanding choreography — this title track faced scrutiny from a Korean broadcast regulator over its English lyric content",
+    "answer": "K-pop dance-pop",
+    "options": [
+      "K-pop electropop",
+      "K-pop hip-hop",
+      "K-pop dance-pop",
+      "K-pop R&B"
+    ],
+    "explanation": "K-pop dance-pop — Lucifer is an intense, propulsive track built for choreography: a driving beat, punchy synth hits, rapid-fire verses, and a hooky chorus designed to hit the emotional peak of a live performance. K-pop electropop puts more emphasis on atmospheric synthesiser sound design, whereas Lucifer's production stays tightly focused on rhythmic impact. K-pop hip-hop centres rap delivery as the primary vocal mode. K-pop R&B is melodically warmer and rhythmically looser.",
+    "tags": [
+      "k-pop",
+      "dance-pop",
+      "idol pop",
+      "2nd gen"
+    ],
+    "youtube_id": "Dww9UjJ4Dt8"
+  },
+  {
+    "artist": "2NE1",
+    "song": "내가 제일 잘 나가 (I Am the Best)",
+    "album": "2NE1",
+    "release_year": 2011,
+    "locale": "South Korea",
+    "hint": "YG Entertainment's four-member girl group guided by leader CL, who had aspirations of breaking into the US market, known for a fierce visual identity that deliberately rejected the typical idol-girl aesthetic",
+    "answer": "Girl crush K-pop",
+    "options": [
+      "K-pop dance-pop",
+      "Bubblegum K-pop",
+      "Girl crush K-pop",
+      "K-pop hip-hop"
+    ],
+    "explanation": "Girl crush K-pop — 'I Am the Best' is the founding document of the girl crush subgenre: aggressive brags over a hard-hitting trap-influenced beat, confrontational lyrics about superiority, and a performance style that radiates dominance rather than sweetness. Bubblegum K-pop (Girls' Generation's Gee) does the opposite — cute, soft, approachable. K-pop dance-pop is upbeat but lacks the stylistic aggression. K-pop hip-hop centres rapping as the primary vocal mode, whereas 2NE1 rely on sung hooks — girl crush is more about attitude than pure rap craft.",
+    "tags": [
+      "k-pop",
+      "girl crush",
+      "hip-hop influenced",
+      "2nd gen"
+    ],
+    "youtube_id": "j7_lSP8Vc3o"
+  },
+  {
+    "artist": "BIGBANG",
+    "song": "Fantastic Baby",
+    "album": "Still Alive",
+    "release_year": 2012,
+    "locale": "South Korea",
+    "hint": "YG's five-member group led by a member widely regarded as K-pop's most influential creative director — their music video was the first K-pop clip to surpass 100 million YouTube views",
+    "answer": "K-pop electropop",
+    "options": [
+      "K-pop hip-hop",
+      "K-pop R&B",
+      "K-pop dance-pop",
+      "K-pop electropop"
+    ],
+    "explanation": "K-pop electropop — Fantastic Baby is a maximalist electronic production: stacked synth layers, a massive drop, pitch-shifted vocal effects, and a big-room anthemic structure borrowed from European electro-house. K-pop hip-hop would centre rap flow as the primary vehicle — BIGBANG's members rap, but the track is dominated by electronic spectacle. K-pop R&B is warmer, groove-based, and intimate. K-pop dance-pop is more conventionally melodic and pop-structured, whereas Fantastic Baby pushes its electronic elements to the forefront.",
+    "tags": [
+      "k-pop",
+      "electropop",
+      "electronic",
+      "2nd gen"
+    ],
+    "youtube_id": "AAbokV76tkU"
+  },
+  {
+    "artist": "f(x)",
+    "song": "Electric Shock",
+    "album": "Electric Shock",
+    "release_year": 2012,
+    "locale": "South Korea",
+    "hint": "SM Entertainment group whose name comes from the mathematical function symbol, known for album artwork that bordered on gallery art and a sonic palette that deliberately jarred listener expectations",
+    "answer": "Experimental K-pop",
+    "options": [
+      "K-pop electropop",
+      "K-pop dance-pop",
+      "Experimental K-pop",
+      "K-pop synth-pop"
+    ],
+    "explanation": "Experimental K-pop — Electric Shock stitches together a buzzing synth-punk hook, a bubbly verse, and a key-shifting chorus with a logic that feels more sound-collage than conventional pop structure. SM positioned f(x) as a group that should unsettle rather than comfort. K-pop electropop follows more familiar electronic song structures. K-pop dance-pop is more melodically predictable and club-functional. K-pop synth-pop would emphasise smooth, melodic synthesis, not abrupt tonal shifts.",
+    "tags": [
+      "k-pop",
+      "experimental",
+      "electronic",
+      "avant-garde"
+    ],
+    "youtube_id": "n8I8QGFA1oM"
+  },
+  {
+    "artist": "PSY",
+    "song": "강남스타일 (Gangnam Style)",
+    "album": "PSY 6甲 Part 1",
+    "release_year": 2012,
+    "locale": "South Korea",
+    "hint": "Seoul-based solo artist who used absurdist horse-riding choreography and a song about the aspirational lifestyle of a wealthy neighbourhood to create the first YouTube video ever to reach one billion views",
+    "answer": "K-pop dance-pop",
+    "options": [
+      "Retro K-pop",
+      "K-pop hip-hop",
+      "K-pop electropop",
+      "K-pop dance-pop"
+    ],
+    "explanation": "K-pop dance-pop — Gangnam Style is fundamentally a four-on-the-floor pop track built around a hooky chorus, call-and-response verses, and a relentlessly accessible melody packaged with a viral visual gimmick. Retro K-pop consciously evokes older musical eras; Gangnam Style has no such nostalgia. K-pop hip-hop centres sustained rapping — PSY's rap verses are present but comedic rather than the core identity. K-pop electropop leans into harder synthesiser sound design and electronic atmosphere; Gangnam Style's production stays broadly in pop territory.",
+    "tags": [
+      "k-pop",
+      "dance-pop",
+      "electronic",
+      "viral"
+    ],
+    "youtube_id": "9bZkp7q19f0"
+  },
+  {
+    "artist": "EXO",
+    "song": "으르렁 (Growl)",
+    "album": "XOXO",
+    "release_year": 2013,
+    "locale": "South Korea",
+    "hint": "SM's multinational act that debuted in 2012 simultaneously as Korean and Chinese subunits performing the same songs in both languages — their fandom EXO-L broke Korean album pre-order records repeatedly across the 2010s",
+    "answer": "K-pop R&B",
+    "options": [
+      "K-pop electropop",
+      "K-pop R&B",
+      "K-pop hip-hop",
+      "K-pop dance-pop"
+    ],
+    "explanation": "K-pop R&B — Growl strips production back to a mid-tempo groove of brushed percussion, a warm bass, and tight vocal harmonies — the sonic hallmarks of contemporary urban R&B. The famous single-take choreography video emphasised vocal blend over electronic spectacle. K-pop electropop would require heavier synthesis and harder electronic textures. K-pop hip-hop centres rap as the primary voice; Growl is entirely sung. K-pop dance-pop would be more uptempo and hook-forward.",
+    "tags": [
+      "k-pop",
+      "r&b",
+      "idol pop",
+      "3rd gen"
+    ],
+    "youtube_id": "I3dezFzsNss"
+  },
+  {
+    "artist": "GOT7",
+    "song": "Hard Carry",
+    "album": "Flight Log: Turbulence",
+    "release_year": 2016,
+    "locale": "South Korea",
+    "hint": "JYP's seven-member multinational group known for integrating freestyle b-boy breaking into their stage performances — this comeback leaned sharply into US hip-hop aesthetics with heavy trap percussion and rapid-fire rap sequences",
+    "answer": "K-pop hip-hop",
+    "options": [
+      "K-pop dance-pop",
+      "K-pop R&B",
+      "K-pop hip-hop",
+      "Dark K-pop"
+    ],
+    "explanation": "K-pop hip-hop — Hard Carry centres multiple members trading rap verses over trap hi-hats and 808 bass, structured around lyrical delivery rather than melodic hooks, borrowing directly from contemporaneous US hip-hop production. K-pop dance-pop is more melodically accessible and driven by a four-on-the-floor pulse. K-pop R&B is warmer and groove-based with sustained vocal melodies. Dark K-pop adopts a brooding, heavy atmosphere, whereas Hard Carry is energetic and aggressive.",
+    "tags": [
+      "k-pop",
+      "hip-hop",
+      "trap influenced",
+      "3rd gen"
+    ],
+    "youtube_id": "O57jr1oZDIw"
+  },
+  {
+    "artist": "Twice",
+    "song": "TT",
+    "album": "TWICEcoaster: Lane 1",
+    "release_year": 2016,
+    "locale": "South Korea",
+    "hint": "JYP's nine-member multinational girl group assembled through a reality TV survival show, whose Halloween-themed comeback cemented them as the dominant act of their generation's sweet idol strand",
+    "answer": "Bubblegum K-pop",
+    "options": [
+      "Retro K-pop",
+      "K-pop dance-pop",
+      "Bubblegum K-pop",
+      "Girl crush K-pop"
+    ],
+    "explanation": "Bubblegum K-pop — TT delivers the core formula: an instantly sticky hook, playful self-deprecating lyrics, bright synthesiser tones, and an infectious energy that puts sweetness and approachability above all else. Retro K-pop invokes an older musical era (Motown, 60s pop); TT is contemporary. K-pop dance-pop would be more rhythmically intense and production-driven. Girl crush K-pop (2NE1, BLACKPINK) takes the opposite tonal approach — fierce, assertive, and confrontational.",
+    "tags": [
+      "k-pop",
+      "bubblegum pop",
+      "idol pop",
+      "3rd gen"
+    ],
+    "youtube_id": "ePpPVE-GGJw"
+  },
+  {
+    "artist": "Monsta X",
+    "song": "Fighter",
+    "album": "The Clan Pt. 2 War",
+    "release_year": 2016,
+    "locale": "South Korea",
+    "hint": "Starship Entertainment group assembled through the survival show No.mercy, known for powerful stage presence and a lyrical universe that dwells in themes of obsession, loyalty, and emotional conflict",
+    "answer": "Dark K-pop",
+    "options": [
+      "K-pop dance-pop",
+      "K-pop electropop",
+      "K-pop hip-hop",
+      "Dark K-pop"
+    ],
+    "explanation": "Dark K-pop — Fighter commits to a brooding, intense aesthetic: driving minor-key synths, a thick low end, theatrical dynamics, and lyrics framed around conflict and passionate defiance. The 'dark concept' is a recognised K-pop subgenre category. K-pop dance-pop is energetic but lacks the oppressive atmosphere. K-pop electropop foregrounds synthesiser textures as an artistic end. K-pop hip-hop centres rap flow, whereas Fighter is structured around soaring vocal hooks over a dark production bed.",
+    "tags": [
+      "k-pop",
+      "dark concept",
+      "electronic",
+      "3rd gen"
+    ],
+    "youtube_id": "5jTtU9VNALs"
+  },
+  {
+    "artist": "Red Velvet",
+    "song": "빨간 맛 (Red Flavor)",
+    "album": "The Red Summer",
+    "release_year": 2017,
+    "locale": "South Korea",
+    "hint": "SM's dual-concept group who divide their discography between a bright playful persona and a darker atmospheric one — this summer release sits firmly in their sunlit mode, absorbing the production trend sweeping global pop at the time",
+    "answer": "K-pop tropical pop",
+    "options": [
+      "Bubblegum K-pop",
+      "K-pop synth-pop",
+      "Retro K-pop",
+      "K-pop tropical pop"
+    ],
+    "explanation": "K-pop tropical pop — Red Flavor borrows the tropical house production toolkit that swept global pop in 2016–17: marimba-like synth tones, a steel-drum shimmer, laid-back offbeat rhythms, and a sun-drenched brightness. Bubblegum K-pop is sweeter and more naively synthetic, without tropical warmth. K-pop synth-pop emphasises driving melodic synthesis rather than acoustic-flavoured tropical textures. Retro K-pop actively evokes specific older eras; Red Flavor's tropical pop aesthetic is a contemporary trend, not a historical revival.",
+    "tags": [
+      "k-pop",
+      "tropical pop",
+      "dance-pop",
+      "3rd gen"
+    ],
+    "youtube_id": "WyiIGEHQP8o"
+  },
+  {
+    "artist": "NCT 127",
+    "song": "Regular",
+    "album": "Regular-Irregular",
+    "release_year": 2018,
+    "locale": "South Korea",
+    "hint": "Seoul-based sub-unit of SM's modular rotating-roster concept, whose name references the 127th meridian longitude passing through the South Korean capital, known for dense layered productions drawing from US rap",
+    "answer": "K-pop hip-hop",
+    "options": [
+      "K-pop dance-pop",
+      "K-pop R&B",
+      "K-pop hip-hop",
+      "K-pop electropop"
+    ],
+    "explanation": "K-pop hip-hop — Regular centres multiple members trading rap verses over trap hi-hats and 808 bass, structured around lyrical delivery rather than melodic hooks. NCT 127's producers draw heavily from contemporaneous US hip-hop aesthetics. K-pop dance-pop is melody-driven and club-functional. K-pop R&B is groove-based with more sustained melodic singing. K-pop electropop prioritises synthesiser sound design over rap-centred song structure.",
+    "tags": [
+      "k-pop",
+      "hip-hop",
+      "rap",
+      "3rd gen"
+    ],
+    "youtube_id": "gj-VU9oK2Yo"
+  },
+  {
+    "artist": "ITZY",
+    "song": "DALLA DALLA",
+    "album": "IT'z Different",
+    "release_year": 2019,
+    "locale": "South Korea",
+    "hint": "JYP's quintet whose debut title translates to 'different different' — explicitly positioned as a counterargument to the idea that girls should conform to a single mould, arriving as K-pop's girl crush wave was in full swing",
+    "answer": "Girl crush K-pop",
+    "options": [
+      "K-pop dance-pop",
+      "Bubblegum K-pop",
+      "Girl crush K-pop",
+      "K-pop hip-hop"
+    ],
+    "explanation": "Girl crush K-pop — DALLA DALLA centres a message of fierce individuality combined with powerful choreography and a brash upbeat production that puts confidence over cuteness. ITZY were explicitly framed by JYP as their answer to the girl crush trend 2NE1 and BLACKPINK had defined. Bubblegum K-pop (Twice's TT) is the tonal opposite — sweet and approachable. K-pop dance-pop is more production-driven without the conceptual attitude. K-pop hip-hop centres rapping as the primary vocal mode, whereas DALLA DALLA is primarily sung.",
+    "tags": [
+      "k-pop",
+      "girl crush",
+      "dance-pop",
+      "4th gen"
+    ],
+    "youtube_id": "pNfTK39k55U"
+  },
+  {
+    "artist": "Stray Kids",
+    "song": "神메뉴 (God's Menu)",
+    "album": "GO生",
+    "release_year": 2020,
+    "locale": "South Korea",
+    "hint": "The only major K-pop group whose members form an in-house production unit that writes, composes, and produces essentially the entire group's catalogue — signed to JYP but shaped fundamentally by their own creative direction",
+    "answer": "K-pop hip-hop",
+    "options": [
+      "K-pop electropop",
+      "K-pop dance-pop",
+      "Dark K-pop",
+      "K-pop hip-hop"
+    ],
+    "explanation": "K-pop hip-hop — God's Menu centres rap delivery across most of its runtime, with dense verse structures, member-specific flows, and a production palette of trap hi-hats, pounding 808s, and brass stabs designed to support rap rather than melody. Stray Kids' 3RACHA production unit draws heavily from US hip-hop aesthetics while maintaining the idol group structure. K-pop electropop foregrounds synthesiser textures. K-pop dance-pop would be more melodically accessible and chorus-driven. Dark K-pop is atmospherically brooding; God's Menu is energetic and aggressive.",
+    "tags": [
+      "k-pop",
+      "hip-hop",
+      "self-produced",
+      "4th gen"
+    ],
+    "youtube_id": "TQTlCHxyuu8"
+  },
+  {
+    "artist": "aespa",
+    "song": "Next Level",
+    "album": "Next Level",
+    "release_year": 2021,
+    "locale": "South Korea",
+    "hint": "SM's concept group in which each member is paired with an AI avatar counterpart living in a virtual world — this single was adapted from a Fast & Furious soundtrack song and deliberately splices together contrasting sections that sound like different productions",
+    "answer": "Experimental K-pop",
+    "options": [
+      "K-pop electropop",
+      "K-pop dance-pop",
+      "K-pop synth-pop",
+      "Experimental K-pop"
+    ],
+    "explanation": "Experimental K-pop — Next Level is built on deliberate genre collision: the track switches between a hip-hop verse section, a hypnotic melodic hook, and a heavy bass drop that feel like three separate productions stitched together. This maximalist incoherence-as-concept approach aligns with experimental pop rather than conventional K-pop song structure. K-pop electropop follows more recognisable electronic song structures. K-pop dance-pop is upbeat and melodically consistent. K-pop synth-pop emphasises smooth melodic synthesis — the opposite of Next Level's abrasive juxtapositions.",
+    "tags": [
+      "k-pop",
+      "experimental",
+      "maximalist",
+      "4th gen"
+    ],
+    "youtube_id": "4TWR90KJl84"
+  },
+  {
+    "artist": "(G)I-DLE",
+    "song": "TOMBOY",
+    "album": "I Never Die",
+    "release_year": 2022,
+    "locale": "South Korea",
+    "hint": "CUBE Entertainment group whose music is largely written and produced by member Soyeon — this track is built around a distorted electric guitar riff and became a symbol of resistance against gender stereotypes placed on idol groups",
+    "answer": "K-pop rock",
+    "options": [
+      "Girl crush K-pop",
+      "K-pop hip-hop",
+      "K-pop rock",
+      "Dark K-pop"
+    ],
+    "explanation": "K-pop rock — TOMBOY anchors itself in crunchy electric guitar distortion, a rock drum pattern, and a defiant vocal delivery that owes more to rock attitude than to typical K-pop idol production. While (G)I-DLE's discography spans styles, TOMBOY specifically crosses into rock territory with its live-band-influenced instrumentation. Girl crush K-pop (2NE1, BLACKPINK) shares the assertive attitude but uses trap and electronic production rather than guitars. K-pop hip-hop centres rap delivery. Dark K-pop is atmospherically brooding; TOMBOY is aggressive and anthemic.",
+    "tags": [
+      "k-pop",
+      "rock",
+      "self-produced",
+      "4th gen"
+    ],
+    "youtube_id": "Jh4QFaPmdss"
+  },
+  {
+    "artist": "NewJeans",
+    "song": "Hype Boy",
+    "album": "NewJeans",
+    "release_year": 2022,
+    "locale": "South Korea",
+    "hint": "ADOR label group that debuted without a traditional promotional cycle, releasing multiple tracks simultaneously and cultivating a visual and sonic identity that consciously recalls a specific moment in early-2000s Western pop and R&B",
+    "answer": "Y2K K-pop",
+    "options": [
+      "Retro K-pop",
+      "Bubblegum K-pop",
+      "Y2K K-pop",
+      "K-pop indie pop"
+    ],
+    "explanation": "Y2K K-pop — Hype Boy is soaked in early-2000s R&B and pop nostalgia: clean digital production, understated percussion, breathy vocal treatment, and a visual universe referencing Y2K fashion and aesthetics. Retro K-pop invokes 1950s–70s sounds (like Wonder Girls' Nobody); NewJeans' frame of reference is specifically the digital-era pop of 2000–2005. Bubblegum K-pop is peppier and more synthetically bright. K-pop indie pop would feature more acoustic or lo-fi texture, whereas Hype Boy is polished studio pop.",
+    "tags": [
+      "k-pop",
+      "y2k",
+      "r&b influenced",
+      "4th gen"
+    ],
+    "youtube_id": "11cta61wi0g"
+  },
+  {
+    "artist": "IVE",
+    "song": "LOVE DIVE",
+    "album": "LOVE DIVE",
+    "release_year": 2022,
+    "locale": "South Korea",
+    "hint": "Starship Entertainment six-member group who swept Best New Artist awards across three major Korean music ceremonies in their debut year — their second single was designed to stand apart from the typical idol formula with a cooler, more sophisticated production palette",
+    "answer": "K-pop synth-pop",
+    "options": [
+      "K-pop electropop",
+      "Bubblegum K-pop",
+      "K-pop synth-pop",
+      "K-pop dance-pop"
+    ],
+    "explanation": "K-pop synth-pop — LOVE DIVE centres a cool, melodic synthesiser hook, clean vocal production, and a sophisticated chord progression that feels indebted to 1980s synth-pop more than contemporary electronic club trends. K-pop electropop is more aggressive in its use of electronic textures and bigger in sonic scale. Bubblegum K-pop is sweeter and more naive in tone — IVE's concept is deliberately mature and confident. K-pop dance-pop is more percussion-driven and club-functional; LOVE DIVE's mid-tempo feel prioritises melodic mood over dancefloor energy.",
+    "tags": [
+      "k-pop",
+      "synth-pop",
+      "idol pop",
+      "4th gen"
+    ],
+    "youtube_id": "Y8JFxS1HlDo"
   }
 ]
